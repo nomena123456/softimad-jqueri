@@ -16,38 +16,17 @@ body
 	width: 1280px;
 
 }
-#barre-menu
-{
-	display: none;
-}
-#boriborikely-phone
-{
-	display: none;
-}
-#fleche-g, #fleche-d
-{
-	display: none;
-}
-#porfolio-phone
-{
-	display: none;
-}
-#sary-engagement-phone
-{
-	display: none;
-}
-		/* M E N U*/
 #menu
 {
 	margin:0;
 	padding: 0;
 	text-align: center;
 	justify-content: center;
-	background-image:url(images/backgroundmenu.png);
-	background-size: 1280px 580px;
+	background-image: url(images/backgroundmenu.png);
+	background-size: 100%;
 	background-repeat: no-repeat;
-	width: 1280px;
-	height: 580px;
+	width:1280px;
+	height: 620px;
 
 }
 #headermenu
@@ -57,15 +36,17 @@ body
 	text-align: center;
 	justify-content: center;
 	background-image: url(images/fond-header.png);
-	background-size: 100%;
 	background-repeat: no-repeat;
+	background-size: 100%;
 	display: flex;
 	position: fixed;
-	width: 100%;
+	width: 1280px;
 	top: 0;
 	z-index: 10;
-	width: 1280px;
-
+}
+#barre-menu
+{
+	display: none;
 }
 #logo
 {
@@ -75,17 +56,12 @@ body
 	justify-content: center;
 	margin-top: 10px;
 }
-#logo img
-{
-	width: 110px;
-}
 #listmenu
 {
 	margin:0;
 	padding: 0;
 	text-align: center;
 	justify-content: center;
-	display:block;
 }
 #listmenu ul
 {
@@ -94,8 +70,8 @@ body
 	text-align: center;
 	justify-content: center;
 	display: flex;
-	margin-top: 22px;
-	margin-left:330px;
+	margin-top: 27px;
+	margin-left: 290px;
 }
 #listmenu li
 {
@@ -115,9 +91,9 @@ body
 	font-family:rubik;
 	font-size:12px;
 	color: white;
-	letter-spacing: 1.7px;
-	margin: 0px 15px;
-	padding: 15px 12px;
+	letter-spacing: 2px;
+	margin: 0px 10px;
+	padding: 15px 15px;
 	margin-top: 20px;
 }
 #listmenu a:hover
@@ -125,11 +101,6 @@ body
 	background-color:#06A3BC;
 	transition: all 0.5s ease;
 }
-#barre-menu
-{
-display: none;
-}
-
 		/*---C O N T E N U MENU----*/
 #contenumenu
 {
@@ -139,8 +110,7 @@ display: none;
 	justify-content: center;
 	display: flex;
 	flex-wrap: wrap;
-	padding-top: 90px;
-
+	width:1280px;
 }
 #soratra
 {
@@ -148,7 +118,9 @@ display: none;
 	padding: 0;
 	text-align: left;
 	justify-content: center;
-	width: 450px;
+	margin-top: 100px;
+	margin-right: 0px;
+	width: 550px;
 }
 #soratra h1
 {
@@ -157,32 +129,49 @@ display: none;
 	text-align: center;
 	justify-content: center;
 	font-family:rubik-light;
+	font-size:49px;
+	color:#246974;
+	letter-spacing:-1px;	
+}
+#mobile
+{
+	display: none;
+
+}
+#personalise
+{
+	display: none;
+}
+#soratra span
+{
+	margin:0;
+	padding: 0;
+	text-align: center;
+	justify-content: center;
 	font-size:40px;
 	color:#246974;
-	letter-spacing:-2.5px;	
+	letter-spacing:1px;	
+	font-family:rubik-bold;
 }
-
-#mobile span
+#web span, #mobile span
 {
 	margin:0;
 	padding: 0;
 	text-align: center;
 	justify-content: center;
-	font-family:rubik-bold;
-	font-size:50px;
+	font-weight: 800;
+	font-size:55px;
 	color:#246974;
-	letter-spacing:4px;	
+	letter-spacing:1px;	
+	font-family:rubik-bold;
 }
-#web span
+#mobile-titre
 {
-	margin:0;
-	padding: 0;
-	text-align: center;
-	justify-content: center;
-	font-family:rubik-bold;
-	font-size:50px;
-	color:#246974;
-	letter-spacing:4px;	
+	display: none;
+}
+#personalise-titre
+{
+	display: none;
 }
 #soratra h2
 {
@@ -192,13 +181,15 @@ display: none;
 	justify-content: center;
 	font-family:rubik;
 	font-weight: 900;
-	font-size:21px;
+	font-size:22px;
 	color:#51C4CC;
-	letter-spacing:-1px;
-	margin-top: 15px;
+	letter-spacing:-0px;
+	margin-top: 20px;
 	margin-bottom: 15px;
-
-
+}
+#mobile-para, #personalise-para
+{
+	display: none;
 }
 #soratra p
 {
@@ -208,11 +199,11 @@ display: none;
 	justify-content: center;	
 	font-family:rubik;
 	font-weight: 500;
-	font-size:14px;
+	font-size:13px;
 	color:#585858;
 	letter-spacing:0.5px;
-	line-height: 27px;
-	margin-bottom: 30px;
+	line-height: 28px;
+	margin-bottom: 50px;
 }
 #soratra a
 {
@@ -221,14 +212,14 @@ display: none;
 	text-align: center;
 	justify-content: center;
 	font-family:metropolis;
-	font-weight: 700;
+	font-weight: 650;
 	font-size:14px;
 	color: white;
-	letter-spacing: 1px;
+	letter-spacing: 2px;
 	text-decoration: none;
 	background-color: #10C0DC;
 	border-radius: 50px;
-	padding: 15px 23px;
+	padding: 17px 25px 17px 25px;
 }
 #soratra a:hover
 {
@@ -244,16 +235,11 @@ display: none;
 	padding: 0;
 	text-align: center;
 	justify-content: center;
-	margin-left: 200px;
-	margin-top: 10px;
+	margin-top: 100px;
 }
 #sary img
 {
-	margin:0;
-	padding: 0;
-	text-align: center;
-	justify-content: center;
-	width: 500px;
+	width:540px;
 }
 #boutton
 {
@@ -261,7 +247,14 @@ display: none;
 	padding: 0;
 	text-align: center;
 	justify-content: center;
-	margin-top: 10px;
+	margin-top: 25px;
+	padding-bottom: 0px;
+}
+#boutton1
+{
+	color:#10C0DC;	
+	background-color:white;
+	border: 2px solid #10C0DC;
 }
 .boutton1
 {
@@ -273,18 +266,12 @@ display: none;
 	border-radius: 50px;
 	text-decoration: none;
 	color:#10C0DC;
-	font-size: 2px;
-	padding: 0px 30px;
+	font-size: 5px;
+	padding: 0px 40px;
 	margin: 0px 20px;
 	border: 2px solid #10C0DC;
 }
-.boutton1:hover
-{
-	border: 2px solid #10C0DC;
-	background: transparent;
-	transition: all 0.5s ease;
-	color: #10C0DC;
-}
+
 
 	/* Service tsika zao*/
 #service
@@ -293,8 +280,8 @@ display: none;
 	padding: 0;
 	text-align: center;
 	justify-content: center;
+	padding-top: 73px;
 	width: 1280px;
-	padding-top: 61px;
 }
 #headerservice
 {
@@ -306,7 +293,7 @@ display: none;
 	flex-wrap: wrap;
 	background-image: url(images/fond-service.png);
 	background-repeat: no-repeat;
-	width: 1280px;
+	width:1280px;
 }
 #soratraservice
 {
@@ -314,9 +301,9 @@ display: none;
 	padding: 0;
 	text-align: left;
 	justify-content: center;
-	padding-top: 30px;
-	margin-right: 680px;
+	margin-top: 30px;
 	margin-left: 50px;
+
 }
 #soratraservice h2
 {
@@ -324,9 +311,9 @@ display: none;
 	padding: 0;
 	text-align: left;
 	justify-content: center;
-	font-family:metropolis;
-	font-size:25px;
-	font-weight:200;
+	font-family: metropolis;
+	font-size:18px;
+	font-weight:100;
 	color:white;
 	letter-spacing:3px;
 }
@@ -337,7 +324,7 @@ display: none;
 	text-align: left;
 	justify-content: center;
 	font-family: rubik;
-	font-size:43px;
+	font-size:40px;
 	font-weight:400;
 	color: white;
 	letter-spacing:8px;
@@ -345,7 +332,10 @@ display: none;
 }
 #soratraservice img
 {
-display: none;
+	margin:0;
+	padding: 0;
+	text-align: center;
+	justify-content: center;
 }
 #saryordi
 {
@@ -353,7 +343,8 @@ display: none;
 	padding: 0;
 	text-align: center;
 	justify-content: center;
-	padding-top: 25px;
+	padding-top: 20px;
+	margin-left: 650px;
 }
 #saryordi img
 {
@@ -368,7 +359,7 @@ display: none;
 	justify-content: center;
 	display: flex;
 	flex-wrap: wrap;
-	margin-top: 20px;
+	margin-top: 10px;
 	width: 1280px;
 }
 .boriborikely
@@ -377,9 +368,9 @@ display: none;
 	padding: 0;
 	text-align: center;
 	justify-content: center;
-	margin: 0px 40px 0px 40px;
-	width: 180px;
-	padding:25px;
+	margin: 0px 30px 0px 30px;
+	width: 190px;
+	padding:20px;
 	cursor:pointer;
 
 }	
@@ -395,9 +386,9 @@ display: none;
 	padding: 0;
 	text-align: center;
 	justify-content: center;
-	width: 130px;
 	border-radius: 100px;
 	transition: 1s ease-in-out;
+	width: 120px;
 }	
 .boriborikely img:hover
 {
@@ -411,13 +402,13 @@ display: none;
 	padding: 0;
 	text-align: center;
 	justify-content: center;
-	font-family:rubik;
+	font-family: rubik;
 	font-weight: 400;
 	font-size: 15px;
 	letter-spacing: 0.5px;
 	color: #545454;
-	margin-top: 10px;
-	margin-bottom: 15px;
+	margin-top: 20px;
+	margin-bottom: 0px;
 }				
 .boriborikely span
 {
@@ -427,7 +418,29 @@ display: none;
 	justify-content: center;
 	font-weight: 700;
 }
-
+.boriborikely a
+{
+	margin:0;
+	padding: 0;
+	text-align: center;
+	justify-content: center;
+	font-family: metropolis;
+	font-weight: 500;
+	font-size: 0.7em;
+	color: white;
+	background-color:#10C0DC;
+	border-radius: 50px;
+	letter-spacing: 1px;
+	padding: 4px 15px;
+	text-decoration: none;
+}
+.boriborikely a:hover
+{
+	border: 2px solid #10C0DC;
+	background: transparent;
+	transition: all 0.5s ease;
+	color: #10C0DC;
+}
 				/*PORFOLIO NDRAY TSIKA ZAO*/
 #porfolio
 {
@@ -435,7 +448,8 @@ display: none;
 	padding: 0;
 	text-align: center;
 	justify-content: center;
-	padding-top: 61px;
+	margin-top: 0px;
+	padding-top: 72px;
 	width: 1280px;
 }
 #headerporfolio
@@ -454,7 +468,7 @@ display: none;
 	padding: 0;
 	text-align: center;
 	justify-content: center;
-	font-family:metropolis;
+	font-family: metropolis;
 	font-size:22px;
 	font-weight:200;
 	color:white;
@@ -473,7 +487,7 @@ display: none;
 	color: white;
 	letter-spacing:8px;
 	font-style: italic;
-	padding-bottom: 24px;
+	padding-bottom: 20px;
 }
 
 #bouttontout
@@ -493,13 +507,13 @@ display: none;
 	text-align: center;
 	justify-content: center;
 	font-family:metropolis-bold;
-	font-size:15px ;
+	font-size:13px ;
 	color:white;
-	letter-spacing: 3px;
+	letter-spacing: 4px;
 	text-decoration: none;
 	border-radius: 50px;
 	padding: 5px 30px;
-	margin:30px 40px;
+	margin:30px 40px 20px 40px;
 	border: 1.5px solid #0093B1;
 	
 	background: #0093B1;
@@ -521,15 +535,7 @@ display: none;
 	background-color: #D8E0FF;
 	padding-bottom: 50px;
 }
-#img-portfolio
-{
-	margin:0;
-	padding: 0;
-	text-align: center;
-	justify-content: center;
-	width: 1100px;
-	overflow: hidden;
-}
+
 #img-contenu
 {
 	margin:0;
@@ -537,8 +543,6 @@ display: none;
 	text-align: center;
 	justify-content: center;
 	display: flex;
-	position: relative;
-	left: 0px;
 }
 #img-contenu img
 {
@@ -549,7 +553,7 @@ display: none;
 	margin:30px 20px;
 	box-shadow: 0px 0px 3px #a9c4c8;	
 	cursor: pointer;
-	width: 230px;
+	width:190px;
 }
 #img-contenu img:hover
 {
@@ -561,63 +565,25 @@ display: none;
 	margin:0;
 	padding: 0;
 	text-align: center;
-	margin-top: 60px;
+	margin-top: 50px;
 	margin-right: 20px;	
 	cursor: pointer;
 }
-#fleche-gauche2
-{
-	margin:0;
-	padding: 0;
-	text-align: center;
-	margin-top: 60px;
-	margin-right: 20px;	
-	cursor: pointer;
-	display: none;
 
-}
-#fleche-gauche3
-{
-	margin:0;
-	padding: 0;
-	text-align: center;
-	margin-top: 60px;
-	margin-right: 20px;	
-	cursor: pointer;
-	display: none;
-
-}
 #fleche-droite1
 {
 	margin:0;
 	padding: 0;
 	text-align: center;
-	margin-top: 60px;
+	margin-top: 50px;
 	margin-left:20px; 
 	cursor: pointer;	
 }
-#fleche-droite2
+#fleche-gauche1 img, #fleche-droite1 img
 {
-	margin:0;
-	padding: 0;
-	text-align: center;
-	margin-top: 60px;
-	margin-left:20px; 
-	cursor: pointer;
-	display: none;
-
+	width: 40px;
 }
-#fleche-droite3
-{
-	margin:0;
-	padding: 0;
-	text-align: center;
-	margin-top: 60px;
-	margin-left:20px; 
-	cursor: pointer;
-	display: none;
 
-}
 				/*QUI SOMMES NOUS*/
 #qui-sommes-nous
 {
@@ -628,9 +594,7 @@ display: none;
 	background-image: url(images/fond-qui-sommes.png);
 	background-size: 100%;
 	background-repeat: no-repeat;
-	width: 1280px;
-	margin-top: 30px;
-	padding-top: 10px;
+	width:1280px;
 }
 #qui-sommes
 {
@@ -639,7 +603,8 @@ display: none;
 	text-align: center;
 	justify-content: center;
 	display: flex;
-	width: 1280px;
+	margin-top: 50px;
+	width:1280px;
 }
 #soratra-qui
 {
@@ -647,8 +612,7 @@ display: none;
 	padding: 0;
 	text-align: left;
 	justify-content: left;
-	margin-top: 60px;
-	margin-right:200px;
+	margin-top: 80px;
 }
 #soratra-qui h1
 {
@@ -660,12 +624,15 @@ display: none;
 	font-weight: 700;
 	font-size:35px;
 	color:#006C7D;
-	letter-spacing:2px;
+	letter-spacing:5px;
 
 }
 #soratra-qui img
 {
-display: none;
+	margin:0;
+	padding: 0;
+	text-align:left;
+	justify-content: left;
 }
 #soratra-qui h2
 {
@@ -678,8 +645,8 @@ display: none;
 	font-size:14px;
 	color:#4E4E4E;
 	line-height: 30px;
-	margin-top: 15px;
-	width: 320px;
+	margin-top: 10px;
+	width: 330px;
 }
 #sary-qui
 {
@@ -687,12 +654,12 @@ display: none;
 	padding: 0;
 	text-align: center;
 	justify-content: center;
-	margin-top: 30px;
-
+	margin-top: 50px;
+	margin-left: 150px;
 }
 #sary-qui img
 {
-	width: 460px;
+	width: 530px;
 }
 
 #apropos
@@ -702,7 +669,7 @@ display: none;
 	text-align: center;
 	justify-content: center;
 	display: flex;
-	width: 1280px;
+	width:1280px;
 }
 #img-apropos
 {
@@ -710,24 +677,20 @@ display: none;
 	padding: 0;
 	text-align: center;
 	justify-content: center;
-	margin-right: 150px;
 }
 #img-apropos img
 {
-	margin:0;
-	padding: 0;
-	text-align: center;
-	justify-content: center;
-	width: 90%;
+	width: 200px;
 }
 #soratra-apropos
 {
 	margin:0;
 	padding: 0;
-	text-align: center;
-	justify-content:center;
-	padding-right: 0px;
+	text-align: right;
+	justify-content: right;
 	margin-top: 20px;
+	margin-left: 350px;
+	padding-bottom: 0px;
 }
 #soratra-apropos h1
 {
@@ -739,7 +702,7 @@ display: none;
 	font-weight: 700;
 	font-size:35px;
 	color:#006C7D;
-	letter-spacing:2px;
+	letter-spacing:5px;
 }
 #soratra-apropos h2
 {
@@ -753,11 +716,7 @@ display: none;
 	color:#4E4E4E;
 	line-height: 30px;
 	margin-top: 15px;
-	width: 660px;
-}
-#soratra-apropos img
-{
-	display: none;
+	width: 550px;
 }
 				/*NOS ENGAGEMENT*/
 #nos-engagement
@@ -766,7 +725,7 @@ display: none;
 	padding: 0;
 	text-align:center;
 	justify-content: center;
-	padding-top: 61px;
+	padding-top:72px;
 	width: 1280px;
 }
 #header-engagement
@@ -777,7 +736,7 @@ display: none;
 	justify-content: center;
 	background-image: url(images/fond-engagement.png);
 	background-repeat: no-repeat;
-	width: 1280px;
+	width:1280px;
 }
 #header-engagement h1
 {
@@ -785,7 +744,7 @@ display: none;
 	padding: 0;
 	text-align:center;
 	font-family: rubik;
-	font-size:35px;
+	font-size:40px;
 	font-weight:400;
 	color: white;
 	letter-spacing:8px;
@@ -812,7 +771,7 @@ display: none;
 	text-align:center;
 	justify-content: center;
 	font-family:metropolis;
-	font-size:25px;
+	font-size:22px;
 	font-weight:800;
 	color: #5E5E5E;
 	letter-spacing:15px;
@@ -841,8 +800,8 @@ display: none;
 	padding: 0;
 	text-align:center;
 	justify-content: center;
-	margin-top: 25px;
-	margin-right: 25px;
+	margin-top: 20px;
+	margin-right: 40px;
 		cursor: pointer;
 }
 #fleche-engagement-d
@@ -851,17 +810,20 @@ display: none;
 	padding: 0;
 	text-align:center;
 	justify-content: center;
-	margin-top:25px;
-	margin-left: 25px;
+	margin-top: 20px;
+	margin-left: 40px;
 		cursor: pointer;
+}
+#fleche-engagement-g img, #fleche-engagement-d img
+{
+	width: 50px;
 }
 #sary-engagement
 {
-	display: block;
-}
-#sary-engagement-phone, #sary-engagement-table
-{
-	display: none;
+	margin:0;
+	padding: 0;
+	text-align:center;
+	justify-content: center;
 }
 #sary-engagement img
 {
@@ -869,15 +831,15 @@ display: none;
 	padding: 0;
 	text-align:center;
 	justify-content: center;
-	box-shadow: 0px 0px 10px #C5C5C5;	
-	width: 220px;
-	margin: 0px 15px;
+	box-shadow: 0px 0px 3px #a9c4c8;	
+	width: 170px;
+	margin: 0px 20px;
 	cursor: pointer;
 }
 #sary-engagement img:hover
 {
 	transition: all 0.5s ease;
-	box-shadow: 0px 0px 15px #006C7D;	
+	box-shadow: 0px 0px 5px #006C7D;	
 }
 #soratra-engagement
 {
@@ -885,7 +847,7 @@ display: none;
 	padding: 0;
 	text-align:center;
 	justify-content: center;
-	margin-top: 20px;
+	margin-top: 30px;
 }
 #soratra-engagement h2
 {
@@ -895,11 +857,11 @@ display: none;
 	justify-content: center;
 	font-family:metropolis;
 	font-weight: 400;
-	font-size:17px;
+	font-size:15px;
 	color:#676767;
 	letter-spacing:0px;
-	line-height: 35px;
-	margin-bottom: 20px;
+	line-height: 30px;
+	margin-bottom: 30px;
 
 }
 #soratra-engagement a
@@ -908,9 +870,9 @@ display: none;
 	padding: 0;
 	text-align:center;
 	justify-content: center;
-	font-family:rubik ;
+	font-family:rubik;
 	font-weight: 400;
-	font-size:1.2em ;
+	font-size:17px;
 	color: white;
 	letter-spacing: 2px;
 	text-decoration: none;
@@ -933,7 +895,7 @@ display: none;
 	padding: 0;
 	text-align:center;
 	justify-content: center;
-	padding-top:61px; 
+	padding-top:60px;
 	width: 1280px;
 }
 
@@ -945,7 +907,7 @@ display: none;
 	justify-content: center;
 	display: flex;
 	background-image: url(images/fond-contact.png);
-	width: 1280px;
+	width:1280px;
 }
 #soratra-contact
 {
@@ -970,7 +932,7 @@ display: none;
 }
 #soratra-contact img
 {
-display: none;
+	display: none;
 }
 #sary-contact
 {
@@ -978,16 +940,12 @@ display: none;
 	padding: 0;
 	text-align:center;
 	justify-content: center;
-	margin-left: 450px;
+	margin-left: 400px;
+	padding-top: 10px;
 }
 #sary-contact img
 {
-	margin:0;
-	padding: 0;
-	text-align:center;
-	justify-content: center;
-	width: 120px;
-	padding-top: 20px;
+	width: 110px;
 }
 
 #contenu-contact
@@ -998,7 +956,7 @@ display: none;
 	justify-content: center;
 	display: flex;
 	margin-top: 20px;
-	width: 1280px;
+	width:1280px;
 }
 #formulaire
 {
@@ -1007,45 +965,47 @@ display: none;
 	justify-content: center;
 	text-align: center;
 	background-color: #EFFDFF;
-	padding: 0px 50px;
-	margin-right: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-right: 10px;
 }
 .formulaire
 {
 	border: 1px solid #08ACC6;
 	border-radius: 20px;
 	width: 330px;
-	padding: 14px;
+	padding: 10px;
 	font-family:metropolis;
 	font-weight: 300;
-	font-size: 14px;
+	font-size: 13px;
 	color: #808080;
-	margin-top: 20px;
+	margin-top: 30px;
 	outline: none;
 	font-style: italic;
 }
 .formulaire:focus
 {
-	font-family: metropolis;
+	font-family:metropolis;
 	font-style:none;
 	color: #006C7D;
 	font-style: inherit;
-	font-size: 15px;
+	font-size: 16px;
 	font-weight: 400;
 }
 #submit
 {
-	font-family:rubik-light;
+	font-family:corbel ;
+		font-weight: 300;
 		font-size:20px;
 		color: white;
 		letter-spacing:1px;
 		background-color: #10C0DC;
 		border-radius: 50px;
-		padding: 12px 30px;
+		padding: 10px 30px;
 		outline: none;
 		border: none;
 		cursor: pointer;
-		margin-top: 20px;
+		margin-top: 30px;
 }
 #submit:hover
 {
@@ -1061,21 +1021,16 @@ display: none;
 	padding: 0;
 	text-align:center;
 	justify-content: center;
-	font-family: corbel;
+	font-family: rubik;
 	font-size:30px;
-	font-weight: 500;
+	font-weight: 100;
 	color:#4D7092;
 	letter-spacing:-2px;
 	margin-top:30px;
 }
 iframe
 {
-	margin:0;
-	padding: 0;
-	text-align:center;
-	justify-content: center;
-	width: 650px;
-	height: 470px;
+	width: 750px;
 }
 
 					/*COORDONNE*/
@@ -1087,7 +1042,7 @@ iframe
 	justify-content: center;
 	background-color: #10C0DC;
 	padding: 0;
-	margin-top: 30px;
+	width:1280px;
 }
 
 #titre-coordonne
@@ -1108,7 +1063,7 @@ iframe
 	font-weight: 600;
 	letter-spacing:4px ;
 	color: white;
-	font-size:30px ;
+	font-size:20px;
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
@@ -1120,8 +1075,8 @@ iframe
 	justify-content: center;
 	display: flex;
 	flex-wrap: wrap;
-	margin-top: 30px;
-	margin-bottom: 0px;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
 #soratracoordonne
@@ -1141,7 +1096,7 @@ iframe
 	justify-content: left;
 	display: flex;
 	flex-wrap: wrap;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 .contenucoordonne h3
 {
@@ -1151,16 +1106,15 @@ iframe
 	font-weight:200;
 	letter-spacing:2px ;
 	color: white;
-	font-size:18px ;
+	font-size:15px ;
 	font-style: italic;
 	line-height: 35px;
-	width: 450px;
 
 }
 .contenucoordonne img
 {
-	width: 40px;
-	height: 35px;
+	width: 30px;
+	height: 25px;
 	margin: 0;
 	cursor: pointer;
 	margin-right: 12px;
@@ -1186,8 +1140,9 @@ iframe
 	padding: 0;
 	text-align:center;
 	justify-content: center;
-	padding-top: 50px;
-	margin-left: 200px;
+
+	margin-left: 250px;
+	margin-top: 30px;
 
 
 }
@@ -1200,14 +1155,15 @@ iframe
 	width: 80px;
 	padding-left: 40px;
 	padding-right: 40px;
-	margin-bottom: 40px;
+	margin-bottom: 50px;
 }
 
 #sarycoordonne img:hover
 {
 	filter: invert(5%);
 	filter: contrast(2);
-	transition: all 0.5s ease;
+	transition: all 0.8s ease;
+	transform: rotate(360deg) scale(1.1, 1.1);
 }
 
 #footer
@@ -1247,5 +1203,3 @@ iframe
 	height: 30px;
 	background-color:#007D91;
 }
-
-

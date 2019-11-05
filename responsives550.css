@@ -14,6 +14,7 @@
 	justify-content: center;
 	width: 550px;
 }
+
 #sary-engagement-table
 {
 	display: none;
@@ -27,6 +28,7 @@
 	background-image:none;
 	background-repeat: no-repeat;
 	width: 550px;
+	height: 350px;
 
 }
 #headermenu
@@ -36,13 +38,13 @@
 	text-align: center;
 	justify-content: center;
 	background-image: url(images/fond-menu-phone-272.png);
-	background-size: 550px 85px;
 	display: flex;
 	position: fixed;
 	width: 100%;
 	top: 0;
 	z-index: 10;
 	background-repeat: no-repeat;
+	width: 550px;
 }
 #logo
 {
@@ -68,7 +70,51 @@ display: none;
 	text-align: center;
 	justify-content: center;
 	margin-top: 25px;
-	margin-left: 240px;
+	margin-left: 330px;
+}
+
+#menu-phone
+{
+	position:fixed;
+	margin:0;
+	padding: 0;
+	text-align:left;
+	justify-content:left;
+	background-color:rgb(16, 192, 220, 0.8);
+	width: 550px;
+}
+#menu-phone img
+{
+	width: 20px;
+	height: 20px;
+	margin:0;
+	padding: 0;
+	text-align:right;
+	justify-content:right;
+	padding-top: 30px;
+	cursor: pointer;
+
+}
+#menu-phone li
+{
+	list-style-type: none;
+	margin:0;
+	padding: 0;
+	text-align: left;
+	justify-content:left;
+	margin: 30px 0px;
+
+}
+#menu-phone a
+{
+	font-family: metropolis-bold;
+	font-size: 13px;
+	text-decoration: none;
+	color: white;
+	letter-spacing: 3px;
+	border-bottom: 1px solid white;
+	padding: 5px 0px;
+
 }
 
 			/*CONTENU MENU TAIKA ZAO*/
@@ -82,6 +128,7 @@ display: none;
 	flex-wrap: wrap;
 	background-image: url(images/fond-contenu-menu414.png);
 	background-repeat: no-repeat;
+	width: 550px;
 	height: 380px;
 }
 #soratra
@@ -91,6 +138,7 @@ display: none;
 	text-align: left;
 	justify-content: center;
 	margin-top: 75px;
+	width: 500px;
 }
 #soratra h1
 {
@@ -98,10 +146,9 @@ display: none;
 	padding: 0;
 	text-align: center;
 	justify-content: center;
-	font-family:corbel;
-	font-weight: 100;
+	font-family:rubik-light;
 	font-size:35px;
-	color:#494C4D;
+	color:#246974;
 	letter-spacing:-1px;	
 }
 #soratra span
@@ -112,8 +159,9 @@ display: none;
 	justify-content: center;
 	font-weight: 800;
 	font-size:45px;
-	color:#494C4D;
+	color:#246974;
 	letter-spacing:1px;	
+	font-family:rubik-bold;
 }
 #soratra h2
 {
@@ -121,14 +169,15 @@ display: none;
 	padding: 0;
 	text-align: left;
 	justify-content: left;
-	font-family:corbel;
+	font-family:rubik-light;
 	font-weight: 900;
 	font-size:17px;
 	color:#51C4CC;
-	letter-spacing:-1px;
-	margin-top: 45px;
+	letter-spacing:0px;
+	margin-top: 40px;
 	margin-bottom: 30px;
-	margin-right: 140px;
+	margin-right: 0px;
+	padding-left: 20px;
 }
 #soratra p
 {
@@ -142,13 +191,14 @@ display: none;
 	justify-content: center;
 	font-family:Segoe UI ;
 	font-weight: 600;
-	font-size:14px;
+	font-size:13px;
 	color: white;
 	letter-spacing: 1px;
 	text-decoration: none;
 	background-color: #10C0DC;
 	border-radius: 50px;
-	padding: 10px 10px;
+	padding: 8px 10px;
+	margin-left: 20px;
 }
 #soratra a:hover
 {
@@ -164,14 +214,19 @@ display: none;
 }
 #boutton
 {
+	display: none;
+}
+#boutton-p
+{
 	margin:0;
 	padding: 0;
 	text-align: center;
 	justify-content: center;
-	margin-top: 15px;
-	padding-bottom: 70px;
+	margin-top: 0px;
+	padding-bottom: 0px;
+	display: block;
 }
-.boutton1
+.boutton1-p
 {
 	margin:0;
 	padding: 0;
@@ -181,12 +236,12 @@ display: none;
 	border-radius: 100px;
 	text-decoration: none;
 	color:#10C0DC;
-	font-size: 5px;
-	padding:5px 10px;
+	font-size: 0px;
+	padding:1px 15px;
 	margin: 0px 20px;
 	border: 2px solid #10C0DC;
 }
-.boutton1:hover
+.boutton1-p:hover
 {
 	border: 2px solid #10C0DC;
 	background: transparent;
@@ -204,6 +259,8 @@ display: none;
 	text-align: center;
 	justify-content: center;
 	width: 550px;
+	padding-top: 57px;
+	margin-top: 10px;
 }
 #headerservice
 {
@@ -230,7 +287,7 @@ display: none;
 	padding: 0;
 	text-align: left;
 	justify-content: center;
-	font-family: segoe UI;
+	font-family: metropolis;
 	font-size:15px;
 	font-weight:200;
 	color:white;
@@ -244,7 +301,7 @@ display: none;
 	padding: 0;
 	text-align: left;
 	justify-content: center;
-	font-family: segoe UI;
+	font-family: rubik;
 	font-size:30px;
 	font-weight:400;
 	color: white;
@@ -262,7 +319,7 @@ display: none;
 	text-align: center;
 	justify-content: center;
 	margin-top: 20px;
-	margin-left: 70px;
+	margin-left: 100px;
 }
 #saryordi img
 {
@@ -270,7 +327,7 @@ display: none;
 	padding: 0;
 	text-align: center;
 	justify-content: center;
-	width: 90px;
+	width: 80px;
 }
 	
 					/*contenu service zao tsika*/
@@ -286,13 +343,13 @@ display: none;
 #fleche-g, #fleche-d
 {
 	display: block;
-	margin-top:40px;
-	margin-right: 45px;
-	margin-left: 45px;
+	margin-top:30px;
+	margin-right: 70px;
+	margin-left: 70px;
 }
 #fleche-g img, #fleche-d img
 {
-	width: 35px;
+	width: 30px;
 }
 .boriborikely
 {
@@ -304,7 +361,7 @@ display: none;
 }
 #boriborikely-phone img
 {
-	width: 150px;
+	width: 140px;
 }	
 
 #boriborikely-phone p
@@ -313,13 +370,13 @@ display: none;
 	padding: 0;
 	text-align: center;
 	justify-content: center;
-	font-family: segoe UI;
+	font-family:rubik;
 	font-weight: 400;
-	font-size: 18px;
+	font-size: 16px;
 	letter-spacing: 0.5px;
 	color: #545454;
-	margin-top: 10px;
-	margin-bottom: 15px;
+	margin-top: 15px;
+	margin-bottom: 10px;
 }				
 #boriborikely-phone span
 {
@@ -337,7 +394,7 @@ display: none;
 	justify-content: center;
 	font-family: segoe UI;
 	font-weight: 500;
-	font-size: 13px;
+	font-size: 0.7em;
 	color: white;
 	background-color:#10C0DC;
 	border-radius: 50px;
@@ -360,7 +417,7 @@ display: none;
 	padding: 0;
 	text-align: center;
 	justify-content: center;
-	margin-top: 50px;
+	padding-top: 57px;
 	width: 550px;
 }
 #headerporfolio
@@ -371,7 +428,7 @@ display: none;
 	justify-content: center;
 	background-image: url(images/fond-porfolio.png);
 	background-repeat: no-repeat;
-	width: 550px;
+	width:550px;
 }
 #headerporfolio h2
 {
@@ -379,8 +436,8 @@ display: none;
 	padding: 0;
 	text-align: center;
 	justify-content: center;
-	font-family: segoe UI;
-	font-size:17px;
+	font-family: metropolis;
+	font-size:15px;
 	font-weight:200;
 	color:white;
 	letter-spacing:3px;
@@ -392,7 +449,7 @@ display: none;
 	padding: 0;
 	text-align: center;
 	justify-content: center;
-	font-family: segoe UI;
+	font-family:rubik;
 	font-size:30px;
 	font-weight:400;
 	color: white;
@@ -418,22 +475,22 @@ display: none;
 	padding: 0;
 	text-align: center;
 	justify-content: center;
-	font-family:Segoe UI ;
+	font-family:metropolis;
 	font-weight: 400;
-	font-size:15px ;
+	font-size:12px ;
 	color:white;
-	letter-spacing: 3px;
+	letter-spacing: 1px;
 	text-decoration: none;
 	border-radius: 50px;
-	padding: 5px 20px;
-	margin:10px 25px;
-	border: 1.5px solid #0093B1;
+	padding: 4px 10px;
+	margin:10px 20px;
+	border: 1px solid #0093B1;
 	
 	background: #0093B1;
 }
 #bouttontout a:hover
 {
-	border: 1.5px solid #0093B1;
+	border: 1px solid #0093B1;
 	color:#0093B1 ;
 	background: white;
 	transition: all 0.5s ease;
@@ -447,11 +504,15 @@ display: none;
 	display: flex;
 	flex-wrap: nowrap;
 	background-color: #D8E0FF;
-	padding-bottom: 50px;
+	padding-bottom: 20px;
 }
 #img-contenu img
 {
 display: none;
+}
+#img-portsfolio
+{
+	display: none;
 }
 #porfolio-phone
 {
@@ -465,40 +526,40 @@ display: none;
 }
 #porfolio-phone img
 {
-	width: 190px;
+	width: 180px;
 	margin:0;
 	padding: 0;
 	text-align: center;
 	justify-content: center;
 }
-#fleche-gauche, #fleche-droite
+#fleche-gauche1, #fleche-droite1
 {
 	margin:0;
 	padding: 0;
 	text-align: center;
 	justify-content: center;
 	margin-top: 50px;
-	margin-right: 40px;
-	margin-left: 40px;
+	margin-right: 70px;
+	margin-left: 70px;
 }
 
-#fleche-gauche img
+#fleche-gauche1 img
 {
 	margin:0;
 	padding: 0;
 	text-align: center;
 	justify-content: center;
 	cursor: pointer;
-	width: 25px;
+	width: 30px;
 }
-#fleche-droite img
+#fleche-droite1 img
 {
 	margin:0;
 	padding: 0;
 	text-align: center;
 	justify-content: center;
 	cursor: pointer;
-	width: 25px;	
+	width: 30px;	
 }
 					/*QUI SOMMES NOUS*/
 #qui-sommes-nous
@@ -510,6 +571,7 @@ display: none;
 	background-image: inherit;
 	background-repeat: no-repeat;
 	width: 550px;
+	padding-top: 57px;
 }
 #qui-sommes
 {
@@ -518,7 +580,7 @@ display: none;
 	text-align: center;
 	justify-content: center;
 	display: block;
-	width: 550px;
+	width:550px;
 }
 #soratra-qui
 {
@@ -534,13 +596,13 @@ display: none;
 	padding: 0;
 	text-align: center;
 	justify-content:center;
-	font-family:Segoe UI ;
+	font-family:rubik;
 	font-weight: 700;
-	font-size:29px;
+	font-size:30px;
 	color:white;
 	letter-spacing:2px;
 	background-image: url(images/fond-porfolio.png);
-	padding: 20px 0px;
+	padding: 15px 0px;
 
 }
 #soratra-qui img
@@ -553,14 +615,14 @@ display: none;
 	padding: 0;
 	text-align: center;
 	justify-content:center;
-	font-family:Segoe UI;
+	font-family:rubik;
 	font-weight: 500;
 	font-size:13px;
 	color:#4E4E4E;
-	line-height: 29px;
-	width: 360px;
-	margin-left: 25px;
-	margin-top: 15px;
+	line-height: 24px;
+	width: 500px;
+	margin-left: 20px;
+	margin-top: 10px;
 
 
 }
@@ -570,7 +632,7 @@ display: none;
 	padding: 0;
 	text-align: center;
 	justify-content: center;
-	width: 414px;
+	width: 550px;
 }
 #sary-qui img
 {
@@ -578,7 +640,7 @@ display: none;
 	padding: 0;
 	text-align: center;
 	justify-content: center;
-	width: 414px;
+	width: 550px;
 }
 
 #apropos
@@ -602,7 +664,7 @@ display: none;
 }
 #img-apropos img
 {
-	width: 135px;
+	width: 170px;
 }
 #soratra-apropos
 {
@@ -621,7 +683,7 @@ display: none;
 	padding: 0;
 	text-align: center;
 	justify-content: center;
-	font-family:Segoe UI ;
+	font-family:rubik;
 	font-weight: 700;
 	font-size:30px;
 	color:#006C7D;
@@ -634,13 +696,13 @@ display: none;
 	padding: 0;
 	text-align: left;
 	justify-content: center;
-	font-family:Segoe UI;
+	font-family:rubik;
 	font-weight: 500;
 	font-size:13px;
 	color:#4E4E4E;
-	line-height: 29px;
-	width: 375px;
-	margin-left: 15px;
+	line-height: 24px;
+	width: 380px;
+	margin-left: 20px;
 }
 
 				/*NOS ENGAGEMENT*/
@@ -651,7 +713,7 @@ display: none;
 	text-align:center;
 	justify-content: center;
 	width: 550px;
-	margin-top: 50px;
+	padding-top: 57px;
 }
 #header-engagement
 {
@@ -661,7 +723,7 @@ display: none;
 	justify-content: center;
 	background-image: url(images/fond-engagement.png);
 	background-repeat: no-repeat;
-	margin-bottom: 25px;
+	margin-bottom: 20px;
 	width: 550px;
 }
 #header-engagement h1
@@ -669,13 +731,13 @@ display: none;
 	margin:0;
 	padding: 0;
 	text-align:center;
-	font-family: segoe UI;
-	font-size:26px;
+	font-family:rubik;
+	font-size:25px;
 	font-weight:500;
 	color: white;
 	letter-spacing:4px;
 	font-style:inherit;
-	padding: 20px 10px;
+	padding: 15px 10px;
 
 }
 #header-engagement img
@@ -688,7 +750,7 @@ display: none;
 	padding: 0;
 	text-align:center;
 	justify-content: center;
-	margin-bottom: 22px;
+	margin-bottom: 18px;
 }
 #technologie h1
 {
@@ -696,8 +758,8 @@ display: none;
 	padding: 0;
 	text-align:center;
 	justify-content: center;
-	font-family: corbel;
-	font-size:22px;
+	font-family:metropolis;
+	font-size:18px;
 	font-weight:800;
 	color: #5E5E5E;
 	letter-spacing:8px;
@@ -719,7 +781,7 @@ display: none;
 	text-align:center;
 	justify-content: center;
 	display: flex;
-	margin-bottom: 20px;
+	margin-bottom: 18px;
 
 }
 #sary-engagement-phone
@@ -736,7 +798,7 @@ display: none;
 	padding: 0;
 	text-align:center;
 	justify-content: center;
-	width: 190px;
+	width: 170px;
 	box-shadow: 0px 0px 5px #6CA2AB;
 	cursor: pointer;
 }
@@ -746,7 +808,7 @@ display: none;
 	padding: 0;
 	text-align:center;
 	justify-content: center;
-	margin: 30px 35px 0px 35px;
+	margin: 20px 60px 0px 60px;
 }
 #fleche-engagement-g img, #fleche-engagement-d img
 {
@@ -775,14 +837,14 @@ display: none;
 	padding: 0;
 	text-align:center;
 	justify-content: center;
-	font-family:corbel;
+	font-family:rubik;
 	font-weight: 400;
-	font-size:15px;
+	font-size:13px;
 	color:#676767;
 	letter-spacing:0px;
-	line-height: 29px;
+	line-height: 25px;
 	padding: 0px 20px;
-	margin-bottom: 25px;
+	margin-bottom: 15px;
 
 
 }
@@ -796,9 +858,9 @@ display: none;
 	padding: 0;
 	text-align:center;
 	justify-content: center;
-	font-family:Segoe UI ;
+	font-family:metropolis;
 	font-weight: 500;
-	font-size:13px;
+	font-size:11px;
 	color: white;
 	letter-spacing: 2px;
 	text-decoration: none;
@@ -822,7 +884,7 @@ display: none;
 	padding: 0;
 	text-align:center;
 	justify-content: center;
-	margin-top: 50px;
+	padding-top: 56px;
 	width: 550px;
 }
 
@@ -834,7 +896,7 @@ display: none;
 	justify-content: center;
 	display: flex;
 	background-image: url(images/fond-contact.png);
-	width: 550px;
+	width:550px;
 }
 #soratra-contact
 {
@@ -849,13 +911,12 @@ display: none;
 	padding: 0;
 	text-align:center;
 	justify-content: center;
-	font-family: segoe UI;
-	font-size:24px;
-	font-weight:500;
+	font-family:metropolis-bold;
+	font-size:20px;
 	color: white;
 	letter-spacing:4px;
 	font-style: inherit;
-	padding-top: 30px;
+	padding-top: 18px;
 	padding-left: 5px;
 }
 #soratra-contact img
@@ -868,7 +929,7 @@ display: none;
 	padding: 0;
 	text-align:center;
 	justify-content: center;
-	padding-top: 20px;
+	padding-top: 10px;
 }
 #sary-contact img
 {
@@ -876,7 +937,7 @@ display: none;
 	padding: 0;
 	text-align:center;
 	justify-content: center;
-	width: 110px;	
+	width: 70px;	
 }
 
 #contenu-contact
@@ -886,7 +947,7 @@ display: none;
 	text-align:center;
 	justify-content: center;
 	display:block;
-	width: 414px;
+	width:550px;
 }
 #formulaire
 {
@@ -910,19 +971,18 @@ display: none;
 	padding: 0;
 	border: 1px solid #08ACC6;
 	border-radius: 20px;
-	width: 300px;
-	font-family:corbel;
-	font-weight: 300;
-	font-size: 14px;
+	width: 270px;
+	font-family:metropolis-light;
+	font-size: 13px;
 	color: #808080;
 	margin-top: 18px;
 	outline: none;
 	font-style: italic;
-	padding: 10px;
+	padding: 8px;
 }
 .formulaire:focus
 {
-	font-family: segoe UI;
+	font-family: metropolis;
 	font-style:none;
 	color: #006C7D;
 	font-style: inherit;
@@ -931,9 +991,8 @@ display: none;
 }
 #submit
 {
-	font-family:corbel ;
-		font-weight: 400;
-		font-size:18px;
+	font-family:metropolis;
+		font-size:15px;
 		color: white;
 		letter-spacing:1px;
 		background-color: #10C0DC;
@@ -959,7 +1018,7 @@ display: none;
 	text-align:center;
 	justify-content: center;
 	font-family: corbel;
-	font-size:29px;
+	font-size:25px;
 	font-weight: 500;
 	color:#4D7092;
 	letter-spacing:-2px;
@@ -971,8 +1030,8 @@ iframe
 	padding: 0;
 	text-align:center;
 	justify-content: center; 
-	width: 380px;
-	height: 400px;
+	width: 500px;
+	height: 370px;
 	margin-top: 10px;
 }
 	
@@ -985,7 +1044,7 @@ iframe
 	justify-content: center;
 	background-color: #10C0DC;
 	margin-top: 20px;
-	width: 550px;
+	width:550px;
 }
 
 #titre-coordonne
@@ -1002,8 +1061,7 @@ iframe
 	padding: 0;
 	text-align:center;
 	justify-content: center;
-	font-family:corbel ;
-	font-weight: 600;
+	font-family:metropolis;
 	letter-spacing:4px ;
 	color: white;
 	font-size:22px ;
@@ -1044,14 +1102,13 @@ iframe
 {
 	margin: 0;
 	padding: 0;
-	font-family:corbel;
-	font-weight:200;
+	font-family:metropolis-light;
 	letter-spacing:2px ;
 	color: white;
-	font-size:14px ;
+	font-size:11px ;
 	font-style: italic;
 	line-height: 30px;
-	width: 350px;
+	width: 200px;
 
 }
 .contenucoordonne img
@@ -1070,7 +1127,7 @@ iframe
 	padding: 0;
 	margin: 0;
 	padding: 0;
-	font-family:corbel;
+	font-family:metropolis-light;
 	font-weight: lighter;
 	letter-spacing:2px ;
 	color: white;
@@ -1099,7 +1156,7 @@ iframe
 	text-align:center;
 	justify-content: center;
 	width: 50px;
-	margin: 0px 20px;
+	margin: 0px 15px;
 }
 
 #sarycoordonne img:hover
@@ -1121,11 +1178,11 @@ iframe
 {
 	margin: 0;
 	padding: 0;
-	font-family:corbel;
-	font-size: 8px;
+	font-family:metropolis-light;
+	font-size: 7px;
 	letter-spacing: 5px;
 	color: white;
-	font-weight: 100;
+
 	padding-top: 10px;
 }
 #loko1
@@ -1141,5 +1198,5 @@ display: none;
 	height: 15px;
 	background-color:#007D91;
 }
-}
+}	
 		

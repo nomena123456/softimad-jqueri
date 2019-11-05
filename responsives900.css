@@ -1,22 +1,25 @@
 
 
-			/*------------ M E D I A   Q U E R I E S.....R E S P O N S I V E S----------------*/
-			/*-------------------------------------P H O N E K E L Y----------------------------------*/
-			/*----------------------------------------414Pixel----------------------------------*/
 
-@media screen and (max-width: 414px)
+			/*------------ M E D I A   Q U E R I E S.....R E S P O N S I V E S----------------*/
+			/*-------------------------------------tablette----------------------------------*/
+			/*----------------------------------------900Pixel----------------------------------*/
+
+@media screen and (max-width: 900px)
 {
-	body
+
+body
 {
 	margin:0;
 	padding: 0;
 	text-align: center;
 	justify-content: center;
-	width: 414px;
+	width: 900px;
+
 }
-#sary-engagement-table
+#listmenu
 {
-	display: none;
+display: none;
 }
 #menu
 {
@@ -24,10 +27,11 @@
 	padding: 0;
 	text-align: center;
 	justify-content: center;
-	background-image:none;
+	background-image: url(images/backgroundmenu.png);
+	background-size: 100%;
 	background-repeat: no-repeat;
-	width: 414px;
-	height: 350px;
+	width: 900px;
+	height: 450px;
 
 }
 #headermenu
@@ -36,30 +40,25 @@
 	padding: 0;
 	text-align: center;
 	justify-content: center;
-	background-image: url(images/fond-menu-phone-272.png);
+	background-image: url(images/fond-header.png);
+	background-size: 100%;
 	display: flex;
 	position: fixed;
-	width: 100%;
+	width: 900px;
 	top: 0;
 	z-index: 10;
-	background-repeat: no-repeat;
-	width: 414px;
 }
 #logo
 {
 	margin:0;
 	padding: 0;
-	text-align: left;
-	justify-content: left;
+	text-align: center;
+	justify-content: center;
 	margin-top: 10px;
 }
 #logo img
 {
-	width: 100px;
-}
-#listmenu
-{
-display: none;
+	width: 80px;
 }
 #barre-menu
 {
@@ -68,8 +67,8 @@ display: none;
 	padding: 0;
 	text-align: center;
 	justify-content: center;
-	margin-top: 25px;
-	margin-left: 200px;
+	margin-top: 15px;
+	margin-left: 700px;
 }
 
 #menu-phone
@@ -80,7 +79,7 @@ display: none;
 	text-align:left;
 	justify-content:left;
 	background-color:rgb(16, 192, 220, 0.8);
-	width: 414px;
+	width: 550px;
 }
 #menu-phone img
 {
@@ -115,8 +114,7 @@ display: none;
 	padding: 5px 0px;
 
 }
-
-			/*CONTENU MENU TAIKA ZAO*/
+		/*---C O N T E N U MENU----*/
 #contenumenu
 {
 	margin:0;
@@ -125,10 +123,7 @@ display: none;
 	justify-content: center;
 	display: flex;
 	flex-wrap: wrap;
-	background-image: url(images/fond-contenu-menu414.png);
-	background-repeat: no-repeat;
-	width: 414px;;
-	height: 380px;
+	width:900px;
 }
 #soratra
 {
@@ -136,7 +131,8 @@ display: none;
 	padding: 0;
 	text-align: left;
 	justify-content: center;
-	margin-top: 75px;
+	margin-top: 80px;
+	margin-right: 0px;
 	width: 400px;
 }
 #soratra h1
@@ -146,9 +142,18 @@ display: none;
 	text-align: center;
 	justify-content: center;
 	font-family:rubik-light;
-	font-size:28px;
+	font-size:35px;
 	color:#246974;
 	letter-spacing:-1px;	
+}
+#mobile
+{
+	display: none;
+
+}
+#personalise
+{
+	display: none;
 }
 #soratra span
 {
@@ -156,31 +161,62 @@ display: none;
 	padding: 0;
 	text-align: center;
 	justify-content: center;
-	font-weight: 800;
-	font-size:35px;
+	font-size:30px;
 	color:#246974;
 	letter-spacing:1px;	
 	font-family:rubik-bold;
+}
+#web span, #mobile span
+{
+	margin:0;
+	padding: 0;
+	text-align: center;
+	justify-content: center;
+	font-weight: 800;
+	font-size:45px;
+	color:#246974;
+	letter-spacing:1px;	
+	font-family:rubik-bold;
+}
+#mobile-titre
+{
+	display: none;
+}
+#personalise-titre
+{
+	display: none;
 }
 #soratra h2
 {
 	margin:0;
 	padding: 0;
 	text-align: left;
-	justify-content: left;
-	font-family:rubik-light;
+	justify-content: center;
+	font-family:rubik;
 	font-weight: 900;
-	font-size:17px;
+	font-size:20px;
 	color:#51C4CC;
-	letter-spacing:0px;
-	margin-top: 40px;
-	margin-bottom: 30px;
-	margin-right: 0px;
-	padding-left: 20px;
+	letter-spacing:-0px;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+#mobile-para, #personalise-para
+{
+	display: none;
 }
 #soratra p
 {
-display: none;
+	margin:0;
+	padding: 0;
+	text-align: left;
+	justify-content: center;	
+	font-family:rubik;
+	font-weight: 500;
+	font-size:12px;
+	color:#585858;
+	letter-spacing:0.5px;
+	line-height: 25px;
+	margin-bottom: 20px;
 }
 #soratra a
 {
@@ -188,16 +224,15 @@ display: none;
 	padding: 0;
 	text-align: center;
 	justify-content: center;
-	font-family:Segoe UI ;
-	font-weight: 600;
+	font-family:metropolis;
+	font-weight: 650;
 	font-size:13px;
 	color: white;
-	letter-spacing: 1px;
+	letter-spacing: 2px;
 	text-decoration: none;
 	background-color: #10C0DC;
 	border-radius: 50px;
-	padding: 8px 10px;
-	margin-left: 20px;
+	padding: 12px 25px 12px 25px;
 }
 #soratra a:hover
 {
@@ -209,69 +244,69 @@ display: none;
 }
 #sary
 {
-display: none;
+	margin:0;
+	padding: 0;
+	text-align: center;
+	justify-content: center;
+	margin-top: 90px;
+}
+#sary img
+{
+	width:400px;
 }
 #boutton
-{
-	display: none;
-}
-#boutton-p
 {
 	margin:0;
 	padding: 0;
 	text-align: center;
 	justify-content: center;
-	margin-top: 0px;
+	margin-top: 25px;
 	padding-bottom: 0px;
-	display: block;
 }
-.boutton1-p
+#boutton1
+{
+	color:#10C0DC;	
+	background-color:white;
+	border: 2px solid #10C0DC;
+}
+.boutton1
 {
 	margin:0;
 	padding: 0;
 	text-align: center;
 	justify-content: center;
 	background-color:#10C0DC;
-	border-radius: 100px;
+	border-radius: 50px;
 	text-decoration: none;
 	color:#10C0DC;
-	font-size: 0px;
-	padding:1px 15px;
+	font-size: 5px;
+	padding: 0px 40px;
 	margin: 0px 20px;
 	border: 2px solid #10C0DC;
 }
-.boutton1-p:hover
-{
-	border: 2px solid #10C0DC;
-	background: transparent;
-	transition: all 0.5s ease;
-	color: #10C0DC;
-}
 
 
-
-							/* Service tsika zao*/
+	/* Service tsika zao*/
 #service
 {
 	margin:0;
 	padding: 0;
 	text-align: center;
 	justify-content: center;
-	width: 414px;
-	padding-top: 57px;
-	margin-top: 10px;
+	padding-top: 44px;
+	width: 900px;
 }
 #headerservice
 {
 	margin:0;
 	padding: 0;
-	text-align: center;
-	justify-content: center;
+	text-align: left;
+	justify-content: left;
 	display: flex;
 	flex-wrap: wrap;
 	background-image: url(images/fond-service.png);
 	background-repeat: no-repeat;
-	width: 414px;
+	width: 900px;
 }
 #soratraservice
 {
@@ -279,6 +314,9 @@ display: none;
 	padding: 0;
 	text-align: left;
 	justify-content: center;
+	margin-top: 30px;
+	margin-left: 30px;
+
 }
 #soratraservice h2
 {
@@ -287,12 +325,10 @@ display: none;
 	text-align: left;
 	justify-content: center;
 	font-family: metropolis;
-	font-size:13px;
-	font-weight:200;
+	font-size:18px;
+	font-weight:100;
 	color:white;
 	letter-spacing:3px;
-	padding-top: 20px;
-	margin-bottom: 5px;
 }
 #soratraservice h1
 {
@@ -301,15 +337,18 @@ display: none;
 	text-align: left;
 	justify-content: center;
 	font-family: rubik;
-	font-size:25px;
+	font-size:35px;
 	font-weight:400;
 	color: white;
-	letter-spacing:4px;
+	letter-spacing:8px;
 	font-style: italic;
 }
 #soratraservice img
 {
-display: none;
+	margin:0;
+	padding: 0;
+	text-align: center;
+	justify-content: center;
 }
 #saryordi
 {
@@ -317,18 +356,13 @@ display: none;
 	padding: 0;
 	text-align: center;
 	justify-content: center;
-	margin-top: 20px;
-	margin-left: 50px;
+	padding-top: 20px;
+	margin-left: 400px;
 }
 #saryordi img
 {
-	margin:0;
-	padding: 0;
-	text-align: center;
-	justify-content: center;
-	width: 70px;
+	width: 120px;
 }
-	
 					/*contenu service zao tsika*/
 #contenuservice
 {
@@ -336,48 +370,60 @@ display: none;
 	padding: 0;
 	text-align: center;
 	justify-content: center;
-	margin-top: 40px;
-	width: 414px;
-}
-#fleche-g, #fleche-d
-{
-	display: block;
-	margin-top:30px;
-	margin-right: 50px;
-	margin-left: 50px;
-}
-#fleche-g img, #fleche-d img
-{
-	width: 30px;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 10px;
+	width: 900px;
 }
 .boriborikely
-{
-	display: none;
-}
-#boriborikely-phone
-{
-	display: block;
-}
-#boriborikely-phone img
-{
-	width: 140px;
-}	
-
-#boriborikely-phone p
 {
 	margin:0;
 	padding: 0;
 	text-align: center;
 	justify-content: center;
-	font-family:rubik;
+	margin: 0px 15px 0px 15px;
+	width: 150px;
+	padding:20px;
+	cursor:pointer;
+
+}	
+.boriborikely:hover
+{
+	background-color:#E8F9FC;
+	box-shadow: 0px 0px 15px #ACCDD2;
+	transition: all 0.5s ease;
+}			
+.boriborikely img
+{
+	margin:0;
+	padding: 0;
+	text-align: center;
+	justify-content: center;
+	border-radius: 100px;
+	transition: 1s ease-in-out;
+	width: 110px;
+}	
+.boriborikely img:hover
+{
+	background-color:#BBE4FF;
+	transform: rotate(360deg) scale(1.1, 1.1);
+
+}			
+.boriborikely p
+{
+	margin:0;
+	padding: 0;
+	text-align: center;
+	justify-content: center;
+	font-family: rubik;
 	font-weight: 400;
-	font-size: 16px;
+	font-size: 15px;
 	letter-spacing: 0.5px;
 	color: #545454;
-	margin-top: 15px;
-	margin-bottom: 10px;
+	margin-top: 20px;
+	margin-bottom: 0px;
 }				
-#boriborikely-phone span
+.boriborikely span
 {
 	margin:0;
 	padding: 0;
@@ -385,13 +431,13 @@ display: none;
 	justify-content: center;
 	font-weight: 700;
 }
-#boriborikely-phone a
+.boriborikely a
 {
 	margin:0;
 	padding: 0;
 	text-align: center;
 	justify-content: center;
-	font-family: segoe UI;
+	font-family: metropolis;
 	font-weight: 500;
 	font-size: 0.7em;
 	color: white;
@@ -401,14 +447,13 @@ display: none;
 	padding: 4px 15px;
 	text-decoration: none;
 }
-#boriborikely-phone a:hover
+.boriborikely a:hover
 {
 	border: 2px solid #10C0DC;
 	background: transparent;
 	transition: all 0.5s ease;
 	color: #10C0DC;
 }
-
 				/*PORFOLIO NDRAY TSIKA ZAO*/
 #porfolio
 {
@@ -416,8 +461,9 @@ display: none;
 	padding: 0;
 	text-align: center;
 	justify-content: center;
-	padding-top: 57px;
-	width: 414px;
+	margin-top: 0px;
+	padding-top: 43px;
+	width: 900px;
 }
 #headerporfolio
 {
@@ -427,7 +473,7 @@ display: none;
 	justify-content: center;
 	background-image: url(images/fond-porfolio.png);
 	background-repeat: no-repeat;
-	width:414px;
+	width: 900px;
 }
 #headerporfolio h2
 {
@@ -436,11 +482,11 @@ display: none;
 	text-align: center;
 	justify-content: center;
 	font-family: metropolis;
-	font-size:11px;
+	font-size:20px;
 	font-weight:200;
 	color:white;
 	letter-spacing:3px;
-	padding-top: 15px;
+	padding-top: 30px;
 }
 #headerporfolio h1
 {
@@ -448,8 +494,8 @@ display: none;
 	padding: 0;
 	text-align: center;
 	justify-content: center;
-	font-family:rubik;
-	font-size:22px;
+	font-family: rubik;
+	font-size:35px;
 	font-weight:400;
 	color: white;
 	letter-spacing:8px;
@@ -466,7 +512,6 @@ display: none;
 	display: flex;
 	flex-wrap: wrap;
 	background-color: #D8E0FF;
-	padding-top: 10px;
 }
 #bouttontout a
 {
@@ -475,21 +520,20 @@ display: none;
 	text-align: center;
 	justify-content: center;
 	font-family:metropolis;
-	font-weight: 400;
-	font-size:12px ;
+	font-size:13px ;
 	color:white;
-	letter-spacing: 1px;
+	letter-spacing: 4px;
 	text-decoration: none;
 	border-radius: 50px;
-	padding: 4px 10px;
-	margin:10px 10px;
-	border: 1px solid #0093B1;
+	padding: 5px 30px;
+	margin:30px 30px 20px 30px;
+	border: 1.5px solid #0093B1;
 	
 	background: #0093B1;
 }
 #bouttontout a:hover
 {
-	border: 1px solid #0093B1;
+	border: 1.5px solid #0093B1;
 	color:#0093B1 ;
 	background: white;
 	transition: all 0.5s ease;
@@ -501,76 +545,69 @@ display: none;
 	text-align: center;
 	justify-content: center;
 	display: flex;
-	flex-wrap: nowrap;
 	background-color: #D8E0FF;
-	padding-bottom: 20px;
+	padding-bottom: 50px;
+}
+
+#img-contenu
+{
+	margin:0;
+	padding: 0;
+	text-align: center;
+	justify-content: center;
+	display: flex;
 }
 #img-contenu img
 {
-display: none;
-}
-#img-portsfolio
-{
-	display: none;
-}
-#porfolio-phone
-{
-	
 	margin:0;
 	padding: 0;
 	text-align: center;
 	justify-content: center;
-	display: block;
-	margin-top: 20px;
+	margin:30px 20px;
+	box-shadow: 0px 0px 3px #a9c4c8;	
+	cursor: pointer;
+	width:150px;
 }
-#porfolio-phone img
+#img-contenu img:hover
 {
-	width: 160px;
+	transition: all 0.5s ease;
+	box-shadow: 0px 0px 5px #006C7D;	
+}
+#fleche-gauche1
+{
 	margin:0;
 	padding: 0;
 	text-align: center;
-	justify-content: center;
-}
-#fleche-gauche1, #fleche-droite1
-{
-	margin:0;
-	padding: 0;
-	text-align: center;
-	justify-content: center;
 	margin-top: 50px;
-	margin-right: 50px;
-	margin-left: 50px;
+	margin-right: 20px;	
+	cursor: pointer;
 }
 
-#fleche-gauche1 img
+#fleche-droite1
 {
 	margin:0;
 	padding: 0;
 	text-align: center;
-	justify-content: center;
-	cursor: pointer;
+	margin-top: 50px;
+	margin-left:20px; 
+	cursor: pointer;	
+}
+#fleche-gauche1 img, #fleche-droite1 img
+{
 	width: 30px;
 }
-#fleche-droite1 img
-{
-	margin:0;
-	padding: 0;
-	text-align: center;
-	justify-content: center;
-	cursor: pointer;
-	width: 30px;	
-}
-					/*QUI SOMMES NOUS*/
+
+				/*QUI SOMMES NOUS*/
 #qui-sommes-nous
 {
 	margin:0;
 	padding: 0;
 	text-align: center;
 	justify-content: center;
-	background-image: inherit;
+	background-image: url(images/fond-qui-sommes.png);
+	background-size: 100%;
 	background-repeat: no-repeat;
-	width: 414px;
-	padding-top: 57px;
+	width: 900px;
 }
 #qui-sommes
 {
@@ -578,52 +615,51 @@ display: none;
 	padding: 0;
 	text-align: center;
 	justify-content: center;
-	display: block;
-	width:414px;
+	display: flex;
+	margin-top: 30px;
+	width: 900px;
 }
 #soratra-qui
 {
 	margin:0;
 	padding: 0;
-	text-align: center;
-	justify-content:center;
-
+	text-align: left;
+	justify-content: left;
+	margin-top: 50px;
 }
 #soratra-qui h1
 {
 	margin:0;
 	padding: 0;
-	text-align: center;
-	justify-content:center;
-	font-family:rubik;
+	text-align:left;
+	justify-content: center;
+	font-family:metropolis;
 	font-weight: 700;
-	font-size:25px;
-	color:white;
-	letter-spacing:2px;
-	background-image: url(images/fond-porfolio.png);
-	padding: 15px 0px;
+	font-size:30px;
+	color:#006C7D;
+	letter-spacing:5px;
 
 }
 #soratra-qui img
 {
-display: none;
+	margin:0;
+	padding: 0;
+	text-align:left;
+	justify-content: left;
 }
 #soratra-qui h2
 {
 	margin:0;
 	padding: 0;
-	text-align: center;
-	justify-content:center;
+	text-align: left;
+	justify-content: center;
 	font-family:rubik;
 	font-weight: 500;
-	font-size:12px;
+	font-size:13px;
 	color:#4E4E4E;
-	line-height: 24px;
-	width: 370px;
-	margin-left: 20px;
+	line-height: 28px;
 	margin-top: 10px;
-
-
+	width: 300px;
 }
 #sary-qui
 {
@@ -631,15 +667,12 @@ display: none;
 	padding: 0;
 	text-align: center;
 	justify-content: center;
-	width: 414px;
+	margin-top: 30px;
+	margin-left: 50px;
 }
 #sary-qui img
 {
-	margin:0;
-	padding: 0;
-	text-align: center;
-	justify-content: center;
-	width: 414px;
+	width: 400px;
 }
 
 #apropos
@@ -648,9 +681,8 @@ display: none;
 	padding: 0;
 	text-align: center;
 	justify-content: center;
-	display:block;
-	margin-top: 20px;
-	width: 414px;
+	display: flex;
+	width: 900px;
 }
 #img-apropos
 {
@@ -658,52 +690,47 @@ display: none;
 	padding: 0;
 	text-align: center;
 	justify-content: center;
-	float: right;
-	margin-right: 10px;
 }
 #img-apropos img
 {
-	width: 150px;
+	width: 180px;
 }
 #soratra-apropos
 {
 	margin:0;
 	padding: 0;
-	text-align: center;
-	justify-content: center;
-}
-#soratra-apropos img
-{
-	display: none;
+	text-align: right;
+	justify-content: right;
+	margin-top: 20px;
+	margin-left: 100px;
+	padding-bottom: 0px;
 }
 #soratra-apropos h1
 {
 	margin:0;
 	padding: 0;
-	text-align: center;
+	text-align:right;
 	justify-content: center;
-	font-family:rubik;
+	font-family:metropolis;
 	font-weight: 700;
-	font-size:23px;
+	font-size:30px;
 	color:#006C7D;
-	letter-spacing:3px;
-	margin-bottom: 10px;
+	letter-spacing:5px;
 }
 #soratra-apropos h2
 {
 	margin:0;
 	padding: 0;
-	text-align: left;
+	text-align: right;
 	justify-content: center;
 	font-family:rubik;
 	font-weight: 500;
-	font-size:12px;
+	font-size:13px;
 	color:#4E4E4E;
-	line-height: 24px;
-	width: 380px;
-	margin-left: 20px;
+	line-height: 28px;
+	margin-top: 15px;
+	width: 500px;
 }
-
 				/*NOS ENGAGEMENT*/
 #nos-engagement
 {
@@ -711,8 +738,8 @@ display: none;
 	padding: 0;
 	text-align:center;
 	justify-content: center;
-	width: 414px;
-	padding-top: 57px;
+	padding-top: 44px;
+	width: 900px;
 }
 #header-engagement
 {
@@ -722,26 +749,29 @@ display: none;
 	justify-content: center;
 	background-image: url(images/fond-engagement.png);
 	background-repeat: no-repeat;
-	margin-bottom: 20px;
-	width: 414px;
+	width: 900px;
 }
 #header-engagement h1
 {
 	margin:0;
 	padding: 0;
 	text-align:center;
-	font-family:rubik;
-	font-size:25px;
-	font-weight:500;
+	font-family: rubik;
+	font-size:30px;
+	font-weight:400;
 	color: white;
-	letter-spacing:4px;
-	font-style:inherit;
-	padding: 15px 10px;
+	letter-spacing:8px;
+	font-style: italic;
+	padding: 20px 0px;
 
 }
 #header-engagement img
 {
-display: none;
+	margin:0;
+	padding: 0;
+	text-align:center;
+	margin-top: 10px;
+	padding-bottom: 40px;
 }
 #technologie
 {
@@ -749,7 +779,7 @@ display: none;
 	padding: 0;
 	text-align:center;
 	justify-content: center;
-	margin-bottom: 18px;
+	margin-top: 30px;
 }
 #technologie h1
 {
@@ -758,10 +788,10 @@ display: none;
 	text-align:center;
 	justify-content: center;
 	font-family:metropolis;
-	font-size:18px;
+	font-size:19px;
 	font-weight:800;
 	color: #5E5E5E;
-	letter-spacing:8px;
+	letter-spacing:15px;
 }
 #technologie img
 {
@@ -769,8 +799,6 @@ display: none;
 	padding: 0;
 	text-align:center;
 	justify-content: center;
-	width: 100px;
-	height: 1px;
 }
 
 #contenu-engagement
@@ -780,55 +808,63 @@ display: none;
 	text-align:center;
 	justify-content: center;
 	display: flex;
-	margin-bottom: 18px;
+	margin-top: 30px;
 
 }
-#sary-engagement-phone
+#fleche-engagement-g
 {
-	display: block;
 	margin:0;
 	padding: 0;
 	text-align:center;
 	justify-content: center;
+	margin-top: 20px;
+	margin-right: 20px;
+		cursor: pointer;
 }
-#sary-engagement-phone img
+#fleche-engagement-d
 {
 	margin:0;
 	padding: 0;
 	text-align:center;
 	justify-content: center;
-	width: 160px;
-	box-shadow: 0px 0px 5px #6CA2AB;
-	cursor: pointer;
-}
-#fleche-engagement-g, #fleche-engagement-d
-{
-	margin:0;
-	padding: 0;
-	text-align:center;
-	justify-content: center;
-	margin: 20px 40px 0px 40px;
+	margin-top: 20px;
+	margin-left: 20px;
+		cursor: pointer;
 }
 #fleche-engagement-g img, #fleche-engagement-d img
 {
+	width: 40px;
+}
+#sary-engagement
+{
 	margin:0;
 	padding: 0;
 	text-align:center;
 	justify-content: center;
-	cursor: pointer;
-	width: 30px;
 }
-#sary-engagement
+#sary-engagement img
 {
-display: none;
+	margin:0;
+	padding: 0;
+	text-align:center;
+	justify-content: center;
+	box-shadow: 0px 0px 3px #a9c4c8;	
+	width: 150px;
+	margin: 0px 10px;
+	cursor: pointer;
 }
-
+#sary-engagement img:hover
+{
+	transition: all 0.5s ease;
+	box-shadow: 0px 0px 5px #006C7D;	
+}
 #soratra-engagement
 {
 	margin:0;
 	padding: 0;
 	text-align:center;
 	justify-content: center;
+	margin-top: 30px;
 }
 #soratra-engagement h2
 {
@@ -836,20 +872,14 @@ display: none;
 	padding: 0;
 	text-align:center;
 	justify-content: center;
-	font-family:rubik;
+	font-family:metropolis;
 	font-weight: 400;
-	font-size:13px;
+	font-size:15px;
 	color:#676767;
 	letter-spacing:0px;
-	line-height: 25px;
-	padding: 0px 20px;
-	margin-bottom: 15px;
+	line-height: 30px;
+	margin-bottom: 30px;
 
-
-}
-#soratra-engagement h2 br
-{
-	display: none;
 }
 #soratra-engagement a
 {
@@ -857,14 +887,14 @@ display: none;
 	padding: 0;
 	text-align:center;
 	justify-content: center;
-	font-family:metropolis;
-	font-weight: 500;
-	font-size:11px;
+	font-family:rubik;
+	font-weight: 400;
+	font-size:15px;
 	color: white;
 	letter-spacing: 2px;
 	text-decoration: none;
 	background-color: #10C0DC;
-	padding: 10px 10px;
+	padding: 10px 20px 10px 20px;
 }
 #soratra-engagement a:hover
 {
@@ -875,7 +905,6 @@ display: none;
 	color: #10C0DC;
 }
 
-
 			/*CONTACT TSIKA ZAO*/
 #contact
 {
@@ -883,8 +912,8 @@ display: none;
 	padding: 0;
 	text-align:center;
 	justify-content: center;
-	padding-top: 56px;
-	width: 414px;
+	padding-top: 74px;
+	width: 900px;
 }
 
 #header-contact
@@ -895,7 +924,7 @@ display: none;
 	justify-content: center;
 	display: flex;
 	background-image: url(images/fond-contact.png);
-	width:414px;
+	width:900px;
 }
 #soratra-contact
 {
@@ -910,13 +939,13 @@ display: none;
 	padding: 0;
 	text-align:center;
 	justify-content: center;
-	font-family:metropolis-bold;
-	font-size:20px;
+	font-family: rubik;
+	font-size:27px;
+	font-weight:400;
 	color: white;
-	letter-spacing:4px;
-	font-style: inherit;
-	padding-top: 18px;
-	padding-left: 5px;
+	letter-spacing:8px;
+	font-style: italic;
+	padding-top: 50px;
 }
 #soratra-contact img
 {
@@ -928,15 +957,12 @@ display: none;
 	padding: 0;
 	text-align:center;
 	justify-content: center;
+	margin-left: 250px;
 	padding-top: 10px;
 }
 #sary-contact img
 {
-	margin:0;
-	padding: 0;
-	text-align:center;
-	justify-content: center;
-	width: 70px;	
+	width: 90px;
 }
 
 #contenu-contact
@@ -945,8 +971,9 @@ display: none;
 	padding: 0;
 	text-align:center;
 	justify-content: center;
-	display:block;
-	width:414px;
+	display: flex;
+	margin-top: 20px;
+	width: 900px;
 }
 #formulaire
 {
@@ -955,52 +982,47 @@ display: none;
 	justify-content: center;
 	text-align: center;
 	background-color: #EFFDFF;
-	padding-bottom: 20px;
-}
-#formulaire img
-{
-	margin: 0;
-	padding: 0;
-	justify-content: center;
-	text-align: center;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-right: 10px;
 }
 .formulaire
 {
-	margin: 0;
-	padding: 0;
 	border: 1px solid #08ACC6;
 	border-radius: 20px;
-	width: 270px;
-	font-family:metropolis-light;
+	width: 300px;
+	padding: 10px;
+	font-family:metropolis;
+	font-weight: 300;
 	font-size: 13px;
 	color: #808080;
-	margin-top: 18px;
+	margin-top: 30px;
 	outline: none;
 	font-style: italic;
-	padding: 8px;
 }
 .formulaire:focus
 {
-	font-family: metropolis;
+	font-family:metropolis;
 	font-style:none;
 	color: #006C7D;
 	font-style: inherit;
-	font-size: 15px;
+	font-size: 16px;
 	font-weight: 400;
 }
 #submit
 {
-	font-family:metropolis;
-		font-size:15px;
+	font-family:corbel ;
+		font-weight: 300;
+		font-size:20px;
 		color: white;
 		letter-spacing:1px;
 		background-color: #10C0DC;
 		border-radius: 50px;
-		padding: 13px 30px;
+		padding: 10px 30px;
 		outline: none;
 		border: none;
 		cursor: pointer;
-		margin-top: 18px;
+		margin-top: 30px;
 }
 #submit:hover
 {
@@ -1016,24 +1038,18 @@ display: none;
 	padding: 0;
 	text-align:center;
 	justify-content: center;
-	font-family: corbel;
-	font-size:25px;
-	font-weight: 500;
+	font-family: rubik;
+	font-size:30px;
+	font-weight: 100;
 	color:#4D7092;
 	letter-spacing:-2px;
-	padding-top: 20px;
+	margin-top:30px;
 }
 iframe
 {
-	margin:0;
-	padding: 0;
-	text-align:center;
-	justify-content: center; 
-	width: 360px;
-	height: 320px;
-	margin-top: 10px;
+	width: 450px;
 }
-	
+
 					/*COORDONNE*/
 #coordonne
 {
@@ -1042,8 +1058,8 @@ iframe
 	text-align:center;
 	justify-content: center;
 	background-color: #10C0DC;
-	margin-top: 20px;
-	width:414px;
+	padding: 0;
+	width:900px;
 }
 
 #titre-coordonne
@@ -1061,9 +1077,10 @@ iframe
 	text-align:center;
 	justify-content: center;
 	font-family:metropolis;
+	font-weight: 600;
 	letter-spacing:4px ;
 	color: white;
-	font-size:22px ;
+	font-size:20px;
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
@@ -1073,7 +1090,10 @@ iframe
 	padding: 0;
 	text-align:center;
 	justify-content: center;
-	display:block;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
 #soratracoordonne
@@ -1093,21 +1113,19 @@ iframe
 	justify-content: left;
 	display: flex;
 	flex-wrap: wrap;
-	margin-bottom: 18px;
-	margin-left: 10px;
-	margin-top: 10px;
+	margin-bottom: 10px;
 }
 .contenucoordonne h3
 {
 	margin: 0;
 	padding: 0;
-	font-family:metropolis-light;
+	font-family:corbel;
+	font-weight:200;
 	letter-spacing:2px ;
 	color: white;
-	font-size:11px ;
+	font-size:15px ;
 	font-style: italic;
-	line-height: 30px;
-	width: 200px;
+	line-height: 35px;
 
 }
 .contenucoordonne img
@@ -1126,7 +1144,7 @@ iframe
 	padding: 0;
 	margin: 0;
 	padding: 0;
-	font-family:metropolis-light;
+	font-family:corbel;
 	font-weight: lighter;
 	letter-spacing:2px ;
 	color: white;
@@ -1139,14 +1157,11 @@ iframe
 	padding: 0;
 	text-align:center;
 	justify-content: center;
-	background-color:#009EB7;
-	padding: 18px 0px;
+
+	margin-left: 100px;
+	margin-top: 50px;
 
 
-}
-#sarycoordonne br
-{
-	display: none;
 }
 #sarycoordonne img
 {
@@ -1154,20 +1169,23 @@ iframe
 	padding: 0;
 	text-align:center;
 	justify-content: center;
-	width: 50px;
-	margin: 0px 15px;
+	width: 60px;
+	padding-left: 40px;
+	padding-right: 40px;
+	margin-bottom: 50px;
 }
 
 #sarycoordonne img:hover
 {
 	filter: invert(5%);
 	filter: contrast(2);
-	transition: all 0.5s ease;
+	transition: all 0.8s ease;
+	transform: rotate(360deg) scale(1.1, 1.1);
 }
 
 #footer
 {
-	height: 30px;
+	height: 53px;
 	background-color: #246974;
 	padding: 0;
 	margin:0;
@@ -1177,16 +1195,21 @@ iframe
 {
 	margin: 0;
 	padding: 0;
-	font-family:metropolis-light;
-	font-size: 7px;
-	letter-spacing: 5px;
+	font-family:corbel;
+	font-size: 0.9em;
+	letter-spacing: 10px;
 	color: white;
-
-	padding-top: 10px;
+	font-weight: 100;
+	padding-top: 20px;
 }
 #loko1
 {
-display: none;
+	margin:0;
+	padding: 0;
+	text-align:center;
+	justify-content: center;
+	height: 30px;
+	background-color:#009EB7;
 }
 #loko2
 {
@@ -1194,9 +1217,7 @@ display: none;
 	padding: 0;
 	text-align:center;
 	justify-content: center;
-	height: 15px;
+	height: 30px;
 	background-color:#007D91;
 }
-}	
 
-	
