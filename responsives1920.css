@@ -1,9 +1,122 @@
 
+
+@font-face {
+    font-family: 'metropolis';
+    src: url('police/metropolis-regular-webfont.woff2') format('woff2'),
+         url('police/metropolis-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'rubik';
+    src: url('police/rubik-regular-webfont.woff2') format('woff2'),
+         url('police/rubik-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+
+@font-face {
+    font-family: 'rubik-bold';
+    src: url('police/rubik-bold-webfont.woff2') format('woff2'),
+         url('police/rubik-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'rubik-light';
+    src: url('police/rubik-light-webfont.woff2') format('woff2'),
+         url('police/rubik-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'metropolis-bold';
+    src: url('police/metropolis-bold-webfont.woff2') format('woff2'),
+         url('police/metropolis-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'metropolis-light';
+    src: url('police/metropolis-light-webfont.woff2') format('woff2'),
+         url('police/metropolis-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body
+{
+	margin:0;
+	padding: 0;
+	text-align: center;
+	justify-content: center;
+
+
+}
+#barre-menu
+{
+	display: none;
+}
+#boriborikely-phone
+{
+	display: none;
+}
+#fleche-g, #fleche-d
+{
+	display: none;
+}
+#porfolio-phone
+{
+	display: none;
+}
+#sary-engagement-phone
+{
+	display: none;
+}
+#sary-engagement-table
+{
+	display: none;
+}
+#boutton-p
+{
+	display: none;
+}
+#menu-phone
+{
+	display: none;
+}
+
 			/*------------ M E D I A   Q U E R I E S.....R E S P O N S I V E S----------------*/
 			/*-------------------------------------ECRAN NGEZA MAC----------------------------------*/
-			/*----------------------------------------1366Pixel----------------------------------*/
+			/*----------------------------------------1920Pixel----------------------------------*/
 
-@media screen and (max-width: 1366px)
+@media screen and (max-width: 1920px)
 {
 
 body
@@ -12,10 +125,10 @@ body
 	padding: 0;
 	text-align: center;
 	justify-content: center;
-	width: 1366px;
+	width: 1920px;
+	margin-left: 500px;
 
 }
-		/* M E N U*/
 #menu
 {
 	margin:0;
@@ -25,8 +138,8 @@ body
 	background-image: url(images/backgroundmenu.png);
 	background-size: 100%;
 	background-repeat: no-repeat;
-	height: 640px;
-	width: 1366px;
+	width:1440px;
+	height: 670px;
 
 }
 #headermenu
@@ -36,11 +149,17 @@ body
 	text-align: center;
 	justify-content: center;
 	background-image: url(images/fond-header.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
 	display: flex;
-		position: fixed;
-	width: 1366px;
+	position: fixed;
+	width: 1440px;
 	top: 0;
 	z-index: 10;
+}
+#barre-menu
+{
+	display: none;
 }
 #logo
 {
@@ -64,8 +183,8 @@ body
 	text-align: center;
 	justify-content: center;
 	display: flex;
-	margin-top: 28px;
-	margin-left: 320px;
+	margin-top: 27px;
+	margin-left: 290px;
 }
 #listmenu li
 {
@@ -85,9 +204,9 @@ body
 	font-family:rubik;
 	font-size:12px;
 	color: white;
-	letter-spacing: 1.7px;
-	margin: 0px 15px;
-	padding: 15px 12px;
+	letter-spacing: 2px;
+	margin: 0px 10px;
+	padding: 15px 15px;
 	margin-top: 20px;
 }
 #listmenu a:hover
@@ -104,7 +223,7 @@ body
 	justify-content: center;
 	display: flex;
 	flex-wrap: wrap;
-	width: 1366px;
+	width:1440px;
 }
 #soratra
 {
@@ -112,8 +231,8 @@ body
 	padding: 0;
 	text-align: left;
 	justify-content: center;
-	margin-top: 120px;
-	margin-right: 100px;
+	margin-top: 100px;
+	margin-right: 0px;
 	width: 550px;
 }
 #soratra h1
@@ -123,7 +242,7 @@ body
 	text-align: center;
 	justify-content: center;
 	font-family:rubik-light;
-	font-size:47px;
+	font-size:49px;
 	color:#246974;
 	letter-spacing:-1px;	
 }
@@ -136,27 +255,28 @@ body
 {
 	display: none;
 }
-#mobile span
+#soratra span
 {
 	margin:0;
 	padding: 0;
 	text-align: center;
 	justify-content: center;
-	font-family:rubik-light;
-	font-size:50px;
+	font-size:40px;
 	color:#246974;
-	letter-spacing:4px;	
+	letter-spacing:1px;	
+	font-family:rubik-bold;
 }
-#web span
+#web span, #mobile span
 {
 	margin:0;
 	padding: 0;
 	text-align: center;
 	justify-content: center;
-	font-weight: 700;
-	font-size:50px;
+	font-weight: 800;
+	font-size:55px;
 	color:#246974;
-	letter-spacing:4px;	
+	letter-spacing:1px;	
+	font-family:rubik-bold;
 }
 #mobile-titre
 {
@@ -174,7 +294,7 @@ body
 	justify-content: center;
 	font-family:rubik;
 	font-weight: 900;
-	font-size:23px;
+	font-size:22px;
 	color:#51C4CC;
 	letter-spacing:-0px;
 	margin-top: 20px;
@@ -192,10 +312,10 @@ body
 	justify-content: center;	
 	font-family:rubik;
 	font-weight: 500;
-	font-size:14px;
+	font-size:13px;
 	color:#585858;
 	letter-spacing:0.5px;
-	line-height: 32px;
+	line-height: 28px;
 	margin-bottom: 50px;
 }
 #soratra a
@@ -206,13 +326,13 @@ body
 	justify-content: center;
 	font-family:metropolis;
 	font-weight: 650;
-	font-size:18px;
+	font-size:14px;
 	color: white;
 	letter-spacing: 2px;
 	text-decoration: none;
 	background-color: #10C0DC;
 	border-radius: 50px;
-	padding: 15px 25px 15px 25px;
+	padding: 17px 25px 17px 25px;
 }
 #soratra a:hover
 {
@@ -228,7 +348,11 @@ body
 	padding: 0;
 	text-align: center;
 	justify-content: center;
-	margin-top: 108px;
+	margin-top: 100px;
+}
+#sary img
+{
+	width:540px;
 }
 #boutton
 {
@@ -236,7 +360,7 @@ body
 	padding: 0;
 	text-align: center;
 	justify-content: center;
-	margin-top: 15px;
+	margin-top: 25px;
 	padding-bottom: 0px;
 }
 #boutton1
@@ -269,8 +393,8 @@ body
 	padding: 0;
 	text-align: center;
 	justify-content: center;
-	padding-top: 75px;
-	width: 1366px;
+	padding-top: 73px;
+	width: 1440px;
 }
 #headerservice
 {
@@ -281,8 +405,9 @@ body
 	display: flex;
 	flex-wrap: wrap;
 	background-image: url(images/fond-service.png);
+	background-size: 100%;
 	background-repeat: no-repeat;
-	width: 1366px;
+	width:1440px;
 }
 #soratraservice
 {
@@ -290,9 +415,9 @@ body
 	padding: 0;
 	text-align: left;
 	justify-content: center;
-	padding-top: 30px;
-	margin-right: 620px;
-	margin-left: 100px;
+	margin-top: 30px;
+	margin-left: 50px;
+
 }
 #soratraservice h2
 {
@@ -301,7 +426,7 @@ body
 	text-align: left;
 	justify-content: center;
 	font-family: metropolis;
-	font-size:27px;
+	font-size:18px;
 	font-weight:100;
 	color:white;
 	letter-spacing:3px;
@@ -313,7 +438,7 @@ body
 	text-align: left;
 	justify-content: center;
 	font-family: rubik;
-	font-size:46px;
+	font-size:40px;
 	font-weight:400;
 	color: white;
 	letter-spacing:8px;
@@ -333,6 +458,11 @@ body
 	text-align: center;
 	justify-content: center;
 	padding-top: 20px;
+	margin-left: 650px;
+}
+#saryordi img
+{
+	width: 150px;
 }
 					/*contenu service zao tsika*/
 #contenuservice
@@ -344,7 +474,7 @@ body
 	display: flex;
 	flex-wrap: wrap;
 	margin-top: 10px;
-	width: 1366px;
+	width: 1440px;
 }
 .boriborikely
 {
@@ -353,7 +483,7 @@ body
 	text-align: center;
 	justify-content: center;
 	margin: 0px 30px 0px 30px;
-	width: 200px;
+	width: 190px;
 	padding:20px;
 	cursor:pointer;
 
@@ -372,6 +502,7 @@ body
 	justify-content: center;
 	border-radius: 100px;
 	transition: 1s ease-in-out;
+	width: 120px;
 }	
 .boriborikely img:hover
 {
@@ -387,7 +518,7 @@ body
 	justify-content: center;
 	font-family: rubik;
 	font-weight: 400;
-	font-size: 16px;
+	font-size: 15px;
 	letter-spacing: 0.5px;
 	color: #545454;
 	margin-top: 20px;
@@ -432,8 +563,8 @@ body
 	text-align: center;
 	justify-content: center;
 	margin-top: 0px;
-	padding-top: 75px;
-	width: 1366px;
+	padding-top: 72px;
+	width:1440px;
 }
 #headerporfolio
 {
@@ -442,8 +573,9 @@ body
 	text-align: center;
 	justify-content: center;
 	background-image: url(images/fond-porfolio.png);
+	background-size: 100%;
 	background-repeat: no-repeat;
-	width: 1366px;
+	width: 1440px;
 }
 #headerporfolio h2
 {
@@ -452,11 +584,11 @@ body
 	text-align: center;
 	justify-content: center;
 	font-family: metropolis;
-	font-size:27px;
+	font-size:22px;
 	font-weight:200;
 	color:white;
 	letter-spacing:3px;
-	padding-top: 50px;
+	padding-top: 30px;
 }
 #headerporfolio h1
 {
@@ -465,12 +597,12 @@ body
 	text-align: center;
 	justify-content: center;
 	font-family: rubik;
-	font-size:46px;
+	font-size:40px;
 	font-weight:400;
 	color: white;
 	letter-spacing:8px;
 	font-style: italic;
-	padding-bottom: 24px;
+	padding-bottom: 20px;
 }
 
 #bouttontout
@@ -489,15 +621,14 @@ body
 	padding: 0;
 	text-align: center;
 	justify-content: center;
-	font-family:metropolis;
-	font-weight: 700;
-	font-size:15px ;
+	font-family:metropolis-bold;
+	font-size:13px ;
 	color:white;
 	letter-spacing: 4px;
 	text-decoration: none;
 	border-radius: 50px;
 	padding: 5px 30px;
-	margin:50px 50px 40px 50px;
+	margin:30px 40px 20px 40px;
 	border: 1.5px solid #0093B1;
 	
 	background: #0093B1;
@@ -519,15 +650,7 @@ body
 	background-color: #D8E0FF;
 	padding-bottom: 50px;
 }
-#img-portfolio
-{
-	margin:0;
-	padding: 0;
-	text-align: center;
-	justify-content: center;
-	width: 1100px;
-	overflow: hidden;
-}
+
 #img-contenu
 {
 	margin:0;
@@ -535,8 +658,6 @@ body
 	text-align: center;
 	justify-content: center;
 	display: flex;
-	position: relative;
-	left: 0px;
 }
 #img-contenu img
 {
@@ -547,7 +668,7 @@ body
 	margin:30px 20px;
 	box-shadow: 0px 0px 3px #a9c4c8;	
 	cursor: pointer;
-	width: 230px;
+	width:190px;
 }
 #img-contenu img:hover
 {
@@ -559,8 +680,8 @@ body
 	margin:0;
 	padding: 0;
 	text-align: center;
-	margin-top: 60px;
-	margin-right: 40px;	
+	margin-top: 50px;
+	margin-right: 20px;	
 	cursor: pointer;
 }
 
@@ -569,9 +690,13 @@ body
 	margin:0;
 	padding: 0;
 	text-align: center;
-	margin-top: 60px;
-	margin-left:40px; 
+	margin-top: 50px;
+	margin-left:20px; 
 	cursor: pointer;	
+}
+#fleche-gauche1 img, #fleche-droite1 img
+{
+	width: 40px;
 }
 
 				/*QUI SOMMES NOUS*/
@@ -582,8 +707,9 @@ body
 	text-align: center;
 	justify-content: center;
 	background-image: url(images/fond-qui-sommes.png);
+	background-size: 100%;
 	background-repeat: no-repeat;
-	width: 1366px;
+	width:1440px;
 }
 #qui-sommes
 {
@@ -592,8 +718,8 @@ body
 	text-align: center;
 	justify-content: center;
 	display: flex;
-	margin-top: 30px;
-	width: 1366px;
+	margin-top: 50px;
+	width:1440px;
 }
 #soratra-qui
 {
@@ -602,7 +728,6 @@ body
 	text-align: left;
 	justify-content: left;
 	margin-top: 80px;
-	margin-right: 190px;
 }
 #soratra-qui h1
 {
@@ -612,7 +737,7 @@ body
 	justify-content: center;
 	font-family:metropolis;
 	font-weight: 700;
-	font-size:38px;
+	font-size:35px;
 	color:#006C7D;
 	letter-spacing:5px;
 
@@ -632,11 +757,11 @@ body
 	justify-content: center;
 	font-family:rubik;
 	font-weight: 500;
-	font-size:15px;
+	font-size:14px;
 	color:#4E4E4E;
-	line-height: 38px;
-	margin-top: 15px;
-	width: 350px;
+	line-height: 30px;
+	margin-top: 10px;
+	width: 330px;
 }
 #sary-qui
 {
@@ -645,6 +770,11 @@ body
 	text-align: center;
 	justify-content: center;
 	margin-top: 50px;
+	margin-left: 150px;
+}
+#sary-qui img
+{
+	width: 530px;
 }
 
 #apropos
@@ -654,7 +784,7 @@ body
 	text-align: center;
 	justify-content: center;
 	display: flex;
-	width: 1366px;
+	width:1440px;
 }
 #img-apropos
 {
@@ -663,14 +793,18 @@ body
 	text-align: center;
 	justify-content: center;
 }
+#img-apropos img
+{
+	width: 200px;
+}
 #soratra-apropos
 {
 	margin:0;
 	padding: 0;
 	text-align: right;
 	justify-content: right;
-	margin-top: 60px;
-	margin-left: 150px;
+	margin-top: 20px;
+	margin-left: 350px;
 	padding-bottom: 0px;
 }
 #soratra-apropos h1
@@ -681,7 +815,7 @@ body
 	justify-content: center;
 	font-family:metropolis;
 	font-weight: 700;
-	font-size:38px;
+	font-size:35px;
 	color:#006C7D;
 	letter-spacing:5px;
 }
@@ -693,11 +827,11 @@ body
 	justify-content: center;
 	font-family:rubik;
 	font-weight: 500;
-	font-size:15px;
+	font-size:14px;
 	color:#4E4E4E;
-	line-height: 38px;
+	line-height: 30px;
 	margin-top: 15px;
-	width: 800px;
+	width: 550px;
 }
 				/*NOS ENGAGEMENT*/
 #nos-engagement
@@ -706,8 +840,8 @@ body
 	padding: 0;
 	text-align:center;
 	justify-content: center;
-	padding-top: 75px;
-	width: 1366px;
+	padding-top:72px;
+	width: 1440px;
 }
 #header-engagement
 {
@@ -717,7 +851,8 @@ body
 	justify-content: center;
 	background-image: url(images/fond-engagement.png);
 	background-repeat: no-repeat;
-	width: 1366px;
+	background-size: 100%;
+	width:1440px;
 }
 #header-engagement h1
 {
@@ -725,21 +860,17 @@ body
 	padding: 0;
 	text-align:center;
 	font-family: rubik;
-	font-size:35px;
+	font-size:40px;
 	font-weight:400;
 	color: white;
 	letter-spacing:8px;
 	font-style: italic;
-	padding-top: 60px;
+	padding: 30px 0px;
 
 }
 #header-engagement img
 {
-	margin:0;
-	padding: 0;
-	text-align:center;
-	margin-top: 10px;
-	padding-bottom: 40px;
+display: none;
 }
 #technologie
 {
@@ -756,7 +887,7 @@ body
 	text-align:center;
 	justify-content: center;
 	font-family:metropolis;
-	font-size:28px;
+	font-size:22px;
 	font-weight:800;
 	color: #5E5E5E;
 	letter-spacing:15px;
@@ -785,8 +916,8 @@ body
 	padding: 0;
 	text-align:center;
 	justify-content: center;
-	margin-top: 30px;
-	margin-right: 30px;
+	margin-top: 20px;
+	margin-right: 40px;
 		cursor: pointer;
 }
 #fleche-engagement-d
@@ -795,9 +926,13 @@ body
 	padding: 0;
 	text-align:center;
 	justify-content: center;
-	margin-top: 30px;
-	margin-left: 30px;
+	margin-top: 20px;
+	margin-left: 40px;
 		cursor: pointer;
+}
+#fleche-engagement-g img, #fleche-engagement-d img
+{
+	width: 50px;
 }
 #sary-engagement
 {
@@ -813,8 +948,8 @@ body
 	text-align:center;
 	justify-content: center;
 	box-shadow: 0px 0px 3px #a9c4c8;	
-	width: 200px;
-	margin: 0px 30px;
+	width: 170px;
+	margin: 0px 20px;
 	cursor: pointer;
 }
 #sary-engagement img:hover
@@ -838,10 +973,10 @@ body
 	justify-content: center;
 	font-family:metropolis;
 	font-weight: 400;
-	font-size:19px;
+	font-size:15px;
 	color:#676767;
 	letter-spacing:0px;
-	line-height: 35px;
+	line-height: 30px;
 	margin-bottom: 30px;
 
 }
@@ -853,7 +988,7 @@ body
 	justify-content: center;
 	font-family:rubik;
 	font-weight: 400;
-	font-size:1.2em ;
+	font-size:17px;
 	color: white;
 	letter-spacing: 2px;
 	text-decoration: none;
@@ -876,8 +1011,8 @@ body
 	padding: 0;
 	text-align:center;
 	justify-content: center;
-	padding-top: 74px;
-	width: 1366px;
+	padding-top:60px;
+	width: 1440px;
 }
 
 #header-contact
@@ -888,7 +1023,9 @@ body
 	justify-content: center;
 	display: flex;
 	background-image: url(images/fond-contact.png);
-	width: 1366px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width:1440px;
 }
 #soratra-contact
 {
@@ -913,10 +1050,7 @@ body
 }
 #soratra-contact img
 {
-	margin:0;
-	padding: 0;
-	text-align:center;
-	justify-content: center;
+	display: none;
 }
 #sary-contact
 {
@@ -927,6 +1061,10 @@ body
 	margin-left: 400px;
 	padding-top: 10px;
 }
+#sary-contact img
+{
+	width: 110px;
+}
 
 #contenu-contact
 {
@@ -936,7 +1074,7 @@ body
 	justify-content: center;
 	display: flex;
 	margin-top: 20px;
-	width: 1366px;
+	width:1440px;
 }
 #formulaire
 {
@@ -947,17 +1085,17 @@ body
 	background-color: #EFFDFF;
 	padding-left: 30px;
 	padding-right: 30px;
-	margin-right: 50px;
+	margin-right: 10px;
 }
 .formulaire
 {
 	border: 1px solid #08ACC6;
 	border-radius: 20px;
-	width: 370px;
-	padding: 13px;
+	width: 330px;
+	padding: 10px;
 	font-family:metropolis;
 	font-weight: 300;
-	font-size: 15px;
+	font-size: 13px;
 	color: #808080;
 	margin-top: 30px;
 	outline: none;
@@ -1002,11 +1140,15 @@ body
 	text-align:center;
 	justify-content: center;
 	font-family: rubik;
-	font-size:40px;
+	font-size:30px;
 	font-weight: 100;
 	color:#4D7092;
 	letter-spacing:-2px;
 	margin-top:30px;
+}
+iframe
+{
+	width: 750px;
 }
 
 					/*COORDONNE*/
@@ -1018,7 +1160,7 @@ body
 	justify-content: center;
 	background-color: #10C0DC;
 	padding: 0;
-	width: 1366px;
+	width:1440px;
 }
 
 #titre-coordonne
@@ -1039,7 +1181,7 @@ body
 	font-weight: 600;
 	letter-spacing:4px ;
 	color: white;
-	font-size:2em ;
+	font-size:20px;
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
@@ -1117,8 +1259,8 @@ body
 	text-align:center;
 	justify-content: center;
 
-	margin-left: 300px;
-	margin-top: 50px;
+	margin-left: 250px;
+	margin-top: 30px;
 
 
 }
@@ -1128,7 +1270,7 @@ body
 	padding: 0;
 	text-align:center;
 	justify-content: center;
-	width: 60px;
+	width: 80px;
 	padding-left: 40px;
 	padding-right: 40px;
 	margin-bottom: 50px;
@@ -1178,5 +1320,4 @@ body
 	justify-content: center;
 	height: 30px;
 	background-color:#007D91;
-}
 }
