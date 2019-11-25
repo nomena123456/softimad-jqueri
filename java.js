@@ -1,7 +1,43 @@
 $(document).ready(function(){
+        $('.anime').slick({
+            autoplay: true,
+            autoplaySpeed: 3000,
+            speed: 1000,
+            dots: true,
+            infinite: true,
+            slidesToShow: 2,
+             slidesToScroll: 2,
+             nextArrow:false,
+             prevArrow:false,
 
 
+        
+        });
+        $('#img-contenu').slick({
+            autoplay: true,
+            autoplaySpeed: 1500,
+            speed: 1000,
+            dots: true,
+            infinite: true,
+            slidesToShow: 4,
+             slidesToScroll: 1,
 
+        
+        });
+
+        $('#sary-engagement').slick({
+            autoplay: true,
+            autoplaySpeed: 1500,
+            speed: 1000,
+            dots: true,
+            infinite: true,
+            slidesToShow: 4,
+             slidesToScroll: 1,
+
+        
+        });
+
+AOS.init();
         //MENU FONCTION
 
 
@@ -79,105 +115,7 @@ $(document).ready(function(){
                 }, 500);
                 $('#menu-phone').hide('slow').fadeOut('slow');
             });
-          //APPLICATION MOBILE
-
-            $('#boutton2').click(function(){
-            	$(this).css('background-color', 'inherit')
-            			.css('transition', '0.5s ease');
-            	$('#mobile').show('slow').fadeIn('slow');
-                $('#mobile-titre').show('slow').fadeIn('slow');
-                $('#mobile-para').show('slow').fadeIn('slow');
-                $('#web-titre').hide('slow').fadeOut('slow');
-                $('#personalise-titre').hide('slow').fadeOut('slow');
-                 $('#web-para').hide('slow').fadeOut('slow');
-                $('#personalise-para').hide('slow').fadeOut('slow');               
-            	$('#web').hide('slow').fadeOut('slow');
-            	$('#personalise').hide('slow').fadeOut('slow');
-            	$('#boutton1').css('background-color', '#10C0DC');
-            	$('#boutton3').css('background-color', '#10C0DC');            	
-            })
-
-
-            $('#boutton2').hover(function(){
-                $(this).css('background-color', 'inherit')
-                        .css('transition', '0.5s ease');
-                $('#mobile').show('slow').fadeIn('slow');
-                $('#mobile-titre').show('slow').fadeIn('slow');
-                $('#mobile-para').show('slow').fadeIn('slow');
-                $('#web-titre').hide('slow').fadeOut('slow');
-                $('#personalise-titre').hide('slow').fadeOut('slow');
-                 $('#web-para').hide('slow').fadeOut('slow');
-                $('#personalise-para').hide('slow').fadeOut('slow');               
-                $('#web').hide('slow').fadeOut('slow');
-                $('#personalise').hide('slow').fadeOut('slow');
-                $('#boutton1').css('background-color', '#10C0DC');
-                $('#boutton3').css('background-color', '#10C0DC');              
-            }) 
-
-             //APPLICATION WEB
-            $('#boutton1').click(function(){
-            	$(this).css('background-color', 'inherit')
-            			.css('transition', '0.5s ease');
-            	$('#web').show('slow').fadeIn('slow');
-                $('#web-titre').show('slow').fadeIn('slow');
-                $('#web-para').show('slow').fadeIn('slow');
-                $('#mobile-titre').hide('slow').fadeOut('slow');
-                $('#personalise-titre').hide('slow').fadeOut('slow');  
-                $('#mobile-para').hide('slow').fadeOut('slow');
-                $('#personalise-para').hide('slow').fadeOut('slow');              
-            	$('#mobile').hide('slow').fadeOut('slow');
-            	$('#personalise').hide('slow').fadeOut('slow');
-            	$('#boutton2').css('background-color', '#10C0DC');
-            	$('#boutton3').css('background-color', '#10C0DC');
-            }) 
-            $('#boutton1').hover(function(){
-                $(this).css('background-color', 'inherit')
-                        .css('transition', '0.5s ease');
-                $('#web').show('slow').fadeIn('slow');
-                $('#web-titre').show('slow').fadeIn('slow');
-                $('#web-para').show('slow').fadeIn('slow');
-                $('#mobile-titre').hide('slow').fadeOut('slow');
-                $('#personalise-titre').hide('slow').fadeOut('slow');  
-                $('#mobile-para').hide('slow').fadeOut('slow');
-                $('#personalise-para').hide('slow').fadeOut('slow');              
-                $('#mobile').hide('slow').fadeOut('slow');
-                $('#personalise').hide('slow').fadeOut('slow');
-                $('#boutton2').css('background-color', '#10C0DC');
-                $('#boutton3').css('background-color', '#10C0DC');
-            }) 
-
-             //APPLICATION PESONALISE
-            $('#boutton3').click(function(){
-            	$(this).css('background-color', 'inherit')
-            			.css('transition', '0.5s ease');
-            	$('#personalise').show('slow').fadeIn('slow');
-                $('#personalise-titre').show('slow').fadeIn('slow');
-                $('#personalise-para').show('slow').fadeIn('slow');
-                $('#web-titre').hide('slow').fadeOut('slow');
-                $('#mobile-titre').hide('slow').fadeOut('slow');
-                $('#web-para').hide('slow').fadeOut('slow');
-                $('#mobile-para').hide('slow').fadeOut('slow');
-            	$('#mobile').hide('slow').fadeOut('slow');
-            	$('#web').hide('slow').fadeOut('slow');
-            	$('#boutton1').css('background-color', '#10C0DC');
-            	$('#boutton2').css('background-color', '#10C0DC');
-            }) 
-             $('#boutton3').hover(function(){
-                $(this).css('background-color', 'inherit')
-                        .css('transition', '0.5s ease');
-                $('#personalise').show('slow').fadeIn('slow');
-                $('#personalise-titre').show('slow').fadeIn('slow');
-                $('#personalise-para').show('slow').fadeIn('slow');
-                $('#web-titre').hide('slow').fadeOut('slow');
-                $('#mobile-titre').hide('slow').fadeOut('slow');
-                $('#web-para').hide('slow').fadeOut('slow');
-                $('#mobile-para').hide('slow').fadeOut('slow');
-                $('#mobile').hide('slow').fadeOut('slow');
-                $('#web').hide('slow').fadeOut('slow');
-                $('#boutton1').css('background-color', '#10C0DC');
-                $('#boutton2').css('background-color', '#10C0DC');
-            })    
-
+         
 //ANIMATION
 
 
@@ -229,6 +167,9 @@ $(document).ready(function(){
                 $('#boutton1-p').css('background-color', '#10C0DC');
                 $('#boutton2-p').css('background-color', '#10C0DC');
             })
+
+
+
 
 })
 
