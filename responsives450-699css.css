@@ -1,0 +1,1176 @@
+
+
+
+			/*------------ M E D I A   Q U E R I E S.....R E S P O N S I V E S----------------*/
+			/*-------------------------------------ECRAN NGEZA MAC----------------------------------*/
+			/*----------------------------------------1344Pixel----------------------------------*/
+
+@media only screen and (min-width: 450px) and (max-width:699px)
+{
+
+	body
+	{
+		margin:0;
+		padding: 0;
+		text-align: center;
+		justify-content: center;
+		width: 100%;
+
+	}
+	#contenu
+	{
+		display: none;
+	}
+	#listmenu
+	{
+		display: none;
+	}
+	#boriborikely-phone
+	{
+		display: none;
+	}
+	#fleche-g, #fleche-d
+	{
+		display: none;
+	}
+	#porfolio-phone
+	{
+		display: none;
+	}
+	#sary-engagement-phone
+	{
+		display: none;
+	}
+	#sary-engagement-table
+	{
+		display: none;
+	}
+	#boutton-p
+	{
+		display: none;
+	}
+	#menu-phone
+	{
+		display: none;
+	}
+
+
+
+			/* M E N U*/
+	#menu
+	{
+		margin:0;
+		padding: 0;
+		text-align: center;
+		justify-content: center;
+		background-image: url(images/fond-contenu-menu414.png);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		width: 100%;
+
+	}
+	#headermenu
+	{
+		margin:0;
+		padding: 0;
+		text-align: center;
+		justify-content: center;
+		background-image: url(images/fond-header-450.png);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		display: flex;
+		position: fixed;
+		width: 100%;
+		top: 0;
+		z-index: 10;
+	}
+	#logo
+	{
+		margin:0;
+		padding: 0;
+		text-align: center;
+		justify-content: center;
+		margin-top: 10px;
+	}
+	#logo img
+	{
+		width: 60%;
+	}
+	#barre-menu
+	{
+		margin:0;
+		padding: 0;
+		text-align: center;
+		justify-content: center;
+		margin-top: 10px;
+		margin-left: 70%;
+		padding-right: 5%;
+	}
+	#barre-menu img
+	{
+		width: 160%;
+	}
+	#menu-phone
+	{
+		margin:0;
+		padding: 0;
+		text-align: center;
+		justify-content: center;
+		position: fixed;
+		width: 100%;
+		height: 100%;
+		background-color:rgb(1, 163, 174, 0.9);	
+		padding-top: 150px;
+	}
+	#menu-phone ul
+	{
+		margin:0;
+		padding: 0;
+		text-align: center;
+		justify-content: center;
+		display: flex;
+		flex-wrap: wrap;
+		height: 80px;
+		margin: 0px 30px;
+	}
+	#menu-phone li
+	{
+		margin:0;
+		padding: 0;
+		text-align: center;
+		justify-content: center;
+		list-style-type: none;
+	}
+	#menu-phone a
+	{
+		margin:0;
+		padding: 0;
+		text-align: center;
+		justify-content: center;
+		text-decoration: none;
+		font-family:rubik;
+		font-size:13px;
+		color: white;
+		letter-spacing: 1.7px;
+		margin: 0px 15px;
+		padding: 10px;
+	}
+	#menu-phone a:hover
+	{
+		border: 1px solid white;
+	}
+	#croi
+	{
+		position: absolute;
+		right: 5%;
+		top: 5%;
+		width:30px;
+	}
+			/*---C O N T E N U  MENU----*/
+
+	/* Service tsika zao*/
+	#service
+	{
+		margin:0;
+		padding: 0;
+		text-align: center;
+		justify-content: center;
+		padding-top: 45px;
+	}
+	#headerservice
+	{
+		margin:0;
+		padding: 0;
+		text-align: left;
+		justify-content: left;
+		display: flex;
+		flex-wrap: wrap;
+		background-image: url(images/fond-service450.png);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		width: 100%;
+	}
+	#soratraservice
+	{
+		margin:0;
+		padding: 0;
+		text-align: left;
+		justify-content: center;
+		padding-top: 30px;
+		margin-right: 13%;
+		margin-left: 5%;
+	}
+	#soratraservice h2
+	{
+		margin:0;
+		padding: 0;
+		text-align: left;
+		justify-content: center;
+		font-family: metropolis;
+		font-size:14px;
+		font-weight:100;
+		color:white;
+		letter-spacing:3px;
+	}
+	#soratraservice h1
+	{
+		margin:0;
+		padding: 0;
+		text-align: left;
+		justify-content: center;
+		font-family: rubik;
+		font-size:25px;
+		font-weight:400;
+		color: white;
+		letter-spacing:8px;
+		font-style: italic;
+	}
+	#soratraservice img
+	{
+		display: none;
+	}
+	#saryordi
+	{
+		margin:0;
+		padding: 0;
+		text-align: center;
+		justify-content: center;
+		padding-top: 10px;
+	}
+	#saryordi img
+	{
+		width: 100px;
+	}
+						/*contenu service zao tsika*/
+	#contenuservice
+	{
+		margin:0;
+		padding: 0;
+		text-align: center;
+		justify-content: center;
+		display: flex;
+		flex-wrap: wrap;
+		margin-top: 10px;
+	}
+	.boriborikely
+	{
+		margin:0;
+		padding: 0;
+		text-align: center;
+		justify-content: center;
+		margin: 0px 20px 0px 20px;
+		width: 150px;
+		padding:20px;
+		cursor:pointer;
+
+	}	
+	.boriborikely:hover
+	{
+		background-color:#E8F9FC;
+		box-shadow: 0px 0px 15px #ACCDD2;
+		transition: all 0.5s ease;
+	}			
+	.boriborikely img
+	{
+		margin:0;
+		padding: 0;
+		text-align: center;
+		justify-content: center;
+		border-radius: 100px;
+		transition: 1s ease-in-out;
+		width: 80%;
+	}	
+	.boriborikely img:hover
+	{
+		background-color:#BBE4FF;
+		transform: rotate(360deg) scale(1.1, 1.1);
+
+	}			
+	.boriborikely p
+	{
+		margin:0;
+		padding: 0;
+		text-align: center;
+		justify-content: center;
+		font-family: rubik;
+		font-weight: 400;
+		font-size: 15px;
+		letter-spacing: 0.5px;
+		color: #545454;
+		margin-top: 20px;
+		margin-bottom: 0px;
+	}				
+	.boriborikely span
+	{
+		margin:0;
+		padding: 0;
+		text-align: center;
+		justify-content: center;
+		font-weight: 700;
+	}
+
+					/*PORFOLIO NDRAY TSIKA ZAO*/
+	#porfolio
+	{
+		margin:0;
+		padding: 0;
+		text-align: center;
+		justify-content: center;
+		margin-top: 0px;
+		padding-top: 45px;
+		width: 100%;
+	}
+	#headerporfolio
+	{
+		margin:0;
+		padding: 0;
+		text-align: center;
+		justify-content: center;
+		background-image: url(images/fond-porfolio450.png);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		width: 100%;
+	}
+	#headerporfolio h2
+	{
+		margin:0;
+		padding: 0;
+		text-align: center;
+		justify-content: center;
+		font-family: metropolis;
+		font-size:17px;
+		font-weight:200;
+		color:white;
+		letter-spacing:3px;
+		padding-top: 20px;
+	}
+	#headerporfolio h1
+	{
+		margin:0;
+		padding: 0;
+		text-align: center;
+		justify-content: center;
+		font-family: rubik;
+		font-size:35px;
+		font-weight:400;
+		color: white;
+		letter-spacing:8px;
+		font-style: italic;
+		padding-bottom: 20px;
+	}
+
+	#bouttontout
+	{
+		margin:0;
+		padding: 0;
+		text-align: center;
+		justify-content: center;
+		display: flex;
+		flex-wrap: wrap;
+		background-color: #D8E0FF;
+	}
+	#bouttontout a
+	{
+		margin:0;
+		padding: 0;
+		text-align: center;
+		justify-content: center;
+		font-family:metropolis;
+		font-weight: 400;
+		font-size:12px ;
+		color:white;
+		letter-spacing: 4px;
+		text-decoration: none;
+		border-radius: 50px;
+		padding: 5px 15px;
+		margin:30px 10px 30px 10px;
+		border: 1.5px solid #0093B1;
+		
+		background: #0093B1;
+	}
+	#bouttontout a:hover
+	{
+		border: 1.5px solid #0093B1;
+		color:#0093B1 ;
+		background: white;
+		transition: all 0.5s ease;
+	}
+	#contenuporfolio
+	{
+		margin:0;
+		padding: 0;
+		text-align: center;
+		justify-content: center;
+		background-color: #D8E0FF;
+		padding-bottom: 100px;
+	}
+
+	#img-contenu
+	{
+		margin:0;
+		padding: 0;
+		text-align: center;
+		justify-content: center;
+		margin: 0% 15%;
+		padding-left: 2%;
+
+	}
+	.img1
+	{
+		margin:0;
+		padding: 0;
+		text-align: center;
+		justify-content: center;
+		margin-left: 1%;
+		padding-top: 5px;
+		margin-bottom: 20px;
+		margin-top: 20px;
+
+	}
+	.img1 img
+	{
+		width: 90%;
+		margin: 0;
+		
+	}
+	#img-contenu img:hover
+	{
+		transition: all 0.5s ease;
+		box-shadow: 0px 0px 5px #006C7D;	
+	}
+	#img-contenu .slick-prev:before
+	{
+		color: #0093B1 !important;
+		font-size: 80px !important;
+		content: '<'!important;
+		font-family:monospace !important;
+		font-weight: 100 !important;
+
+	}
+	#img-contenu .slick-prev
+	{
+
+		left: -60px !important;
+		top: 25% !important;
+	}
+	#img-contenu .slick-next:before
+	{
+		color: #0093B1 !important;
+		font-size: 80px !important;
+		content: '>'!important;
+		font-family:monospace !important;
+		font-weight: 100 !important;
+
+	}
+	#img-contenu .slick-next
+	{
+		right: -40px !important;
+		top: 25% !important;
+	}
+	#slick-slide-control10::before
+	{
+		color: #0093B1;
+	}
+	#slick-slide-control11::before
+	{
+		color: #0093B1;
+	}
+	#slick-slide-control12::before
+	{
+		color: #0093B1;
+	}
+	#slick-slide-control13::before
+	{
+		color: #0093B1;
+	}
+	#slick-slide-control14::before
+	{
+		color: #0093B1;
+	}
+	#slick-slide-control15::before
+	{
+		color: #0093B1;
+	}
+	#slick-slide-control16::before
+	{
+		color: #0093B1;
+	}
+	#slick-slide-control17::before
+	{
+		color: #0093B1;
+	}
+
+
+
+					/*QUI SOMMES NOUS*/
+	#qui-sommes-nous
+	{
+		margin:0;
+		padding: 0;
+		text-align: center;
+		justify-content: center;
+		background-repeat: no-repeat;
+		background-size: 100%;
+		width: 100%;
+	}
+	#qui-sommes
+	{
+		margin:0;
+		padding: 0;
+		text-align: center;
+		justify-content: center;
+		display: block;
+		margin-top: 30px;
+	}
+	#soratra-qui
+	{
+		margin:0;
+		padding: 0;
+		text-align: center;
+		justify-content: center;
+		margin-top: 50px;
+	}
+	#soratra-qui h1
+	{
+		margin:0;
+		padding: 0;
+		text-align:center;
+		justify-content: center;
+		font-family:metropolis;
+		font-weight: 700;
+		font-size:30px;
+		color:#006C7D;
+		letter-spacing:5px;
+
+	}
+	#soratra-qui img
+	{
+		margin:0;
+		padding: 0;
+		text-align:left;
+		justify-content: left;
+		width: 50%;
+	}
+	#soratra-qui h2
+	{
+		margin:0;
+		padding: 0;
+		text-align: center;
+		justify-content: center;
+		font-family:rubik;
+		font-weight: 500;
+		font-size:13px;
+		color:#4E4E4E;
+		line-height: 28px;
+		margin-top: 15px;
+		margin: 0% 10%;
+	}
+	#sary-qui
+	{
+		margin:0;
+		padding: 0;
+		text-align: center;
+		justify-content: center;
+	}
+	#sary-qui img
+	{
+		width: 100%;
+	}
+
+	#apropos
+	{
+		margin:0;
+		padding: 0;
+		text-align: center;
+		justify-content: center;
+	}
+	#img-apropos
+	{
+		margin:0;
+		padding: 0;
+		text-align: center;
+		justify-content: center;
+		float: left;
+	}
+	#img-apropos img
+	{
+		width: 50%;
+	}
+	#soratra-apropos
+	{
+		margin:0;
+		padding: 0;
+		text-align: right;
+		justify-content: right;
+		margin-top: 20px;
+		margin: 0% 5%;
+	}
+	#soratra-apropos h1
+	{
+		margin:0;
+		padding: 0;
+		text-align:right;
+		justify-content: center;
+		font-family:metropolis;
+		font-weight: 700;
+		font-size:25px;
+		color:#006C7D;
+		letter-spacing:5px;
+	}
+	#soratra-apropos h2
+	{
+		margin:0;
+		padding: 0;
+		text-align: right;
+		justify-content: center;
+		font-family:rubik;
+		font-weight: 500;
+		font-size:13px;
+		color:#4E4E4E;
+		line-height: 28px;
+		margin-top: 15px;
+	}
+					/*NOS ENGAGEMENT*/
+	#nos-engagement
+	{
+		margin:0;
+		padding: 0;
+		text-align:center;
+		justify-content: center;
+		padding-top: 50px;
+		width: 100%;
+	}
+	#header-engagement
+	{
+		margin:0;
+		padding: 0;
+		text-align:center;
+		justify-content: center;
+		background-image: url(images/fond-engagement450.png);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		width: 100%;
+	}
+	#header-engagement h1
+	{
+		margin:0;
+		padding: 0;
+		text-align:center;
+		font-family: rubik;
+		font-size:25px;
+		font-weight:400;
+		color: white;
+		letter-spacing:8px;
+		font-style: italic;
+		padding-top: 30px;
+
+	}
+	#header-engagement img
+	{
+		margin:0;
+		padding: 0;
+		text-align:center;
+		margin-top: 10px;
+		padding-bottom: 40px;
+	}
+	#technologie
+	{
+		margin:0;
+		padding: 0;
+		text-align:center;
+		justify-content: center;
+		margin-top: 30px;
+	}
+	#technologie h1
+	{
+		margin:0;
+		padding: 0;
+		text-align:center;
+		justify-content: center;
+		font-family:metropolis;
+		font-size:18px;
+		font-weight:800;
+		color: #5E5E5E;
+		letter-spacing:15px;
+	}
+	#technologie img
+	{
+		margin:0;
+		padding: 0;
+		text-align:center;
+		justify-content: center;
+		width: 40%;
+	}
+
+	#contenu-engagement
+	{
+		margin:0;
+		padding: 0;
+		text-align:center;
+		justify-content: center;
+		margin-top: 30px;
+
+	}
+	#sary-engagement
+	{
+		margin:0;
+		padding: 0;
+		text-align:center;
+		justify-content: center;
+		margin: 0% 15%;
+		padding-left: 2%;
+
+	}
+	.img2
+	{
+		margin:0;
+		padding: 0;
+		text-align:center;
+		justify-content: center;
+		margin-left: 1%;	
+		padding-top: 5px;
+	}
+	.img2 img
+	{
+		box-shadow: 0px 0px 2px #006C7D;
+		width: 90%;	
+	}
+	#sary-engagement img:hover
+	{
+		transition: all 0.5s ease;
+		box-shadow: 0px 0px 5px #006C7D;	
+	}
+	#sary-engagement .slick-prev:before
+	{
+		color: #0093B1 !important;
+		font-size: 80px !important;
+		content: '<'!important;
+		font-family:monospace !important;
+		font-weight: 100 !important;
+
+	}
+	#sary-engagement  .slick-prev
+	{
+
+		left: -50px !important;
+		top: 20% !important;
+	}
+	#sary-engagement  .slick-next:before
+	{
+		color: #0093B1 !important;
+		font-size: 80px !important;
+		content: '>'!important;
+		font-family:monospace !important;
+		font-weight: 100 !important;
+
+	}
+	#sary-engagement  .slick-next
+	{
+		right: -25px !important;
+		top: 20% !important;
+	}
+	#slick-slide-control20::before
+	{
+		color: #0093B1;
+	}
+	#slick-slide-control21::before
+	{
+		color: #0093B1;
+	}
+	#slick-slide-control22::before
+	{
+		color: #0093B1;
+	}
+	#slick-slide-control23::before
+	{
+		color: #0093B1;
+	}
+	#slick-slide-control24::before
+	{
+		color: #0093B1;
+	}
+	#slick-slide-control25::before
+	{
+		color: #0093B1;
+	}
+	#slick-slide-control26::before
+	{
+		color: #0093B1;
+	}
+	#slick-slide-control27::before
+	{
+		color: #0093B1;
+	}
+
+
+
+
+
+
+	#soratra-engagement
+	{
+		margin:0;
+		padding: 0;
+		text-align:center;
+		justify-content: center;
+		margin-top: 30px;
+	}
+	#soratra-engagement h2
+	{
+		margin:0;
+		padding: 0;
+		text-align:center;
+		justify-content: center;
+		font-family:metropolis;
+		font-weight: 400;
+		font-size:14px;
+		color:#676767;
+		letter-spacing:0px;
+		line-height: 28px;
+		
+		margin: 0% 10%;
+		margin-bottom: 30px;
+
+	}
+	#soratra-engagement h2 br
+	{
+		display: none;
+	}
+	#soratra-engagement a
+	{
+		margin:0;
+		padding: 0;
+		text-align:center;
+		justify-content: center;
+		font-family:rubik;
+		font-weight: 400;
+		font-size:1.0em ;
+		color: white;
+		letter-spacing: 2px;
+		text-decoration: none;
+		background-color: #10C0DC;
+		padding: 10px 20px 10px 20px;
+	}
+	#soratra-engagement a:hover
+	{
+		border: 2px solid #10C0DC;
+		color:white ;
+		background: transparent;
+		transition: all 0.5s ease;
+		color: #10C0DC;
+	}
+
+				/*CONTACT TSIKA ZAO*/
+	#contact
+	{
+		margin:0;
+		padding: 0;
+		text-align:center;
+		justify-content: center;
+		padding-top: 45px;
+	}
+
+	#header-contact
+	{
+		margin:0;
+		padding: 0;
+		text-align:center;
+		justify-content: center;
+		display: flex;
+		background-image: url(images/fond-contact450.png);
+		background-size: 100%;
+	}
+	#soratra-contact
+	{
+		margin:0;
+		padding: 0;
+		text-align:center;
+		justify-content: center;
+	}
+	#soratra-contact h1
+	{
+		margin:0;
+		padding: 0;
+		text-align:center;
+		justify-content: center;
+		font-family: rubik;
+		font-size:20px;
+		font-weight:400;
+		color: white;
+		letter-spacing:8px;
+		font-style: italic;
+		padding-top: 20px;
+	}
+	#soratra-contact img
+	{
+		display: none;
+	}
+	#sary-contact
+	{
+		margin:0;
+		padding: 0;
+		text-align:center;
+		justify-content: center;
+		margin-left: 20%;
+		padding-top: 10px;
+	}
+	#sary-contact img
+	{
+		width: 80%;
+	}
+
+	#contenu-contact
+	{
+		margin:0;
+		padding: 0;
+		text-align:center;
+		justify-content: center;
+		display:block;
+		margin-top: 20px;
+	}
+	#formulaire
+	{
+		margin: 0;
+		padding: 0;
+		justify-content: center;
+		text-align: center;
+		background-color: #EFFDFF;
+		padding-top: 20px;
+		padding-bottom: 10px;
+	}
+	.formulaire
+	{
+		border: 1px solid #08ACC6;
+		border-radius: 20px;
+		width: 370px;
+		padding: 11px;
+		font-family:metropolis;
+		font-weight: 300;
+		font-size: 13px;
+		color: #808080;
+		margin-top: 30px;
+		outline: none;
+		font-style: italic;
+	}
+	iframe
+	{
+		width: 90%;
+	}
+	.formulaire:focus
+	{
+		font-family:metropolis;
+		font-style:none;
+		color: #006C7D;
+		font-style: inherit;
+		font-size: 16px;
+		font-weight: 400;
+	}
+	#submit
+	{
+		font-family:corbel ;
+			font-weight: 300;
+			font-size:20px;
+			color: white;
+			letter-spacing:1px;
+			background-color: #10C0DC;
+			border-radius: 50px;
+			padding: 10px 30px;
+			outline: none;
+			border: none;
+			cursor: pointer;
+			margin-top: 30px;
+	}
+	#submit:hover
+	{
+		border: 2px solid #10C0DC;
+		color:white ;
+		background: transparent;
+		transition: all 0.5s ease;
+		color: #10C0DC;
+	}
+	#formulaire h1
+	{
+		margin:0;
+		padding: 0;
+		text-align:center;
+		justify-content: center;
+		font-family: rubik;
+		font-size:35px;
+		font-weight: 100;
+		color:#4D7092;
+		letter-spacing:-2px;
+		margin-top:30px;
+	}
+
+						/*COORDONNE*/
+	#coordonne
+	{
+		margin:0;
+		padding: 0;
+		text-align:center;
+		justify-content: center;
+		background-color: #10C0DC;
+		padding: 0;
+	}
+
+	#titre-coordonne
+	{
+		margin:0;
+		padding: 0;
+		text-align:center;
+		justify-content: center;
+		background-color:#0BA4BC;
+	}
+	#titre-coordonne h1
+	{
+		margin:0;
+		padding: 0;
+		text-align:center;
+		justify-content: center;
+		font-family:metropolis;
+		font-weight: 600;
+		letter-spacing:4px ;
+		color: white;
+		font-size:2em ;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	#contenu-coordonne
+	{
+		margin:0;
+		padding: 0;
+		text-align:center;
+		justify-content: center;
+		display: flex;
+		flex-wrap: wrap;
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+
+	#soratracoordonne
+	{
+		margin:0;
+		padding: 0;
+		text-align:center;
+		justify-content: center;
+	}
+
+
+	.contenucoordonne
+	{
+		margin:0;
+		padding: 0;
+		text-align:left;
+		justify-content: left;
+		display: flex;
+		flex-wrap: wrap;
+		margin-bottom: 10px;
+	}
+	.contenucoordonne h3
+	{
+		margin: 0;
+		padding: 0;
+		font-family:corbel;
+		font-weight:200;
+		letter-spacing:2px ;
+		color: white;
+		font-size:15px ;
+		font-style: italic;
+		line-height: 35px;
+
+	}
+	.contenucoordonne img
+	{
+		width: 30px;
+		height: 25px;
+		margin: 0;
+		cursor: pointer;
+		margin-right: 12px;
+		padding-top: 5px;
+	}
+
+	.contenucoordonne h2
+	{
+		margin: 0;
+		padding: 0;
+		margin: 0;
+		padding: 0;
+		font-family:corbel;
+		font-weight: lighter;
+		letter-spacing:2px ;
+		color: white;
+		font-size:15px;
+		line-height: 30px;
+	}
+	#sarycoordonne
+	{
+		margin:0;
+		padding: 0;
+		text-align:center;
+		justify-content: center;
+		display: flex;
+
+
+	}
+	#sarycoordonne img
+	{
+		margin:0;
+		padding: 0;
+		text-align:center;
+		justify-content: center;
+		width: 65px;
+		margin: 20px 20px 20px 20px;
+	}
+
+	#sarycoordonne img:hover
+	{
+		filter: invert(5%);
+		filter: contrast(2);
+		transition: all 0.8s ease;
+		transform: rotate(360deg) scale(1.1, 1.1);
+	}
+
+	#footer
+	{
+		height: 53px;
+		background-color: #246974;
+		padding: 0;
+		margin:0;
+		text-align: center;
+	}
+	#footer h1
+	{
+		margin: 0;
+		padding: 0;
+		font-family:corbel;
+		font-size: 0.9em;
+		letter-spacing: 10px;
+		color: white;
+		font-weight: 100;
+		padding-top: 20px;
+	}
+	#loko1
+	{
+		margin:0;
+		padding: 0;
+		text-align:center;
+		justify-content: center;
+		height: 30px;
+		background-color:#009EB7;
+	}
+	#loko2
+	{
+		margin:0;
+		padding: 0;
+		text-align:center;
+		justify-content: center;
+		height: 30px;
+		background-color:#007D91;
+	}
+
+
+
+}
+
+
+
