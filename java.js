@@ -52,6 +52,15 @@ $(document).ready(function(){
 
                   }
                   
+                },
+                {
+                  breakpoint: 460,
+                  settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+
+                  }
+                  
                 }
                 // You can unslick at a given breakpoint now by adding:
                 // settings: "unslick"
@@ -86,6 +95,15 @@ $(document).ready(function(){
 
                   }
                   
+                },
+                {
+                  breakpoint: 460,
+                  settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+
+                  }
+                  
                 }
                 // You can unslick at a given breakpoint now by adding:
                 // settings: "unslick"
@@ -93,6 +111,14 @@ $(document).ready(function(){
               ]
 
         
+        });
+
+        $('.contenu-anime-p').slick({
+            autoplay: true,
+            autoplaySpeed: 1500,
+            speed: 1000,
+            dots: true,
+            infinite: true,
         });
 
 AOS.init();
