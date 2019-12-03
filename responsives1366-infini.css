@@ -1,3 +1,91 @@
+/*----police quicksand---*/
+@font-face {
+    font-family: 'quicksand-dash';
+    src: url('police/quicksand_dash-webfont.woff2') format('woff2'),
+         url('police/quicksand_dash-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'quicksand-bold';
+    src: url('police/quicksand-bold-webfont.woff2') format('woff2'),
+         url('police/quicksand-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'quicksand-bold-italic';
+    src: url('police/quicksand-bolditalic-webfont.woff2') format('woff2'),
+         url('police/quicksand-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'quicksand-italic';
+    src: url('police/quicksand-italic-webfont.woff2') format('woff2'),
+         url('police/quicksand-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'quicksand-light';
+    src: url('police/quicksand-light-webfont.woff2') format('woff2'),
+         url('police/quicksand-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'quicksand-light-italic';
+    src: url('police/quicksand-lightitalic-webfont.woff2') format('woff2'),
+         url('police/quicksand-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'quicksand-regular';
+    src: url('police/quicksand-regular-webfont.woff2') format('woff2'),
+         url('police/quicksand-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*----police quicksand---*/
+
+
+
+
+
 
 
 @font-face {
@@ -1162,7 +1250,7 @@
 	}
 	#submit
 	{
-		font-family:corbel ;
+		font-family:quicksand-regular;
 			font-weight: 300;
 			font-size:20px;
 			color: white;
@@ -1265,12 +1353,10 @@
 	{
 		margin: 0;
 		padding: 0;
-		font-family:corbel;
-		font-weight:200;
+		font-family: quicksand-light;
 		letter-spacing:2px ;
 		color: white;
-		font-size:15px ;
-		font-style: italic;
+		font-size:13px ;
 		line-height: 35px;
 
 	}
@@ -1290,8 +1376,7 @@
 		padding: 0;
 		margin: 0;
 		padding: 0;
-		font-family:corbel;
-		font-weight: lighter;
+		font-family:quicksand-light;
 		letter-spacing:2px ;
 		color: white;
 		font-size:15px;
@@ -1337,11 +1422,10 @@
 	{
 		margin: 0;
 		padding: 0;
-		font-family:corbel;
-		font-size: 0.9em;
+		font-family:quicksand-light;
+		font-size: 0.8em;
 		letter-spacing: 10px;
 		color: white;
-		font-weight: 100;
 		padding-top: 20px;
 	}
 	#loko1

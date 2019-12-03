@@ -1067,9 +1067,8 @@ display: none;
 	}
 	#submit
 	{
-		font-family:corbel ;
-			font-weight: 300;
-			font-size:20px;
+		font-family:quicksand-light;
+			font-size:17px;
 			color: white;
 			letter-spacing:1px;
 			background-color: #10C0DC;
@@ -1153,6 +1152,7 @@ display: none;
 		padding: 0;
 		text-align:center;
 		justify-content: center;
+		margin: 0% 5%;
 	}
 
 
@@ -1170,12 +1170,10 @@ display: none;
 	{
 		margin: 0;
 		padding: 0;
-		font-family:corbel;
-		font-weight:200;
+		font-family:quicksand-light;
 		letter-spacing:2px ;
 		color: white;
-		font-size:15px ;
-		font-style: italic;
+		font-size:12px ;
 		line-height: 35px;
 
 	}
@@ -1195,11 +1193,10 @@ display: none;
 		padding: 0;
 		margin: 0;
 		padding: 0;
-		font-family:corbel;
-		font-weight: lighter;
+		font-family:quicksand-light;
 		letter-spacing:2px ;
 		color: white;
-		font-size:15px;
+		font-size:12px;
 		line-height: 30px;
 	}
 	#sarycoordonne
@@ -1242,11 +1239,10 @@ display: none;
 	{
 		margin: 0;
 		padding: 0;
-		font-family:corbel;
-		font-size: 0.9em;
-		letter-spacing: 10px;
+		font-family:quicksand-light;
+		font-size: 0.6em;
+		letter-spacing: 5px;
 		color: white;
-		font-weight: 100;
 		padding-top: 20px;
 	}
 	#loko1
