@@ -249,7 +249,7 @@
 		color: #0093B1 !important;
 		font-size: 50px !important;
 		content: '<'!important;
-		font-family:monospace !important;
+		font-family:quicksand-light !important;
 		font-weight: 100 !important;
 
 	}
@@ -264,7 +264,7 @@
 		color: #0093B1 !important;
 		font-size: 50px !important;
 		content: '>'!important;
-		font-family:monospace !important;
+		font-family:quicksand-light !important;
 		font-weight: 100 !important;
 
 	}
@@ -558,9 +558,9 @@
 	#img-contenu .slick-prev:before
 	{
 		color: #0093B1 !important;
-		font-size: 80px !important;
+		font-size: 70px !important;
 		content: '<'!important;
-		font-family:monospace !important;
+		font-family:quicksand-light !important;
 		font-weight: 100 !important;
 
 	}
@@ -568,21 +568,21 @@
 	{
 
 		left: -60px !important;
-		top: 25% !important;
+		top: 30% !important;
 	}
 	#img-contenu .slick-next:before
 	{
 		color: #0093B1 !important;
-		font-size: 80px !important;
+		font-size: 70px !important;
 		content: '>'!important;
-		font-family:monospace !important;
+		font-family:quicksand-light !important;
 		font-weight: 100 !important;
 
 	}
 	#img-contenu .slick-next
 	{
 		right: -40px !important;
-		top: 25% !important;
+		top: 30% !important;
 	}
 	#slick-slide-control10::before
 	{
@@ -860,9 +860,9 @@
 	#sary-engagement .slick-prev:before
 	{
 		color: #0093B1 !important;
-		font-size: 80px !important;
+		font-size: 70px !important;
 		content: '<'!important;
-		font-family:monospace !important;
+		font-family:quicksand-light !important;
 		font-weight: 100 !important;
 
 	}
@@ -875,9 +875,9 @@
 	#sary-engagement  .slick-next:before
 	{
 		color: #0093B1 !important;
-		font-size: 80px !important;
+		font-size: 70px !important;
 		content: '>'!important;
-		font-family:monospace !important;
+		font-family:quicksand-light !important;
 		font-weight: 100 !important;
 
 	}
