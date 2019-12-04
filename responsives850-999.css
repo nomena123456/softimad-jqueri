@@ -167,13 +167,37 @@
 	}
 			/*---C O N T E N U  MENU----*/
 
+	#menu-soratra-sary
+	{
+		margin:0;
+		padding: 0;
+		text-align: center;
+		justify-content: center;
+		display: flex;	
+	}
+	#sary
+	{
+		margin:0;
+		padding: 0;
+		text-align: center;
+		justify-content: center;
+		margin-top: 100px;	
+		margin-bottom: 50px;
+		width: 100%;
+	}
+	#sary img
+	{
+		width: 85%;
+	}
+
 	#contenu
 	{
 		margin:0;
 		padding: 0;
 		text-align: center;
 		justify-content: center;
-		margin: 0px 50px;
+		width: 40%;
+		margin-left: 7%;
 	}
 	.anime
 	{
@@ -190,7 +214,7 @@
 		text-align: left;
 		justify-content: center;
 		padding-top: 100px;
-		margin-bottom: 20px;
+		padding-bottom: 30px;
 	}
 	.soratra h1
 	{
@@ -199,7 +223,7 @@
 		text-align: left;
 		justify-content: center;
 		font-family:rubik-light;
-		font-size:40px;
+		font-size:37px;
 		color:#246974;
 		letter-spacing:-1px;
 	}
@@ -213,7 +237,7 @@
 		justify-content: center;
 		font-family:rubik-bold;
 		font-weight: 700;
-		font-size:43px;
+		font-size:40px;
 		color:#246974;
 		letter-spacing:4px;
 		
@@ -229,8 +253,8 @@
 		font-size:20px;
 		color:#51C4CC;
 		letter-spacing:-0px;
-		margin-top: 15px;
-		margin-bottom: 15px;
+		margin-top: 10px;
+		margin-bottom: 10px;
 	}
 
 	.soratra p
@@ -273,17 +297,10 @@
 		transition: all 0.5s ease;
 		color: #10C0DC;
 	}
-	.sary
+	.anime .slick-dots
 	{
-		margin:0;
-		padding: 0;
-		text-align: center;
-		justify-content: center;
-		padding-top: 100px;
-	}
-	.sary img
-	{
-		width: 100%;
+		left: 50% !important;
+		display: flex;
 	}
 
 	#slick-slide-control00::before
