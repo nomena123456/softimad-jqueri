@@ -10,11 +10,14 @@ Example:
     var $window = $(window),
         attachEvent = document.attachEvent,
         //init scroll-event only once for better performance -> save target-data first in arrays
-        throttles = {},
-        animations = [],
         animateScroll = {
+            throttles: {},
+            animations: [],
             bind: function(el, options) {
                 $(el).on('reverse play', function(evt) {
+                    if(evt.type == 'play' && !options.reverse){
+                        return true;
+                    }
                     // animate target object based on viewport check event
                     var $this = $(this),
                         $timeline = $this.data('tween'),
@@ -27,16 +30,16 @@ Example:
                         action = evt.type;
                     }
                 });
-                if (!!throttles.watch) {
+                if (!!animateScroll.throttles.watch) {
                     $window.find('body').andSelf().on('scroll resize orientationchange touchend gestureend check', function(e) {
                         // trigger viewport animation check
-                        throttles.scroll = (throttles.scroll == null) && setTimeout(function() {
+                        animateScroll.throttles.scroll = (animateScroll.throttles.scroll == null) && setTimeout(function() {
                             animateScroll.inview(e.type == 'resize' || e.type == 'orientationchange');
-                            throttles.scroll = null;
+                            animateScroll.throttles.scroll = null;
                         }, 101);
                     });
                 }
-                throttles.watch = el;
+                animateScroll.throttles.watch = el;
             },
             check: function(target) {
                 // is stored original element position centered within the viewport
@@ -45,7 +48,7 @@ Example:
                     vBottom = vTop + $window.height(),
                     elTop = tObj.data('originalOffset').top,
                     elBottom = elTop + parseInt(tObj.data('originalSize').height);
-                throttles.transition = null;
+                animateScroll.throttles.transition = null;
                 return (vTop < elBottom && elBottom < vBottom) || (vTop < elTop && elTop < vBottom) ? 'reverse' : 'play';
             },
             update: function($this, $timeline) {
@@ -65,7 +68,7 @@ Example:
                 }
             },
             inview: function(resize) {
-                animations.each(function() {
+                animateScroll.animations.each(function() {
                     var $this = $(this),
                         $timeline = $this.data('tween');
                     // update trigger position
@@ -83,7 +86,7 @@ Example:
                     }
                 });
             },
-            init: function(animations) {
+            init: function(animations, options) {
 
                 // add resize event to body
                 addResizeListener($('body')[0], function() {
@@ -94,7 +97,7 @@ Example:
                 animations.each(function() {
                         var $el = $(this);
                         $el
-                            .animateScroll($el.data('animate-scroll'));
+                            .animateScroll($.extend({}, options, $el.data('animate-scroll')));
                     })
                     .promise()
                     .done(function() {
@@ -154,12 +157,13 @@ Example:
                     });
             }
         };
-    $.fn.animateScroll = function(options) {
+    $.fn.animateScroll = function(opts) {
         //set up default options
         var defaults = {
             transformPerspective: 1000, // Parent Transform Perspective
             lazyLoad: false, // Lazy Load Images (experimental)
             animateAll: false, // Animate elements outside of viewport?
+            reverse: true, // Allow elements reverse animation state?
             transformOrigin: '50% 50%', // Transform Origin X/Y Position
             x: 0, // Horizontal offset in px
             y: 0, // Vertical offset in px
@@ -177,10 +181,11 @@ Example:
         };
 
         //vars
-        var options = $.extend({}, defaults, options);
+        var options = $.extend({}, defaults, opts);
         if (this[0] != document) {
 
             this.each(function(index) {
+                options = $.extend({}, defaults, opts);
                 var $this = $(this),
                     $parent = $this.parent();
                 if (options.lazyLoad && $this.is('img')) {
@@ -194,9 +199,10 @@ Example:
                 }
             });
         } else {
-            animations = $('[data-animate-scroll]');
             animateScroll
-                .init(animations);
+                .animations = $('[data-animate-scroll]');
+            animateScroll
+                .init(animateScroll.animations, options);
         }
     }
 
@@ -336,5 +342,49 @@ Example:
                 t.__rt__ = !t.removeChild(t.__rt__)
             }
         }
-    }
+    };
+    $('#img-contenu').slick({
+            autoplay: true,
+            autoplaySpeed: 1500,
+            speed: 1000,
+            dots: true,
+            infinite: true,
+            slidesToShow: 4,
+             slidesToScroll: 1,
+             responsive: [
+                {
+                  breakpoint: 1000,
+                  settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+
+                  }
+
+                },
+                {
+                  breakpoint: 720,
+                  settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+
+                  }
+                  
+                },
+                {
+                  breakpoint: 460,
+                  settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+
+                  }
+                  
+                }
+                // You can unslick at a given breakpoint now by adding:
+                // settings: "unslick"
+                // instead of a settings object
+              ]
+
+        
+        });
+    
 })(jQuery, window, document);

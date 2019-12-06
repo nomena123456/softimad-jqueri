@@ -183,6 +183,7 @@
 		text-align: center;
 		justify-content: center;
 		width: 100%;
+		overflow-x: hidden;
 
 	}
 	#contenu-phone
