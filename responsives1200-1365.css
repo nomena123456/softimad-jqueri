@@ -309,7 +309,7 @@
 		padding: 0;
 		text-align: center;
 		justify-content: center;
-		padding-top: 75px;
+		padding-top: 70px;
 	}
 	#headerservice
 	{
@@ -472,7 +472,7 @@
 		text-align: center;
 		justify-content: center;
 		margin-top: 0px;
-		padding-top: 75px;
+		padding-top: 70px;
 		width: 100%;
 	}
 	#headerporfolio
@@ -544,6 +544,13 @@
 		background: #0093B1;
 	}
 	#bouttontout a:hover
+	{
+		border: 1.5px solid #0093B1;
+		color:#0093B1 ;
+		background: white;
+		transition: all 0.5s ease;
+	}
+	#bouttontout a:focus
 	{
 		border: 1.5px solid #0093B1;
 		color:#0093B1 ;
@@ -786,7 +793,7 @@
 		padding: 0;
 		text-align:center;
 		justify-content: center;
-		padding-top: 75px;
+		padding-top: 70px;
 		width: 100%;
 	}
 	#header-engagement
@@ -1008,7 +1015,7 @@
 		padding: 0;
 		text-align:center;
 		justify-content: center;
-		padding-top: 74px;
+		padding-top: 70px;
 	}
 
 	#header-contact

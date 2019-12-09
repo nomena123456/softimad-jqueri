@@ -106,7 +106,6 @@ $(document).ready(function(){
             infinite: true,
         });
 
-AOS.init();
         //MENU FONCTION
 
 
@@ -140,13 +139,26 @@ AOS.init();
                     scrollTop: $("#contact").offset().top
                 }, 500);
             });
-            $("#contactez").click(function (){
+//ANIMATION BOUTTON RETRA2
+
+            $(".soratra a").click(function (){
+                $('html, body').animate({
+                    scrollTop: $("#contenu-contact").offset().top
+                }, 1500);
+            }); 
+            $("#bouttontout a").click(function (){
+                $('html, body').animate({
+                    scrollTop: $("#porfolio").offset().top
+                }, 500);
+            });
+            $("#soratra-engagement a").click(function (){
                 $('html, body').animate({
                     scrollTop: $("#contenu-contact").offset().top
                 }, 500);
-            });  
-
+            });
 //ANIMATION AMIN OHONE
+
+
 
            $("#m2-p").click(function (){
                 $('html, body').animate({
@@ -195,47 +207,6 @@ AOS.init();
       $('#croi').click(function(){
         $('#menu-phone').hide('slow').fadeOut('slow');
       })
-
-        //ANIMATION PHONE APPLICATION
-            $('#boutton2-p').click(function(){
-                $(this).css('background-color', 'inherit')
-                        .css('transition', '0.5s ease');
-                $('#mobile').show('slow').fadeIn('slow');
-                $('#mobile-titre').show('slow').fadeIn('slow');
-                $('#web-titre').hide('slow').fadeOut('slow');
-                $('#personalise-titre').hide('slow').fadeOut('slow');              
-                $('#web').hide('slow').fadeOut('slow');
-                $('#personalise').hide('slow').fadeOut('slow');
-                $('#boutton1-p').css('background-color', '#10C0DC');
-                $('#boutton3-p').css('background-color', '#10C0DC');              
-            })
-
-
-            $('#boutton1-p').click(function(){
-                $(this).css('background-color', 'inherit')
-                        .css('transition', '0.5s ease');
-                $('#web').show('slow').fadeIn('slow');
-                $('#web-titre').show('slow').fadeIn('slow');
-                $('#mobile-titre').hide('slow').fadeOut('slow');
-                $('#personalise-titre').hide('slow').fadeOut('slow');               
-                $('#mobile').hide('slow').fadeOut('slow');
-                $('#personalise').hide('slow').fadeOut('slow');
-                $('#boutton2-p').css('background-color', '#10C0DC');
-                $('#boutton3-p').css('background-color', '#10C0DC');
-            })
-
-            $('#boutton3-p').click(function(){
-                $(this).css('background-color', 'inherit')
-                        .css('transition', '0.5s ease');
-                $('#personalise').show('slow').fadeIn('slow');
-                $('#personalise-titre').show('slow').fadeIn('slow');
-                $('#web-titre').hide('slow').fadeOut('slow');
-                $('#mobile-titre').hide('slow').fadeOut('slow');
-                $('#mobile').hide('slow').fadeOut('slow');
-                $('#web').hide('slow').fadeOut('slow');
-                $('#boutton1-p').css('background-color', '#10C0DC');
-                $('#boutton2-p').css('background-color', '#10C0DC');
-            })
 
 
 

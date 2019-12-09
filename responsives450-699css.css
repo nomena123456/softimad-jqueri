@@ -517,6 +517,13 @@
 		background: white;
 		transition: all 0.5s ease;
 	}
+	#bouttontout a:focus
+	{
+		border: 1.5px solid #0093B1;
+		color:#0093B1 ;
+		background: white;
+		transition: all 0.5s ease;
+	}
 	#contenuporfolio
 	{
 		margin:0;
