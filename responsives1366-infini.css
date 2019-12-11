@@ -436,7 +436,7 @@
 	.anime .slick-dots
 	{
 		left: 50% !important;
-		bottom: 0px !important;
+		bottom: -10px !important;
 	}
 
 	#slick-slide-control00::before
