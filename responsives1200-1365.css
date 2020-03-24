@@ -64,7 +64,7 @@
 		padding: 0;
 		text-align: center;
 		justify-content: center;
-		background-image: url(images/backgroundmenu.png);
+		background-image: url(images/fond-2.png);
 		background-size: 100%;
 		background-repeat: no-repeat;
 		width: 100%;
@@ -75,8 +75,7 @@
 		margin:0;
 		padding: 0;
 		text-align: center;
-		justify-content: center;
-		background-image: url(images/fond-header.png);
+		justify-content: left;
 		background-size: 100%;
 		background-repeat: no-repeat;
 		display: flex;
@@ -84,6 +83,7 @@
 		width: 100%;
 		top: 0;
 		z-index: 10;
+		margin-left: 5%;
 	}
 	#logo
 	{
@@ -108,7 +108,7 @@
 		justify-content: center;
 		display: flex;
 		margin-top: 28px;
-		margin-left: 250px;
+		margin-left: 350px;
 	}
 	#listmenu li
 	{
@@ -126,11 +126,11 @@
 		justify-content: center;
 		text-decoration: none;
 		font-family:rubik;
-		font-size:11px;
+		font-size:10px;
 		color: white;
 		letter-spacing: 1.7px;
 		margin: 0px 10px;
-		padding: 15px 12px;
+		padding: 8px 5px;
 		margin-top: 20px;
 	}
 	#listmenu a:hover
@@ -160,7 +160,7 @@
 	}
 	#sary img
 	{
-		width: 80%;
+		width: 75%;
 	}
 
 	#contenu
