@@ -8,7 +8,7 @@
 @media only screen and (min-width: 850px) and (max-width: 999px)
 {
 
-	body
+ 	body
 	{
 		margin:0;
 		padding: 0;
@@ -64,7 +64,7 @@
 		padding: 0;
 		text-align: center;
 		justify-content: center;
-		background-image: url(images/backgroundmenu.png);
+		background-image: url(images/fond-3.png);
 		background-size: 100%;
 		background-repeat: no-repeat;
 		width: 100%;
@@ -74,9 +74,8 @@
 	{
 		margin:0;
 		padding: 0;
-		text-align: center;
-		justify-content: center;
-		background-image: url(images/fond-header-800.png);
+		text-align: left;
+		justify-content: left;
 		background-size: 100%;
 		background-repeat: no-repeat;
 		display: flex;
@@ -89,9 +88,10 @@
 	{
 		margin:0;
 		padding: 0;
-		text-align: center;
-		justify-content: center;
+		text-align: left;
+		justify-content: left;
 		margin-top: 10px;
+		margin-left: 5%;
 	}
 	#logo img
 	{
@@ -147,7 +147,7 @@
 		text-align: center;
 		justify-content: center;
 		text-decoration: none;
-		font-family:rubik;
+		font-family:montserrat;
 		font-size:13px;
 		color: white;
 		letter-spacing: 1.7px;
@@ -222,10 +222,11 @@
 		padding: 0;
 		text-align: left;
 		justify-content: center;
-		font-family:rubik-light;
+		font-family:montserrat;
 		font-size:37px;
-		color:#246974;
-		letter-spacing:-1px;
+		font-weight: 100;
+		color:#002a87;
+		letter-spacing:5px;
 	}
 
 
@@ -235,11 +236,11 @@
 		padding: 0;
 		text-align: center;
 		justify-content: center;
-		font-family:rubik-bold;
-		font-weight: 700;
+		font-family:montserrat;
+		font-weight: 900;
 		font-size:40px;
-		color:#246974;
-		letter-spacing:4px;
+		color:#002a87;
+		letter-spacing:0px;
 		
 	}
 	.soratra h2
@@ -248,10 +249,10 @@
 		padding: 0;
 		text-align: left;
 		justify-content: center;
-		font-family:rubik;
+		font-family:montserrat;
 		font-weight: 900;
 		font-size:20px;
-		color:#51C4CC;
+		color:#396ed6;
 		letter-spacing:-0px;
 		margin-top: 10px;
 		margin-bottom: 10px;
@@ -263,13 +264,13 @@
 		padding: 0;
 		text-align: left;
 		justify-content: center;	
-		font-family:rubik;
+		font-family:comfortaa;
 		font-weight: 500;
 		font-size:13px;
 		color:#585858;
 		letter-spacing:0.5px;
 		line-height: 28px;
-		margin-bottom: 35px;
+		margin-bottom: 30px;
 	}
 	.soratra a
 	{
@@ -277,13 +278,13 @@
 		padding: 0;
 		text-align: left;
 		justify-content: left;
-		font-family:metropolis;
-		font-weight: 650;
-		font-size:18px;
+		font-family:montserrat;
+		font-weight: 500;
+		font-size:16px;
 		color: white;
 		letter-spacing: 2px;
 		text-decoration: none;
-		background-color: #10C0DC;
+		background-color: #396ed6;
 		border-radius: 50px;
 		padding: 15px 25px 15px 25px;
 		margin-bottom: 30px;
@@ -291,11 +292,11 @@
 	}
 	.soratra a:hover
 	{
-		border: 2px solid #10C0DC;
+		border: 2px solid #396ed6;
 		color:white ;
 		background: transparent;
 		transition: all 0.5s ease;
-		color: #10C0DC;
+		color: #396ed6;
 	}
 	.anime .slick-dots
 	{
@@ -305,21 +306,21 @@
 
 	#slick-slide-control00::before
 	{
-		border: 2px solid #10C0DC;
+		border: 2px solid #396ed6;
 		color: white;
 		width: 80px;
 		height: 3px;
 	}
 	#slick-slide-control01::before
 	{
-		border: 2px solid #10C0DC;
+		border: 2px solid #396ed6;
 		color: white;
 		width: 80px;
 		height: 3px;
 	}
 	#slick-slide-control02::before
 	{
-		border: 2px solid #10C0DC;
+		border: 2px solid #396ed6;
 		color: white;
 		width: 80px;
 		height: 3px;
