@@ -67,6 +67,7 @@
 		background-image: url(images/fond-2.png);
 		background-size: 100%;
 		background-repeat: no-repeat;
+		height: 600px;
 		width: 100%;
 
 	}
@@ -75,15 +76,13 @@
 		margin:0;
 		padding: 0;
 		text-align: center;
-		justify-content: left;
+		justify-content: center;
 		background-size: 100%;
-		background-repeat: no-repeat;
 		display: flex;
 		position: fixed;
 		width: 100%;
 		top: 0;
 		z-index: 10;
-		margin-left: 5%;
 	}
 	#logo
 	{
@@ -91,7 +90,7 @@
 		padding: 0;
 		text-align: center;
 		justify-content: center;
-		margin-top: 10px;
+		margin-top: 20px;
 	}
 	#listmenu
 	{
@@ -107,8 +106,8 @@
 		text-align: center;
 		justify-content: center;
 		display: flex;
-		margin-top: 28px;
-		margin-left: 350px;
+		margin-top: 40px;
+		margin-left: 400px;
 	}
 	#listmenu li
 	{
@@ -125,12 +124,12 @@
 		text-align: center;
 		justify-content: center;
 		text-decoration: none;
-		font-family:rubik;
-		font-size:10px;
+		font-family:montserrat;
+		font-size:9px;
 		color: white;
 		letter-spacing: 1.7px;
-		margin: 0px 10px;
-		padding: 8px 5px;
+		margin: 0px 15px;
+		padding: 10px 5px;
 		margin-top: 20px;
 	}
 	#listmenu a:hover
@@ -139,7 +138,6 @@
 		transition: all 0.5s ease;
 	}
 			/*---C O N T E N U  MENU----*/
-
 	#menu-soratra-sary
 	{
 		margin:0;
@@ -154,14 +152,15 @@
 		padding: 0;
 		text-align: center;
 		justify-content: center;
-		margin-top: 120px;	
-		margin-bottom: 50px;
-		width: 100%;
+		margin-top: 150px;
+		margin-bottom:750px;
+		width: 50%;	
 	}
 	#sary img
 	{
 		width: 75%;
 	}
+
 
 	#contenu
 	{
@@ -170,7 +169,7 @@
 		text-align: center;
 		justify-content: center;
 		width: 40%;
-		margin-left: 7%;
+		margin-left: 5%;
 	}
 	.anime
 	{
@@ -186,8 +185,8 @@
 		padding: 0;
 		text-align: left;
 		justify-content: center;
-		padding-top: 130px;
-		margin-bottom: 50px;
+		padding-top: 150px;
+		padding-bottom: 50px;
 	}
 	.soratra h1
 	{
@@ -195,10 +194,13 @@
 		padding: 0;
 		text-align: left;
 		justify-content: center;
-		font-family:rubik-light;
-		font-size:43px;
-		color:#246974;
-		letter-spacing:-1px;
+		font-family:montserrat;
+		font-size:35px;
+		color:#002a87;
+		font-weight: 300;
+		letter-spacing:8px;
+		border-bottom: 3px solid #002a87;
+		margin-right: 70%;
 	}
 
 
@@ -206,13 +208,14 @@
 	{
 		margin:0;
 		padding: 0;
-		text-align: center;
+		text-align: right;
 		justify-content: center;
-		font-family:rubik-bold;
-		font-weight: 700;
-		font-size:47px;
-		color:#246974;
-		letter-spacing:4px;
+		font-family:montserrat;
+		font-weight: bold;
+		font-size:40px;
+		color:#002a87;
+		letter-spacing:0px;
+
 		
 	}
 	.soratra h2
@@ -221,12 +224,12 @@
 		padding: 0;
 		text-align: left;
 		justify-content: center;
-		font-family:rubik;
+		font-family:montserrat;
 		font-weight: 900;
-		font-size:23px;
-		color:#51C4CC;
-		letter-spacing:-0px;
-		margin-top: 15px;
+		font-size:18px;
+		color:#396ed6;
+		letter-spacing:2px;
+		margin-top: 20px;
 		margin-bottom: 15px;
 	}
 
@@ -236,13 +239,13 @@
 		padding: 0;
 		text-align: left;
 		justify-content: center;	
-		font-family:rubik;
-		font-weight: 500;
+		font-family:comfortaa;
+		font-weight: 450;
 		font-size:13px;
 		color:#585858;
-		letter-spacing:0.5px;
-		line-height: 32px;
-		margin-bottom: 35px;
+		letter-spacing:0px;
+		line-height: 28px;
+		margin-bottom: 30px;
 	}
 	.soratra a
 	{
@@ -250,50 +253,48 @@
 		padding: 0;
 		text-align: left;
 		justify-content: left;
-		font-family:metropolis;
-		font-weight: 650;
-		font-size:18px;
+		font-family:montserrat;
+		font-weight: 900;
+		font-size:16px;
 		color: white;
 		letter-spacing: 2px;
 		text-decoration: none;
-		background-color: #10C0DC;
+		background-color: #396ed6;
 		border-radius: 50px;
 		padding: 15px 25px 15px 25px;
-		margin-bottom: 30px;
 
 	}
 	.soratra a:hover
 	{
-		border: 2px solid #10C0DC;
+		border: 2px solid #396ed6;
 		color:white ;
 		background: transparent;
 		transition: all 0.5s ease;
-		color: #10C0DC;
+		color: #396ed6;
 	}
-
 	.anime .slick-dots
 	{
 		left: 50% !important;
-		bottom: -0px !important;
+		bottom: -10px !important;
 	}
 
 	#slick-slide-control00::before
 	{
-		border: 2px solid #10C0DC;
+		border: 2px solid #396ed6;
 		color: white;
 		width: 80px;
 		height: 3px;
 	}
 	#slick-slide-control01::before
 	{
-		border: 2px solid #10C0DC;
+		border: 2px solid #396ed6;
 		color: white;
 		width: 80px;
 		height: 3px;
 	}
 	#slick-slide-control02::before
 	{
-		border: 2px solid #10C0DC;
+		border: 2px solid #396ed6;
 		color: white;
 		width: 80px;
 		height: 3px;
@@ -340,11 +341,11 @@
 		padding: 0;
 		text-align: left;
 		justify-content: center;
-		font-family: metropolis;
+		font-family: montserrat;
 		font-size:27px;
 		font-weight:100;
 		color:white;
-		letter-spacing:3px;
+		letter-spacing:0px;
 	}
 	#soratraservice h1
 	{
@@ -352,12 +353,12 @@
 		padding: 0;
 		text-align: left;
 		justify-content: center;
-		font-family: rubik;
+		font-family: montserrat;
 		font-size:46px;
-		font-weight:400;
+		font-weight:900;
 		color: white;
-		letter-spacing:8px;
-		font-style: italic;
+		letter-spacing:2px;
+		font-style: bold;
 	}
 	#soratraservice img
 	{
@@ -391,7 +392,7 @@
 		padding: 0;
 		text-align: center;
 		justify-content: center;
-		margin: 0px 30px 0px 30px;
+		margin:0% 4%;
 		width: 200px;
 		padding:20px;
 		cursor:pointer;
@@ -411,7 +412,6 @@
 		justify-content: center;
 		border-radius: 100px;
 		transition: 1s ease-in-out;
-		width: 80%;
 	}	
 	.boriborikely img:hover
 	{
@@ -425,7 +425,7 @@
 		padding: 0;
 		text-align: center;
 		justify-content: center;
-		font-family: rubik;
+		font-family: montserrat;
 		font-weight: 400;
 		font-size: 16px;
 		letter-spacing: 0.5px;
@@ -447,7 +447,7 @@
 		padding: 0;
 		text-align: center;
 		justify-content: center;
-		font-family: metropolis;
+		font-family: montserrat;
 		font-weight: 500;
 		font-size: 0.7em;
 		color: white;
@@ -472,7 +472,7 @@
 		text-align: center;
 		justify-content: center;
 		margin-top: 0px;
-		padding-top: 70px;
+		padding-top: 75px;
 		width: 100%;
 	}
 	#headerporfolio
@@ -492,11 +492,11 @@
 		padding: 0;
 		text-align: center;
 		justify-content: center;
-		font-family: metropolis;
+		font-family: montserrat;
 		font-size:27px;
 		font-weight:200;
 		color:white;
-		letter-spacing:3px;
+		letter-spacing:0px;
 		padding-top: 50px;
 	}
 	#headerporfolio h1
@@ -505,12 +505,12 @@
 		padding: 0;
 		text-align: center;
 		justify-content: center;
-		font-family: rubik;
+		font-family: montserrat;
 		font-size:46px;
-		font-weight:400;
+		font-weight:900;
 		color: white;
-		letter-spacing:8px;
-		font-style: italic;
+		letter-spacing:2px;
+		font-style:bold;
 		padding-bottom: 24px;
 	}
 
@@ -530,23 +530,23 @@
 		padding: 0;
 		text-align: center;
 		justify-content: center;
-		font-family:metropolis;
-		font-weight: 700;
-		font-size:13px ;
+		font-family:montserrat;
+		font-weight: 400;
+		font-size:15px ;
 		color:white;
 		letter-spacing: 4px;
 		text-decoration: none;
 		border-radius: 50px;
 		padding: 5px 30px;
 		margin:50px 50px 40px 50px;
-		border: 1.5px solid #0093B1;
+		border: 1.5px solid #3967d7;
 		
-		background: #0093B1;
+		background: #3967d7;
 	}
 	#bouttontout a:hover
 	{
-		border: 1.5px solid #0093B1;
-		color:#0093B1 ;
+		border: 1.5px solid #3967d7;
+		color:#3967d7 ;
 		background: white;
 		transition: all 0.5s ease;
 	}
@@ -573,7 +573,7 @@
 		padding: 0;
 		text-align: center;
 		justify-content: center;
-		margin: 0% 15%;
+		margin: 0px 200px;
 
 	}
 	.img1
@@ -582,7 +582,7 @@
 		padding: 0;
 		text-align: center;
 		justify-content: center;
-		margin-left: 3%;
+		margin-left: 20px;
 		padding-top: 5px;
 		margin-bottom: 20px;
 		margin-top: 20px;
@@ -690,7 +690,7 @@
 		text-align: left;
 		justify-content: left;
 		margin-top: 80px;
-		margin-right: 150px;
+		margin-right: 190px;
 	}
 	#soratra-qui h1
 	{
@@ -698,11 +698,11 @@
 		padding: 0;
 		text-align:left;
 		justify-content: center;
-		font-family:metropolis;
+		font-family:montserrat;
 		font-weight: 700;
 		font-size:38px;
-		color:#006C7D;
-		letter-spacing:5px;
+		color:#3967d7;
+		letter-spacing:0px;
 
 	}
 	#soratra-qui img
@@ -711,6 +711,7 @@
 		padding: 0;
 		text-align:left;
 		justify-content: left;
+		color: #3967d7;
 	}
 	#soratra-qui h2
 	{
@@ -718,11 +719,11 @@
 		padding: 0;
 		text-align: left;
 		justify-content: center;
-		font-family:rubik;
+		font-family:comfortaa;
 		font-weight: 500;
 		font-size:15px;
 		color:#4E4E4E;
-		line-height: 38px;
+		line-height: 30px;
 		margin-top: 15px;
 		width: 350px;
 	}
@@ -757,7 +758,7 @@
 		text-align: right;
 		justify-content: right;
 		margin-top: 60px;
-		margin-left: 140px;
+		margin-left: 150px;
 		padding-bottom: 0px;
 	}
 	#soratra-apropos h1
@@ -766,11 +767,11 @@
 		padding: 0;
 		text-align:right;
 		justify-content: center;
-		font-family:metropolis;
+		font-family:montserrat;
 		font-weight: 700;
 		font-size:38px;
-		color:#006C7D;
-		letter-spacing:5px;
+		color:#3967d7;
+		letter-spacing:0px;
 	}
 	#soratra-apropos h2
 	{
@@ -778,11 +779,11 @@
 		padding: 0;
 		text-align: right;
 		justify-content: center;
-		font-family:rubik;
+		font-family:comfortaa;
 		font-weight: 500;
 		font-size:15px;
 		color:#4E4E4E;
-		line-height: 38px;
+		line-height: 30px;
 		margin-top: 15px;
 		width: 800px;
 	}
@@ -793,7 +794,7 @@
 		padding: 0;
 		text-align:center;
 		justify-content: center;
-		padding-top: 70px;
+		padding-top: 75px;
 		width: 100%;
 	}
 	#header-engagement
@@ -812,12 +813,12 @@
 		margin:0;
 		padding: 0;
 		text-align:center;
-		font-family: rubik;
+		font-family: montserrat;
 		font-size:35px;
-		font-weight:400;
+		font-weight:900;
 		color: white;
-		letter-spacing:8px;
-		font-style: italic;
+		letter-spacing:2px;
+		font-style:bold;
 		padding-top: 60px;
 
 	}
@@ -843,11 +844,11 @@
 		padding: 0;
 		text-align:center;
 		justify-content: center;
-		font-family:metropolis;
-		font-size:25px;
+		font-family:montserrat;
+		font-size:20px;
 		font-weight:800;
 		color: #5E5E5E;
-		letter-spacing:15px;
+		letter-spacing:25px;
 	}
 	#technologie img
 	{
@@ -872,7 +873,7 @@
 		padding: 0;
 		text-align:center;
 		justify-content: center;
-		margin: 0% 10%;
+		margin: 0px 200px;
 
 	}
 	.img2
@@ -881,7 +882,7 @@
 		padding: 0;
 		text-align:center;
 		justify-content: center;
-		margin-left: 10%;	
+		margin-left: 20px;	
 		padding-top: 5px;
 	}
 	.img2 img
@@ -975,9 +976,9 @@
 		padding: 0;
 		text-align:center;
 		justify-content: center;
-		font-family:metropolis;
+		font-family:comfortaa;
 		font-weight: 400;
-		font-size:19px;
+		font-size:16px;
 		color:#676767;
 		letter-spacing:0px;
 		line-height: 35px;
@@ -990,22 +991,23 @@
 		padding: 0;
 		text-align:center;
 		justify-content: center;
-		font-family:rubik;
-		font-weight: 400;
+		font-family:montserrat;
+		font-weight: 900;
 		font-size:1.2em ;
 		color: white;
 		letter-spacing: 2px;
 		text-decoration: none;
-		background-color: #10C0DC;
-		padding: 10px 20px 10px 20px;
+		background-color: #3967d7;
+		padding: 20px 20px 20px 20px;
+		border-radius: 50px;
 	}
 	#soratra-engagement a:hover
 	{
-		border: 2px solid #10C0DC;
+		border: 2px solid #3967d7;
 		color:white ;
 		background: transparent;
 		transition: all 0.5s ease;
-		color: #10C0DC;
+		color: #3967d7;
 	}
 
 				/*CONTACT TSIKA ZAO*/
@@ -1015,7 +1017,7 @@
 		padding: 0;
 		text-align:center;
 		justify-content: center;
-		padding-top: 70px;
+		padding-top: 74px;
 	}
 
 	#header-contact
@@ -1041,12 +1043,12 @@
 		padding: 0;
 		text-align:center;
 		justify-content: center;
-		font-family: rubik;
+		font-family: montserrat;
 		font-size:35px;
-		font-weight:400;
+		font-weight:900;
 		color: white;
-		letter-spacing:8px;
-		font-style: italic;
+		letter-spacing:2px;
+		font-style:bold;
 		padding-top: 50px;
 	}
 	#soratra-contact img
@@ -1081,28 +1083,27 @@
 		padding: 0;
 		justify-content: center;
 		text-align: center;
-		background-color: #EFFDFF;
+		background-color: #96b2f6;
 		padding-left: 30px;
 		padding-right: 30px;
 		margin-right: 50px;
 	}
 	.formulaire
 	{
-		border: 1px solid #08ACC6;
+		border: 1px solid #96b2f6;
 		border-radius: 20px;
 		width: 370px;
 		padding: 13px;
-		font-family:metropolis;
+		font-family:montserrat;
 		font-weight: 300;
 		font-size: 15px;
 		color: #808080;
 		margin-top: 30px;
 		outline: none;
-		font-style: italic;
 	}
 	.formulaire:focus
 	{
-		font-family:metropolis;
+		font-family:montserrat;
 		font-style:none;
 		color: #006C7D;
 		font-style: inherit;
@@ -1111,11 +1112,12 @@
 	}
 	#submit
 	{
-		font-family:quicksand-regular;
-			font-size:18px;
+		font-family:montserrat;
+			font-weight: 300;
+			font-size:20px;
 			color: white;
 			letter-spacing:1px;
-			background-color: #10C0DC;
+			background-color: #3967d7;
 			border-radius: 50px;
 			padding: 10px 30px;
 			outline: none;
@@ -1125,11 +1127,11 @@
 	}
 	#submit:hover
 	{
-		border: 2px solid #10C0DC;
+		border: 2px solid #3967d7;
 		color:white ;
 		background: transparent;
 		transition: all 0.5s ease;
-		color: #10C0DC;
+		color: #3967d7;
 	}
 	#formulaire h1
 	{
@@ -1137,8 +1139,8 @@
 		padding: 0;
 		text-align:center;
 		justify-content: center;
-		font-family: rubik;
-		font-size:40px;
+		font-family: montserrat;
+		font-size:35px;
 		font-weight: 100;
 		color:#4D7092;
 		letter-spacing:-2px;
@@ -1152,7 +1154,7 @@
 		padding: 0;
 		text-align:center;
 		justify-content: center;
-		background-color: #10C0DC;
+		background-color: #3967d7;
 		padding: 0;
 	}
 
@@ -1162,7 +1164,7 @@
 		padding: 0;
 		text-align:center;
 		justify-content: center;
-		background-color:#0BA4BC;
+		background-color:#3967d9;
 	}
 	#titre-coordonne h1
 	{
@@ -1170,7 +1172,7 @@
 		padding: 0;
 		text-align:center;
 		justify-content: center;
-		font-family:metropolis;
+		font-family:montserrat;
 		font-weight: 600;
 		letter-spacing:4px ;
 		color: white;
@@ -1213,7 +1215,7 @@
 	{
 		margin: 0;
 		padding: 0;
-		font-family:quicksand-light;
+		font-family: quicksand-light;
 		letter-spacing:2px ;
 		color: white;
 		font-size:13px ;
@@ -1248,7 +1250,7 @@
 		padding: 0;
 		text-align:center;
 		justify-content: center;
-		margin-left: 300px;
+		margin-left: 380px;
 
 
 	}
@@ -1259,8 +1261,9 @@
 		text-align:center;
 		justify-content: center;
 		width: 65px;
-		margin: 20px 40px 40px 40px;
+		margin: 20px 60px 40px 60px;
 	}
+
 	#sarycoordonne img:hover
 	{
 		filter: invert(5%);
@@ -1272,7 +1275,7 @@
 	#footer
 	{
 		height: 53px;
-		background-color: #246974;
+		background-color: #3967d7;
 		padding: 0;
 		margin:0;
 		text-align: center;
@@ -1282,7 +1285,7 @@
 		margin: 0;
 		padding: 0;
 		font-family:quicksand-light;
-		font-size: 0.7em;
+		font-size: 0.8em;
 		letter-spacing: 10px;
 		color: white;
 		padding-top: 20px;
@@ -1294,7 +1297,7 @@
 		text-align:center;
 		justify-content: center;
 		height: 30px;
-		background-color:#009EB7;
+		background-color:#3967e4;
 	}
 	#loko2
 	{
@@ -1303,12 +1306,11 @@
 		text-align:center;
 		justify-content: center;
 		height: 30px;
-		background-color:#007D91;
+		background-color:#3967d7;
 	}
 
 
 
 }
-
 
 
