@@ -22,7 +22,7 @@
 	{
 		display: none;
 	}
-	#barre-menu
+	#listmenu
 	{
 		display: none;
 	}
@@ -64,7 +64,7 @@
 		padding: 0;
 		text-align: center;
 		justify-content: center;
-		background-image: url(images/backgroundmenu.png);
+		background-image: url(images/fond-3.png);
 		background-size: 100%;
 		background-repeat: no-repeat;
 		width: 100%;
@@ -74,9 +74,9 @@
 	{
 		margin:0;
 		padding: 0;
-		text-align: center;
-		justify-content: center;
-		background-image: url(images/fond-header-900.png);
+		text-align: left;
+		justify-content: left;
+		background-image: url(images/fond-5.png);
 		background-size: 100%;
 		background-repeat: no-repeat;
 		display: flex;
@@ -89,28 +89,51 @@
 	{
 		margin:0;
 		padding: 0;
-		text-align: center;
-		justify-content: center;
+		text-align: left;
+		justify-content: left;
 		margin-top: 10px;
+		margin-left: 5%;
 	}
-	#listmenu
+	#logo img
+	{
+		width: 80%;
+	}
+	#barre-menu
 	{
 		margin:0;
 		padding: 0;
 		text-align: center;
 		justify-content: center;
+		margin-top: 10px;
+		margin-left: 70%;
+		padding-right: 5%;
 	}
-	#listmenu ul
+	#barre-menu img
+	{
+		width: 190%;
+	}
+	#menu-phone
+	{
+		margin:0;
+		padding: 0;
+		text-align: center;
+		justify-content: center;
+		position: fixed;
+		width: 100%;
+		height: 100%;
+		background-color:rgb(1, 163, 174, 0.9);	
+		padding-top: 150px;
+	}
+	#menu-phone ul
 	{
 		margin:0;
 		padding: 0;
 		text-align: center;
 		justify-content: center;
 		display: flex;
-		margin-top: 28px;
-		margin-left: 180px;
+		flex-wrap: wrap;
 	}
-	#listmenu li
+	#menu-phone li
 	{
 		margin:0;
 		padding: 0;
@@ -118,25 +141,30 @@
 		justify-content: center;
 		list-style-type: none;
 	}
-	#listmenu a
+	#menu-phone a
 	{
 		margin:0;
 		padding: 0;
 		text-align: center;
 		justify-content: center;
 		text-decoration: none;
-		font-family:rubik;
-		font-size:11px;
+		font-family:montserrat;
+		font-size:13px;
 		color: white;
 		letter-spacing: 1.7px;
-		margin: 0px 5px;
-		padding: 15px 12px;
-		margin-top: 20px;
+		margin: 0px 15px;
+		padding: 10px;
 	}
-	#listmenu a:hover
+	#menu-phone a:hover
 	{
-		background-color:#06A3BC;
-		transition: all 0.5s ease;
+		border: 1px solid white;
+	}
+	#croi
+	{
+		position: absolute;
+		right: 5%;
+		top: 5%;
+		width:30px;
 	}
 			/*---C O N T E N U  MENU----*/
 
@@ -154,13 +182,13 @@
 		padding: 0;
 		text-align: center;
 		justify-content: center;
-		margin-top: 120px;
-		margin-bottom: 50px;	
+		margin-top: 100px;	
+		margin-bottom: 50px;
 		width: 100%;
 	}
 	#sary img
 	{
-		width: 80%;
+		width: 85%;
 	}
 
 	#contenu
@@ -186,8 +214,8 @@
 		padding: 0;
 		text-align: left;
 		justify-content: center;
-		padding-top: 120px;
-		padding-bottom: 50px;
+		padding-top: 100px;
+		padding-bottom: 30px;
 	}
 	.soratra h1
 	{
@@ -195,10 +223,11 @@
 		padding: 0;
 		text-align: left;
 		justify-content: center;
-		font-family:rubik-light;
-		font-size:38px;
-		color:#246974;
-		letter-spacing:-1px;
+		font-family:montserrat;
+		font-size:37px;
+		font-weight: 100;
+		color:#002a87;
+		letter-spacing:5px;
 	}
 
 
@@ -208,11 +237,11 @@
 		padding: 0;
 		text-align: center;
 		justify-content: center;
-		font-family:rubik-bold;
-		font-weight: 700;
-		font-size:43px;
-		color:#246974;
-		letter-spacing:4px;
+		font-family:montserrat;
+		font-weight: 900;
+		font-size:40px;
+		color:#002a87;
+		letter-spacing:0px;
 		
 	}
 	.soratra h2
@@ -221,12 +250,12 @@
 		padding: 0;
 		text-align: left;
 		justify-content: center;
-		font-family:rubik;
+		font-family:montserrat;
 		font-weight: 900;
 		font-size:20px;
-		color:#51C4CC;
+		color:#396ed6;
 		letter-spacing:-0px;
-		margin-top: 15px;
+		margin-top: 10px;
 		margin-bottom: 10px;
 	}
 
@@ -236,13 +265,13 @@
 		padding: 0;
 		text-align: left;
 		justify-content: center;	
-		font-family:rubik;
+		font-family:comfortaa;
 		font-weight: 500;
 		font-size:13px;
 		color:#585858;
 		letter-spacing:0.5px;
-		line-height: 30px;
-		margin-bottom: 35px;
+		line-height: 28px;
+		margin-bottom: 30px;
 	}
 	.soratra a
 	{
@@ -250,49 +279,49 @@
 		padding: 0;
 		text-align: left;
 		justify-content: left;
-		font-family:metropolis;
-		font-weight: 650;
-		font-size:18px;
+		font-family:montserrat;
+		font-weight: 500;
+		font-size:16px;
 		color: white;
 		letter-spacing: 2px;
 		text-decoration: none;
-		background-color: #10C0DC;
+		background-color: #396ed6;
 		border-radius: 50px;
 		padding: 15px 25px 15px 25px;
+		margin-bottom: 30px;
 
 	}
 	.soratra a:hover
 	{
-		border: 2px solid #10C0DC;
+		border: 2px solid #396ed6;
 		color:white ;
 		background: transparent;
 		transition: all 0.5s ease;
-		color: #10C0DC;
+		color: #396ed6;
 	}
-
 	.anime .slick-dots
 	{
 		left: 50% !important;
-		bottom: -10px !important;
+		display: flex;
 	}
 
 	#slick-slide-control00::before
 	{
-		border: 2px solid #10C0DC;
+		border: 2px solid #396ed6;
 		color: white;
 		width: 80px;
 		height: 3px;
 	}
 	#slick-slide-control01::before
 	{
-		border: 2px solid #10C0DC;
+		border: 2px solid #396ed6;
 		color: white;
 		width: 80px;
 		height: 3px;
 	}
 	#slick-slide-control02::before
 	{
-		border: 2px solid #10C0DC;
+		border: 2px solid #396ed6;
 		color: white;
 		width: 80px;
 		height: 3px;
@@ -308,7 +337,7 @@
 		padding: 0;
 		text-align: center;
 		justify-content: center;
-		padding-top: 70px;
+		padding-top: 50px;
 	}
 	#headerservice
 	{
@@ -330,8 +359,8 @@
 		text-align: left;
 		justify-content: center;
 		padding-top: 30px;
-		margin-right: 45%;
-		margin-left: 2%;
+		margin-right: 42%;
+		margin-left: 5%;
 	}
 	#soratraservice h2
 	{
@@ -339,7 +368,7 @@
 		padding: 0;
 		text-align: left;
 		justify-content: center;
-		font-family: metropolis;
+		font-family: montserrat;
 		font-size:20px;
 		font-weight:100;
 		color:white;
@@ -351,12 +380,11 @@
 		padding: 0;
 		text-align: left;
 		justify-content: center;
-		font-family: rubik;
+		font-family: montserrat;
 		font-size:40px;
-		font-weight:400;
+		font-weight:900;
 		color: white;
-		letter-spacing:8px;
-		font-style: italic;
+		letter-spacing:0px;
 	}
 	#soratraservice img
 	{
@@ -392,7 +420,7 @@
 		text-align: center;
 		justify-content: center;
 		margin: 0px 30px 0px 30px;
-		width: 180px;
+		width: 150px;
 		padding:20px;
 		cursor:pointer;
 
@@ -425,7 +453,7 @@
 		padding: 0;
 		text-align: center;
 		justify-content: center;
-		font-family: rubik;
+		font-family: montserrat;
 		font-weight: 400;
 		font-size: 15px;
 		letter-spacing: 0.5px;
@@ -450,7 +478,7 @@
 		text-align: center;
 		justify-content: center;
 		margin-top: 0px;
-		padding-top: 68px;
+		padding-top: 50px;
 		width: 100%;
 	}
 	#headerporfolio
@@ -470,12 +498,12 @@
 		padding: 0;
 		text-align: center;
 		justify-content: center;
-		font-family: metropolis;
+		font-family: montserrat;
 		font-size:20px;
 		font-weight:200;
 		color:white;
 		letter-spacing:3px;
-		padding-top: 50px;
+		padding-top: 20px;
 	}
 	#headerporfolio h1
 	{
@@ -483,13 +511,12 @@
 		padding: 0;
 		text-align: center;
 		justify-content: center;
-		font-family: rubik;
+		font-family: montserrat;
 		font-size:40px;
-		font-weight:400;
+		font-weight:900;
 		color: white;
-		letter-spacing:8px;
-		font-style: italic;
-		padding-bottom: 0px;
+		letter-spacing:0px;
+		padding-bottom: 20px;
 	}
 
 	#bouttontout
@@ -508,11 +535,11 @@
 		padding: 0;
 		text-align: center;
 		justify-content: center;
-		font-family:metropolis;
+		font-family:montserrat;
 		font-weight: 400;
 		font-size:12px ;
 		color:white;
-		letter-spacing: 4px;
+		letter-spacing: 0px;
 		text-decoration: none;
 		border-radius: 50px;
 		padding: 5px 30px;
@@ -552,6 +579,7 @@
 		text-align: center;
 		justify-content: center;
 		margin: 0% 15%;
+		padding-left: 2%;
 
 	}
 	.img1
@@ -560,14 +588,15 @@
 		padding: 0;
 		text-align: center;
 		justify-content: center;
-		margin-left: 3%;
+		margin-left: 1%;
 		padding-top: 5px;
 		margin-bottom: 20px;
 		margin-top: 20px;
+
 	}
 	.img1 img
 	{
-		width: 170px;
+		width: 90%;
 		margin: 0;
 		
 	}
@@ -677,11 +706,11 @@
 		padding: 0;
 		text-align:left;
 		justify-content: center;
-		font-family:metropolis;
+		font-family:montserrat;
 		font-weight: 700;
 		font-size:30px;
-		color:#006C7D;
-		letter-spacing:5px;
+		color:#3967d7;
+		letter-spacing:2px;
 
 	}
 	#soratra-qui img
@@ -698,11 +727,11 @@
 		padding: 0;
 		text-align: left;
 		justify-content: center;
-		font-family:rubik;
-		font-weight: 500;
-		font-size:14px;
+		font-family:montserrat;
+		font-weight: 400;
+		font-size:13px;
 		color:#4E4E4E;
-		line-height: 33px;
+		line-height: 28px;
 		margin-top: 15px;
 		width: 340px;
 	}
@@ -754,11 +783,11 @@
 		padding: 0;
 		text-align:right;
 		justify-content: center;
-		font-family:metropolis;
+		font-family:montserrat;
 		font-weight: 700;
 		font-size:33px;
-		color:#006C7D;
-		letter-spacing:5px;
+		color:#3967d7;
+		letter-spacing:2px;
 	}
 	#soratra-apropos h2
 	{
@@ -766,13 +795,13 @@
 		padding: 0;
 		text-align: right;
 		justify-content: center;
-		font-family:rubik;
-		font-weight: 500;
-		font-size:14px;
+		font-family:montserrat;
+		font-weight: 400;
+		font-size:13px;
 		color:#4E4E4E;
-		line-height: 33px;
+		line-height: 28px;
 		margin-top: 15px;
-		width: 700px;
+		width: 600px;
 	}
 					/*NOS ENGAGEMENT*/
 	#nos-engagement
@@ -781,7 +810,7 @@
 		padding: 0;
 		text-align:center;
 		justify-content: center;
-		padding-top: 65px;
+		padding-top: 50px;
 		width: 100%;
 	}
 	#header-engagement
@@ -800,13 +829,12 @@
 		margin:0;
 		padding: 0;
 		text-align:center;
-		font-family: rubik;
+		font-family: montserrat;
 		font-size:30px;
-		font-weight:400;
+		font-weight:900;
 		color: white;
-		letter-spacing:8px;
-		font-style: italic;
-		padding-top: 60px;
+		letter-spacing:0px;
+		padding-top: 30px;
 
 	}
 	#header-engagement img
@@ -831,8 +859,8 @@
 		padding: 0;
 		text-align:center;
 		justify-content: center;
-		font-family:metropolis;
-		font-size:20px;
+		font-family:montserrat;
+		font-size:18px;
 		font-weight:800;
 		color: #5E5E5E;
 		letter-spacing:15px;
@@ -861,6 +889,7 @@
 		text-align:center;
 		justify-content: center;
 		margin: 0% 15%;
+		padding-left: 2%;
 
 	}
 	.img2
@@ -875,7 +904,7 @@
 	.img2 img
 	{
 		box-shadow: 0px 0px 2px #006C7D;
-		width: 170px;	
+		width: 90%;	
 	}
 	#sary-engagement img:hover
 	{
@@ -963,7 +992,7 @@
 		padding: 0;
 		text-align:center;
 		justify-content: center;
-		font-family:metropolis;
+		font-family:montserrat;
 		font-weight: 400;
 		font-size:15px;
 		color:#676767;
@@ -978,22 +1007,22 @@
 		padding: 0;
 		text-align:center;
 		justify-content: center;
-		font-family:rubik;
+		font-family:montserrat;
 		font-weight: 400;
 		font-size:1.0em ;
 		color: white;
 		letter-spacing: 2px;
 		text-decoration: none;
-		background-color: #10C0DC;
+		background-color: #3967d7;
 		padding: 10px 20px 10px 20px;
 	}
 	#soratra-engagement a:hover
 	{
-		border: 2px solid #10C0DC;
+		border: 2px solid #3967d7;
 		color:white ;
 		background: transparent;
 		transition: all 0.5s ease;
-		color: #10C0DC;
+		color: #3967d7;
 	}
 
 				/*CONTACT TSIKA ZAO*/
@@ -1029,12 +1058,11 @@
 		padding: 0;
 		text-align:center;
 		justify-content: center;
-		font-family: rubik;
+		font-family: montserrat;
 		font-size:30px;
-		font-weight:400;
+		font-weight:900;
 		color: white;
-		letter-spacing:8px;
-		font-style: italic;
+		letter-spacing:2px;
 		padding-top: 50px;
 	}
 	#soratra-contact img
@@ -1100,7 +1128,7 @@
 	#submit
 	{
 		font-family:quicksand-regular;
-			font-size:17px;
+			font-size:18px;
 			color: white;
 			letter-spacing:1px;
 			background-color: #10C0DC;
@@ -1140,7 +1168,7 @@
 		padding: 0;
 		text-align:center;
 		justify-content: center;
-		background-color: #10C0DC;
+		background-color: #3967d7;
 		padding: 0;
 	}
 
@@ -1150,7 +1178,7 @@
 		padding: 0;
 		text-align:center;
 		justify-content: center;
-		background-color:#0BA4BC;
+		background-color:#3967d7;
 	}
 	#titre-coordonne h1
 	{
@@ -1204,7 +1232,7 @@
 		font-family:quicksand-light;
 		letter-spacing:2px ;
 		color: white;
-		font-size:12px ;
+		font-size:13px ;
 		line-height: 35px;
 
 	}
@@ -1227,7 +1255,7 @@
 		font-family:quicksand-light;
 		letter-spacing:2px ;
 		color: white;
-		font-size:13px;
+		font-size:14px;
 		line-height: 30px;
 	}
 	#sarycoordonne
@@ -1236,7 +1264,7 @@
 		padding: 0;
 		text-align:center;
 		justify-content: center;
-		margin-left: 200px;
+		margin-left:3%;
 
 
 	}
@@ -1261,7 +1289,7 @@
 	#footer
 	{
 		height: 53px;
-		background-color: #246974;
+		background-color: #3967d7;
 		padding: 0;
 		margin:0;
 		text-align: center;
@@ -1271,7 +1299,7 @@
 		margin: 0;
 		padding: 0;
 		font-family:quicksand-light;
-		font-size: 0.7em;
+		font-size: 0.6em;
 		letter-spacing: 10px;
 		color: white;
 		padding-top: 20px;
@@ -1283,7 +1311,7 @@
 		text-align:center;
 		justify-content: center;
 		height: 30px;
-		background-color:#009EB7;
+		background-color:#3967d5;
 	}
 	#loko2
 	{
@@ -1292,12 +1320,13 @@
 		text-align:center;
 		justify-content: center;
 		height: 30px;
-		background-color:#007D91;
+		background-color:#3967d3;
 	}
 
 
 
 }
+
 
 
 
