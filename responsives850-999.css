@@ -76,6 +76,7 @@
 		padding: 0;
 		text-align: left;
 		justify-content: left;
+		background-image: url(images/fond-5.png);
 		background-size: 100%;
 		background-repeat: no-repeat;
 		display: flex;
