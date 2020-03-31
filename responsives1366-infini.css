@@ -324,13 +324,27 @@
 		padding: 0;
 		text-align: center;
 		justify-content: center;
-		background-image: url(images/fond-4.png);
 		background-size: 100%;
 		display: flex;
 		position: fixed;
 		width: 100%;
 		top: 0;
 		z-index: 10;
+	}
+	.fixed
+	{
+		background-color: rgb(500, 500, 500, 0.95);
+		box-shadow: 0px 5px 10px rgb(0, 0, 0, 0.1);
+	}
+	.menumenu
+	{
+		color:white;
+		font-family: montserrat-normal;
+	}
+	.menumenuu
+	{
+		color:#3967d7;
+		font-family: montserrat-600;
 	}
 	#logo
 	{
@@ -346,6 +360,7 @@
 		padding: 0;
 		text-align: center;
 		justify-content: center;
+		
 	}
 	#listmenu ul
 	{
@@ -372,9 +387,7 @@
 		text-align: center;
 		justify-content: center;
 		text-decoration: none;
-		font-family: montserrat-normal;
 		font-size:10px;
-		color: white;
 		letter-spacing: 1.7px;
 		margin: 0px 15px;
 		padding: 10px 5px;
@@ -382,7 +395,6 @@
 	}
 	#listmenu a:hover
 	{
-		background-color:#06A3BC;
 		transition: all 0.5s ease;
 	}
 			/*---C O N T E N U  MENU----*/

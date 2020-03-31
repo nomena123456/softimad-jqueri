@@ -206,9 +206,25 @@ $(document).ready(function(){
       })
       $('#croi').click(function(){
         $('#menu-phone').hide('slow').fadeOut('slow');
-      })
+      });
 
 
+
+$(window).bind('scroll', function () 
+      {
+        if ($(window).scrollTop() > 60) 
+        {
+          $('#headermenu').addClass('fixed');
+          $('.menumenu').addClass('menumenuu');
+          //$('.page-header').addClass('hide-header');
+        } 
+        else 
+        {
+          $('#headermenu').removeClass('fixed');
+          $('.menumenu').removeClass('menumenuu');
+          //$('.page-header').removeClass('hide-header');
+        }
+      });
 
 
 })
