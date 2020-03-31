@@ -125,7 +125,7 @@
 		text-align: center;
 		justify-content: center;
 		text-decoration: none;
-		font-family:montserrat;
+		font-family:montserrat-normal;
 		font-size:9px;
 		color: white;
 		letter-spacing: 1.7px;
@@ -195,7 +195,7 @@
 		padding: 0;
 		text-align: left;
 		justify-content: center;
-		font-family:montserrat;
+		font-family:montserrat-300;
 		font-size:35px;
 		color:#002a87;
 		font-weight: 300;
@@ -211,7 +211,7 @@
 		padding: 0;
 		text-align: right;
 		justify-content: center;
-		font-family:montserrat;
+		font-family:montserrat-700;
 		font-weight: bold;
 		font-size:40px;
 		color:#002a87;
@@ -225,7 +225,7 @@
 		padding: 0;
 		text-align: left;
 		justify-content: center;
-		font-family:montserrat;
+		font-family:montserrat-600;
 		font-weight: 900;
 		font-size:18px;
 		color:#396ed6;
@@ -240,7 +240,7 @@
 		padding: 0;
 		text-align: left;
 		justify-content: center;	
-		font-family:comfortaa;
+		font-family:poppins;
 		font-weight: 450;
 		font-size:13px;
 		color:#585858;
@@ -254,7 +254,7 @@
 		padding: 0;
 		text-align: left;
 		justify-content: left;
-		font-family:montserrat;
+		font-family:montserrat-600;
 		font-weight: 900;
 		font-size:16px;
 		color: white;
@@ -342,7 +342,7 @@
 		padding: 0;
 		text-align: left;
 		justify-content: center;
-		font-family: montserrat;
+		font-family: montserrat-300;
 		font-size:27px;
 		font-weight:100;
 		color:white;
@@ -354,7 +354,7 @@
 		padding: 0;
 		text-align: left;
 		justify-content: center;
-		font-family: montserrat;
+		font-family: montserrat-700;
 		font-size:46px;
 		font-weight:900;
 		color: white;
@@ -426,7 +426,7 @@
 		padding: 0;
 		text-align: center;
 		justify-content: center;
-		font-family: montserrat;
+		font-family: montserrat-300;
 		font-weight: 400;
 		font-size: 16px;
 		letter-spacing: 0.5px;
@@ -448,7 +448,7 @@
 		padding: 0;
 		text-align: center;
 		justify-content: center;
-		font-family: montserrat;
+		font-family: montserrat-900;
 		font-weight: 500;
 		font-size: 0.7em;
 		color: white;
@@ -493,7 +493,7 @@
 		padding: 0;
 		text-align: center;
 		justify-content: center;
-		font-family: montserrat;
+		font-family: montserrat-300;
 		font-size:27px;
 		font-weight:200;
 		color:white;
@@ -506,7 +506,7 @@
 		padding: 0;
 		text-align: center;
 		justify-content: center;
-		font-family: montserrat;
+		font-family: montserrat-700;
 		font-size:46px;
 		font-weight:900;
 		color: white;
@@ -531,7 +531,7 @@
 		padding: 0;
 		text-align: center;
 		justify-content: center;
-		font-family:montserrat;
+		font-family:montserrat-normal;
 		font-weight: 400;
 		font-size:15px ;
 		color:white;
@@ -699,7 +699,7 @@
 		padding: 0;
 		text-align:left;
 		justify-content: center;
-		font-family:montserrat;
+		font-family:montserrat-700;
 		font-weight: 700;
 		font-size:38px;
 		color:#3967d7;
@@ -720,7 +720,7 @@
 		padding: 0;
 		text-align: left;
 		justify-content: center;
-		font-family:comfortaa;
+		font-family:poppins;
 		font-weight: 500;
 		font-size:15px;
 		color:#4E4E4E;
@@ -768,7 +768,7 @@
 		padding: 0;
 		text-align:right;
 		justify-content: center;
-		font-family:montserrat;
+		font-family:montserrat-700;
 		font-weight: 700;
 		font-size:38px;
 		color:#3967d7;
@@ -780,7 +780,7 @@
 		padding: 0;
 		text-align: right;
 		justify-content: center;
-		font-family:comfortaa;
+		font-family:poppins;
 		font-weight: 500;
 		font-size:15px;
 		color:#4E4E4E;
@@ -814,7 +814,7 @@
 		margin:0;
 		padding: 0;
 		text-align:center;
-		font-family: montserrat;
+		font-family: montserrat-700;
 		font-size:35px;
 		font-weight:900;
 		color: white;
@@ -845,7 +845,7 @@
 		padding: 0;
 		text-align:center;
 		justify-content: center;
-		font-family:montserrat;
+		font-family:montserrat-normal;
 		font-size:20px;
 		font-weight:800;
 		color: #5E5E5E;
@@ -977,7 +977,7 @@
 		padding: 0;
 		text-align:center;
 		justify-content: center;
-		font-family:comfortaa;
+		font-family:poppins;
 		font-weight: 400;
 		font-size:16px;
 		color:#676767;
@@ -992,7 +992,7 @@
 		padding: 0;
 		text-align:center;
 		justify-content: center;
-		font-family:montserrat;
+		font-family:montserrat-600;
 		font-weight: 900;
 		font-size:1.2em ;
 		color: white;
@@ -1044,7 +1044,7 @@
 		padding: 0;
 		text-align:center;
 		justify-content: center;
-		font-family: montserrat;
+		font-family: montserrat-700;
 		font-size:35px;
 		font-weight:900;
 		color: white;
@@ -1095,7 +1095,7 @@
 		border-radius: 20px;
 		width: 370px;
 		padding: 13px;
-		font-family:montserrat;
+		font-family:poppins;
 		font-weight: 300;
 		font-size: 15px;
 		color: #808080;
@@ -1104,7 +1104,7 @@
 	}
 	.formulaire:focus
 	{
-		font-family:montserrat;
+		font-family:poppins;
 		font-style:none;
 		color: #006C7D;
 		font-style: inherit;
@@ -1113,7 +1113,7 @@
 	}
 	#submit
 	{
-		font-family:montserrat;
+		font-family:montserrat-600;
 			font-weight: 300;
 			font-size:20px;
 			color: white;
@@ -1140,7 +1140,7 @@
 		padding: 0;
 		text-align:center;
 		justify-content: center;
-		font-family: montserrat;
+		font-family: montserrat-300;
 		font-size:35px;
 		font-weight: 100;
 		color:#4D7092;
@@ -1173,7 +1173,7 @@
 		padding: 0;
 		text-align:center;
 		justify-content: center;
-		font-family:montserrat;
+		font-family:montserrat-700;
 		font-weight: 600;
 		letter-spacing:4px ;
 		color: white;
@@ -1216,7 +1216,7 @@
 	{
 		margin: 0;
 		padding: 0;
-		font-family: quicksand-light;
+		font-family: montserrat-300;
 		letter-spacing:2px ;
 		color: white;
 		font-size:13px ;
@@ -1239,7 +1239,7 @@
 		padding: 0;
 		margin: 0;
 		padding: 0;
-		font-family:quicksand-light;
+		font-family:montserrat-300;
 		letter-spacing:2px ;
 		color: white;
 		font-size:15px;
@@ -1285,7 +1285,7 @@
 	{
 		margin: 0;
 		padding: 0;
-		font-family:quicksand-light;
+		font-family:montserrat-300;
 		font-size: 0.8em;
 		letter-spacing: 10px;
 		color: white;
