@@ -744,6 +744,7 @@
 		text-align: center;
 		justify-content: center;
 		display: flex;
+		margin-top: 50px;
 	}
 	#img-apropos
 	{
@@ -1084,7 +1085,6 @@
 		padding: 0;
 		justify-content: center;
 		text-align: center;
-		background-color: #96b2f6;
 		padding-left: 30px;
 		padding-right: 30px;
 		margin-right: 50px;
