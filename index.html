@@ -28,6 +28,9 @@
 
 </head>
 <body>
+	<div id="preloder">
+		<div class="loader"></div>
+	</div>
 
 	<div id="menu">
 		<div id="headermenu">
@@ -441,6 +444,17 @@
 <script src="animate-scroll.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
 <script>
+	'use strict';
+
+
+$(window).on('load', function() {
+	/*------------------
+		Preloder
+	--------------------*/
+	$(".loader").fadeOut(); 
+	$("#preloder").delay(400).fadeOut("slow");
+
+});
       $(document).foundation();  
       $(document).animateScroll();
     
