@@ -18,6 +18,71 @@
 		overflow-x: hidden;
 
 	}
+
+	/* Preloder */
+
+#preloder {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 999999;
+	background: #fff;
+}
+
+.loader {
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -13px;
+	margin-left: -13px;
+	border-radius: 60px;
+	animation: loader 0.8s linear infinite;
+	-webkit-animation: loader 0.8s linear infinite;
+}
+
+@keyframes loader {
+	0% {
+		-webkit-transform: rotate(0deg);
+		        transform: rotate(0deg);
+		border: 4px solid #002a87;
+		border-left-color: transparent;
+	}
+	50% {
+		-webkit-transform: rotate(180deg);
+		        transform: rotate(180deg);
+		border: 4px solid #396ed6;
+		border-left-color: transparent;
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+		        transform: rotate(360deg);
+		border: 4px solid #002a87;
+		border-left-color: transparent;
+	}
+}
+
+@-webkit-keyframes loader {
+	0% {
+		-webkit-transform: rotate(0deg);
+		border: 4px solid #396ed6;
+		border-left-color: transparent;
+	}
+	50% {
+		-webkit-transform: rotate(180deg);
+		border: 4px solid #002a87;
+		border-left-color: transparent;
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+		border: 4px solid #396ed6;
+		border-left-color: transparent;
+	}
+}
+
 	#contenu-phone
 	{
 		display: none;
@@ -67,7 +132,7 @@
 		background-image: url(images/fond-2.png);
 		background-size: 100%;
 		background-repeat: no-repeat;
-		height: 600px;
+		height: 640px;
 		width: 100%;
 
 	}
@@ -75,30 +140,46 @@
 	{
 		margin:0;
 		padding: 0;
-		text-align: center;
-		justify-content: center;
-		background-image: url(images/fond-4.png);
+		text-align: left;
+		justify-content: left;
 		background-size: 100%;
 		display: flex;
 		position: fixed;
 		width: 100%;
 		top: 0;
 		z-index: 10;
+		margin-left: 2%;
+	}
+	.fixed
+	{
+		background-color: rgb(500, 500, 500, 0.95);
+		box-shadow: 0px 5px 10px rgb(0, 0, 0, 0.1);
+	}
+	.menumenu
+	{
+		color:white;
+		font-family: montserrat-normal;
+	}
+	.menumenuu
+	{
+		color:#3967d7;
+		font-family: montserrat-600;
 	}
 	#logo
 	{
 		margin:0;
 		padding: 0;
-		text-align: center;
-		justify-content: center;
+		text-align: left;
+		justify-content: left;
 		margin-top: 20px;
 	}
 	#listmenu
 	{
 		margin:0;
 		padding: 0;
-		text-align: center;
-		justify-content: center;
+		text-align: left;
+		justify-content: left;
+		
 	}
 	#listmenu ul
 	{
@@ -125,9 +206,7 @@
 		text-align: center;
 		justify-content: center;
 		text-decoration: none;
-		font-family:montserrat-normal;
-		font-size:9px;
-		color: white;
+		font-size:8px;
 		letter-spacing: 1.7px;
 		margin: 0px 15px;
 		padding: 10px 5px;
@@ -135,7 +214,6 @@
 	}
 	#listmenu a:hover
 	{
-		background-color:#06A3BC;
 		transition: all 0.5s ease;
 	}
 			/*---C O N T E N U  MENU----*/
@@ -186,7 +264,7 @@
 		padding: 0;
 		text-align: left;
 		justify-content: center;
-		padding-top: 150px;
+		padding-top: 120px;
 		padding-bottom: 50px;
 	}
 	.soratra h1
@@ -196,7 +274,7 @@
 		text-align: left;
 		justify-content: center;
 		font-family:montserrat-300;
-		font-size:35px;
+		font-size:40px;
 		color:#002a87;
 		font-weight: 300;
 		letter-spacing:8px;
@@ -211,9 +289,9 @@
 		padding: 0;
 		text-align: right;
 		justify-content: center;
-		font-family:montserrat-700;
-		font-weight: bold;
-		font-size:40px;
+		font-family:montserrat-800;
+		font-weight:900;
+		font-size:45px;
 		color:#002a87;
 		letter-spacing:0px;
 
@@ -226,8 +304,8 @@
 		text-align: left;
 		justify-content: center;
 		font-family:montserrat-600;
-		font-weight: 900;
-		font-size:18px;
+		font-weight: 500;
+		font-size:21px;
 		color:#396ed6;
 		letter-spacing:2px;
 		margin-top: 20px;
@@ -242,10 +320,10 @@
 		justify-content: center;	
 		font-family:poppins;
 		font-weight: 450;
-		font-size:13px;
+		font-size:14px;
 		color:#585858;
 		letter-spacing:0px;
-		line-height: 28px;
+		line-height: 32px;
 		margin-bottom: 30px;
 	}
 	.soratra a
@@ -256,7 +334,7 @@
 		justify-content: left;
 		font-family:montserrat-600;
 		font-weight: 900;
-		font-size:16px;
+		font-size:18px;
 		color: white;
 		letter-spacing: 2px;
 		text-decoration: none;
@@ -427,7 +505,6 @@
 		text-align: center;
 		justify-content: center;
 		font-family: montserrat-300;
-		font-weight: 400;
 		font-size: 16px;
 		letter-spacing: 0.5px;
 		color: #545454;
@@ -449,7 +526,6 @@
 		text-align: center;
 		justify-content: center;
 		font-family: montserrat-900;
-		font-weight: 500;
 		font-size: 0.7em;
 		color: white;
 		background-color:#10C0DC;
@@ -604,7 +680,7 @@
 		color: #0093B1 !important;
 		font-size: 80px !important;
 		content: '<'!important;
-		font-family:quicksand-light !important;
+		font-family:quicksand-light!important;
 		font-weight: 100 !important;
 
 	}
@@ -744,7 +820,7 @@
 		text-align: center;
 		justify-content: center;
 		display: flex;
-		margin-top: 50px;
+		margin-top: 100px;
 	}
 	#img-apropos
 	{
@@ -1313,5 +1389,3 @@
 
 
 }
-
-

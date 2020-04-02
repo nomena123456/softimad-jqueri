@@ -5,7 +5,7 @@
 			/*-------------------------------------ECRAN NGEZA MAC----------------------------------*/
 			/*----------------------------------------1344Pixel----------------------------------*/
 
-@media only screen and (min-width: 450px) and (max-width:699px)
+@media only screen and (min-width: 450px) and (max-width:767px)
 {
 
 	body
@@ -17,6 +17,81 @@
 		width: 100%;
 		overflow-x: hidden;
 
+	}
+
+	
+	/* Preloder */
+
+#preloder {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 999999;
+	background: #fff;
+}
+
+.loader {
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -13px;
+	margin-left: -13px;
+	border-radius: 60px;
+	animation: loader 0.8s linear infinite;
+	-webkit-animation: loader 0.8s linear infinite;
+}
+
+@keyframes loader {
+	0% {
+		-webkit-transform: rotate(0deg);
+		        transform: rotate(0deg);
+		border: 4px solid #002a87;
+		border-left-color: transparent;
+	}
+	50% {
+		-webkit-transform: rotate(180deg);
+		        transform: rotate(180deg);
+		border: 4px solid #396ed6;
+		border-left-color: transparent;
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+		        transform: rotate(360deg);
+		border: 4px solid #002a87;
+		border-left-color: transparent;
+	}
+}
+
+@-webkit-keyframes loader {
+	0% {
+		-webkit-transform: rotate(0deg);
+		border: 4px solid #396ed6;
+		border-left-color: transparent;
+	}
+	50% {
+		-webkit-transform: rotate(180deg);
+		border: 4px solid #002a87;
+		border-left-color: transparent;
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+		border: 4px solid #396ed6;
+		border-left-color: transparent;
+	}
+}
+	.fixed
+	{
+		background-color: rgb(500, 500, 500, 0.95);
+		box-shadow: 0px 5px 10px rgb(0, 0, 0, 0.1);
+	}
+	.menumenu
+	{
+		color:white;
+		font-family: montserrat-normal;
 	}
 	#sary
 	{
@@ -121,7 +196,7 @@
 		width: 100%;
 		height: 100%;
 		background-color:rgb(1, 163, 174, 0.9);	
-		padding-top: 150px;
+		padding-top: 60px;
 	}
 	#menu-phone ul
 	{
@@ -129,9 +204,9 @@
 		padding: 0;
 		text-align: center;
 		justify-content: center;
-		display: flex;
+		display: block;
 		flex-wrap: wrap;
-		height: 200px;
+		height:100%;
 		margin: 0px 30px;
 	}
 	#menu-phone li
@@ -141,6 +216,7 @@
 		text-align: center;
 		justify-content: center;
 		list-style-type: none;
+		margin: 30px 0px;
 	}
 	#menu-phone a
 	{
@@ -149,7 +225,7 @@
 		text-align: center;
 		justify-content: center;
 		text-decoration: none;
-		font-family:rubik;
+		font-family:montserrat-normal;
 		font-size:15px;
 		color: white;
 		letter-spacing: 1.7px;
@@ -198,14 +274,14 @@
 		padding: 0;
 		text-align: center;
 		justify-content: center;
-		font-family:rubik;
-		font-size:40px;
-		color:#246974;
+		font-family:montserrat-300;
+		font-size:35px;
+		color:#002a87;
 		letter-spacing:-1px;
 	}
 	.anime-phone span
 	{
-	 font-family:rubik-bold;	
+	 font-family:montserrat-700;	
 	}
 	.anime-phone h2
 	{
@@ -213,10 +289,10 @@
 		padding: 0;
 		text-align: center;
 		justify-content: center;
-		font-family:rubik;
+		font-family:montserrat-600;
 		font-weight: 900;
 		font-size:18px;
-		color:#51C4CC;
+		color:#396ed6;
 		letter-spacing:-0px;
 		margin: 20px 0px;
 	}
@@ -231,13 +307,13 @@
 		padding: 0;
 		text-align: center;
 		justify-content: center;
-		font-family:metropolis;
+		font-family:montserrat-600;
 		font-weight: 650;
 		font-size:13px;
 		color: white;
-		letter-spacing: 2px;
+		letter-spacing: 0px;
 		text-decoration: none;
-		background-color: #10C0DC;
+		background-color: #396ed6;
 		border-radius: 50px;
 		padding: 10px 25px 10px 25px;
 	}	
@@ -297,7 +373,7 @@
 		padding: 0;
 		text-align: center;
 		justify-content: center;
-		padding-top: 45px;
+		padding-top: 40px;
 	}
 	#headerservice
 	{
@@ -319,7 +395,7 @@
 		text-align: left;
 		justify-content: center;
 		padding-top: 30px;
-		margin-right: 13%;
+		margin-right: 15%;
 		margin-left: 5%;
 	}
 	#soratraservice h2
@@ -328,11 +404,11 @@
 		padding: 0;
 		text-align: left;
 		justify-content: center;
-		font-family: metropolis;
-		font-size:14px;
+		font-family: montserrat-300;
+		font-size:12px;
 		font-weight:100;
 		color:white;
-		letter-spacing:3px;
+		letter-spacing:2px;
 	}
 	#soratraservice h1
 	{
@@ -340,12 +416,11 @@
 		padding: 0;
 		text-align: left;
 		justify-content: center;
-		font-family: rubik;
-		font-size:25px;
+		font-family:montserrat-700;
+		font-size:22px;
 		font-weight:400;
 		color: white;
-		letter-spacing:8px;
-		font-style: italic;
+		letter-spacing:5px;
 	}
 	#soratraservice img
 	{
@@ -381,7 +456,7 @@
 		text-align: center;
 		justify-content: center;
 		margin: 0px 20px 0px 20px;
-		width: 150px;
+		width: 120px;
 		padding:20px;
 		cursor:pointer;
 
@@ -400,7 +475,7 @@
 		justify-content: center;
 		border-radius: 100px;
 		transition: 1s ease-in-out;
-		width: 80%;
+		width: 90%;
 	}	
 	.boriborikely img:hover
 	{
@@ -414,10 +489,10 @@
 		padding: 0;
 		text-align: center;
 		justify-content: center;
-		font-family: rubik;
+		font-family: montserrat-300;
 		font-weight: 400;
 		font-size: 15px;
-		letter-spacing: 0.5px;
+		letter-spacing: 0px;
 		color: #545454;
 		margin-top: 20px;
 		margin-bottom: 0px;
@@ -459,11 +534,11 @@
 		padding: 0;
 		text-align: center;
 		justify-content: center;
-		font-family: metropolis;
-		font-size:17px;
+		font-family: montserrat-300;
+		font-size:15px;
 		font-weight:200;
 		color:white;
-		letter-spacing:3px;
+		letter-spacing:2px;
 		padding-top: 20px;
 	}
 	#headerporfolio h1
@@ -472,12 +547,11 @@
 		padding: 0;
 		text-align: center;
 		justify-content: center;
-		font-family: rubik;
-		font-size:35px;
+		font-family:montserrat-700;
+		font-size:30px;
 		font-weight:400;
 		color: white;
-		letter-spacing:8px;
-		font-style: italic;
+		letter-spacing:5px;
 		padding-bottom: 20px;
 	}
 
@@ -497,30 +571,30 @@
 		padding: 0;
 		text-align: center;
 		justify-content: center;
-		font-family:metropolis;
+		font-family:montserrat-normal;
 		font-weight: 400;
 		font-size:12px ;
 		color:white;
-		letter-spacing: 4px;
+		letter-spacing: 2px;
 		text-decoration: none;
 		border-radius: 50px;
-		padding: 5px 15px;
+		padding: 5px 5px;
 		margin:30px 10px 30px 10px;
-		border: 1.5px solid #0093B1;
+		border: 1.5px solid #396ed6;
 		
-		background: #0093B1;
+		background: #396ed6;
 	}
 	#bouttontout a:hover
 	{
-		border: 1.5px solid #0093B1;
-		color:#0093B1 ;
+		border: 1.5px solid #396ed6;
+		color:#396ed6 ;
 		background: white;
 		transition: all 0.5s ease;
 	}
 	#bouttontout a:focus
 	{
-		border: 1.5px solid #0093B1;
-		color:#0093B1 ;
+		border: 1.5px solid #396ed6;
+		color:#396ed6 ;
 		background: white;
 		transition: all 0.5s ease;
 	}
@@ -541,7 +615,6 @@
 		text-align: center;
 		justify-content: center;
 		margin: 0% 15%;
-		padding-left: 2%;
 
 	}
 	.img1
@@ -550,7 +623,7 @@
 		padding: 0;
 		text-align: center;
 		justify-content: center;
-		margin-left: 1%;
+		margin-left: 11%;
 		padding-top: 5px;
 		margin-bottom: 20px;
 		margin-top: 20px;
@@ -558,7 +631,7 @@
 	}
 	.img1 img
 	{
-		width: 90%;
+		width: 80%;
 		margin: 0;
 		
 	}
@@ -570,7 +643,7 @@
 	#img-contenu .slick-prev:before
 	{
 		color: #0093B1 !important;
-		font-size: 70px !important;
+		font-size: 60px !important;
 		content: '<'!important;
 		font-family:quicksand-light !important;
 		font-weight: 100 !important;
@@ -579,13 +652,13 @@
 	#img-contenu .slick-prev
 	{
 
-		left: -60px !important;
-		top: 30% !important;
+		left: -40px !important;
+		top: 35% !important;
 	}
 	#img-contenu .slick-next:before
 	{
 		color: #0093B1 !important;
-		font-size: 70px !important;
+		font-size: 60px !important;
 		content: '>'!important;
 		font-family:quicksand-light !important;
 		font-weight: 100 !important;
@@ -593,8 +666,8 @@
 	}
 	#img-contenu .slick-next
 	{
-		right: -40px !important;
-		top: 30% !important;
+		right: -25px !important;
+		top: 35% !important;
 	}
 	#slick-slide-control10::before
 	{
@@ -665,11 +738,11 @@
 		padding: 0;
 		text-align:center;
 		justify-content: center;
-		font-family:metropolis;
+		font-family:montserrat-700;
 		font-weight: 700;
 		font-size:30px;
-		color:#006C7D;
-		letter-spacing:5px;
+		color:#396ed6;
+		letter-spacing:2px;
 
 	}
 	#soratra-qui img
@@ -686,7 +759,7 @@
 		padding: 0;
 		text-align: center;
 		justify-content: center;
-		font-family:rubik;
+		font-family:poppins;
 		font-weight: 500;
 		font-size:13px;
 		color:#4E4E4E;
@@ -715,44 +788,36 @@
 	}
 	#img-apropos
 	{
-		margin:0;
-		padding: 0;
-		text-align: center;
-		justify-content: center;
-		float: left;
-	}
-	#img-apropos img
-	{
-		width: 50%;
+display: none;
 	}
 	#soratra-apropos
 	{
 		margin:0;
 		padding: 0;
-		text-align: right;
-		justify-content: right;
+		text-align: center;
+		justify-content:center;
 		margin-top: 20px;
-		margin: 0% 5%;
+		margin:0px 20px;
 	}
 	#soratra-apropos h1
 	{
 		margin:0;
 		padding: 0;
-		text-align:right;
+		text-align:center;
 		justify-content: center;
-		font-family:metropolis;
+		font-family:montserrat-700;
 		font-weight: 700;
-		font-size:25px;
-		color:#006C7D;
-		letter-spacing:5px;
+		font-size:30px;
+		color:#396ed6;
+		letter-spacing:3px;
 	}
 	#soratra-apropos h2
 	{
 		margin:0;
 		padding: 0;
-		text-align: right;
+		text-align: center;
 		justify-content: center;
-		font-family:rubik;
+		font-family:poppins;
 		font-weight: 500;
 		font-size:13px;
 		color:#4E4E4E;
@@ -785,12 +850,11 @@
 		margin:0;
 		padding: 0;
 		text-align:center;
-		font-family: rubik;
-		font-size:25px;
+		font-family:montserrat-700;
+		font-size:20px;
 		font-weight:400;
 		color: white;
-		letter-spacing:8px;
-		font-style: italic;
+		letter-spacing:5px;
 		padding-top: 30px;
 
 	}
@@ -816,11 +880,11 @@
 		padding: 0;
 		text-align:center;
 		justify-content: center;
-		font-family:metropolis;
-		font-size:18px;
+		font-family:montserrat-normal;
+		font-size:16px;
 		font-weight:800;
 		color: #5E5E5E;
-		letter-spacing:15px;
+		letter-spacing:13px;
 	}
 	#technologie img
 	{
@@ -847,7 +911,6 @@
 		text-align:center;
 		justify-content: center;
 		margin: 0% 15%;
-		padding-left: 2%;
 
 	}
 	.img2
@@ -856,13 +919,13 @@
 		padding: 0;
 		text-align:center;
 		justify-content: center;
-		margin-left: 1%;	
+		margin-left: 15%;	
 		padding-top: 5px;
 	}
 	.img2 img
 	{
 		box-shadow: 0px 0px 2px #006C7D;
-		width: 90%;	
+		width: 70%;	
 	}
 	#sary-engagement img:hover
 	{
@@ -872,7 +935,7 @@
 	#sary-engagement .slick-prev:before
 	{
 		color: #0093B1 !important;
-		font-size: 70px !important;
+		font-size: 60px !important;
 		content: '<'!important;
 		font-family:quicksand-light !important;
 		font-weight: 100 !important;
@@ -881,13 +944,13 @@
 	#sary-engagement  .slick-prev
 	{
 
-		left: -50px !important;
-		top: 20% !important;
+		left: -40px !important;
+		top: 30% !important;
 	}
 	#sary-engagement  .slick-next:before
 	{
 		color: #0093B1 !important;
-		font-size: 70px !important;
+		font-size: 60px !important;
 		content: '>'!important;
 		font-family:quicksand-light !important;
 		font-weight: 100 !important;
@@ -896,7 +959,7 @@
 	#sary-engagement  .slick-next
 	{
 		right: -25px !important;
-		top: 20% !important;
+		top: 30% !important;
 	}
 	#slick-slide-control20::before
 	{
@@ -950,7 +1013,7 @@
 		padding: 0;
 		text-align:center;
 		justify-content: center;
-		font-family:metropolis;
+		font-family:poppins;
 		font-weight: 400;
 		font-size:14px;
 		color:#676767;
@@ -971,22 +1034,22 @@
 		padding: 0;
 		text-align:center;
 		justify-content: center;
-		font-family:rubik;
+		font-family:montserrat-600;
 		font-weight: 400;
 		font-size:1.0em ;
 		color: white;
 		letter-spacing: 2px;
 		text-decoration: none;
-		background-color: #10C0DC;
+		background-color: #396ed6;
 		padding: 10px 20px 10px 20px;
 	}
 	#soratra-engagement a:hover
 	{
-		border: 2px solid #10C0DC;
+		border: 2px solid #396ed6;
 		color:white ;
 		background: transparent;
 		transition: all 0.5s ease;
-		color: #10C0DC;
+		color: #396ed6;
 	}
 
 				/*CONTACT TSIKA ZAO*/
@@ -1022,12 +1085,11 @@
 		padding: 0;
 		text-align:center;
 		justify-content: center;
-		font-family: rubik;
+		font-family: montserrat-700;
 		font-size:20px;
 		font-weight:400;
 		color: white;
-		letter-spacing:8px;
-		font-style: italic;
+		letter-spacing:5px;
 		padding-top: 20px;
 	}
 	#soratra-contact img
@@ -1063,23 +1125,21 @@
 		padding: 0;
 		justify-content: center;
 		text-align: center;
-		background-color: #EFFDFF;
 		padding-top: 20px;
 		padding-bottom: 10px;
 	}
 	.formulaire
 	{
-		border: 1px solid #08ACC6;
+		border: 1px solid #396ed6;
 		border-radius: 20px;
-		width: 370px;
+		width:70%;
 		padding: 11px;
-		font-family:metropolis;
+		font-family:poppins;
 		font-weight: 300;
 		font-size: 13px;
 		color: #808080;
 		margin-top: 30px;
 		outline: none;
-		font-style: italic;
 	}
 	iframe
 	{
@@ -1087,21 +1147,20 @@
 	}
 	.formulaire:focus
 	{
-		font-family:metropolis;
+		font-family:poppins;
 		font-style:none;
-		color: #006C7D;
+		color: #396ed6;
 		font-style: inherit;
 		font-size: 16px;
 		font-weight: 400;
 	}
 	#submit
 	{
-		font-family:quicksand-light;
-			font-weight: 300;
+		font-family:montserrat-600;
 			font-size:18px;
 			color: white;
 			letter-spacing:1px;
-			background-color: #10C0DC;
+			background-color: #396ed6;
 			border-radius: 50px;
 			padding: 10px 30px;
 			outline: none;
@@ -1111,11 +1170,11 @@
 	}
 	#submit:hover
 	{
-		border: 2px solid #10C0DC;
+		border: 2px solid #396ed6;
 		color:white ;
 		background: transparent;
 		transition: all 0.5s ease;
-		color: #10C0DC;
+		color: #396ed6;
 	}
 	#formulaire h1
 	{
@@ -1123,10 +1182,10 @@
 		padding: 0;
 		text-align:center;
 		justify-content: center;
-		font-family: rubik;
+		font-family: montserrat-normal;
 		font-size:35px;
 		font-weight: 100;
-		color:#4D7092;
+		color:#396ed6;
 		letter-spacing:-2px;
 		margin-top:30px;
 	}
@@ -1138,7 +1197,7 @@
 		padding: 0;
 		text-align:center;
 		justify-content: center;
-		background-color: #10C0DC;
+		background-color: #396ed6;
 		padding: 0;
 	}
 
@@ -1148,7 +1207,7 @@
 		padding: 0;
 		text-align:center;
 		justify-content: center;
-		background-color:#0BA4BC;
+		background-color:#396ee5;
 	}
 	#titre-coordonne h1
 	{
@@ -1156,7 +1215,7 @@
 		padding: 0;
 		text-align:center;
 		justify-content: center;
-		font-family:metropolis;
+		font-family:montserrat-700;
 		font-weight: 600;
 		letter-spacing:4px ;
 		color: white;
@@ -1182,6 +1241,7 @@
 		padding: 0;
 		text-align:center;
 		justify-content: center;
+		margin: 0% 5%;
 	}
 
 
@@ -1199,7 +1259,7 @@
 	{
 		margin: 0;
 		padding: 0;
-		font-family:quicksand-light;
+		font-family:montserrat-300;
 		letter-spacing:2px ;
 		color: white;
 		font-size:12px ;
@@ -1222,10 +1282,10 @@
 		padding: 0;
 		margin: 0;
 		padding: 0;
-		font-family:quicksand-light;
+		font-family:montserrat-300;
 		letter-spacing:2px ;
 		color: white;
-		font-size:13px;
+		font-size:12px;
 		line-height: 30px;
 	}
 	#sarycoordonne
@@ -1244,8 +1304,8 @@
 		padding: 0;
 		text-align:center;
 		justify-content: center;
-		width: 65px;
-		margin: 20px 20px 20px 20px;
+		width: 60px;
+		margin: 20px 10px 20px 10px;
 	}
 
 	#sarycoordonne img:hover
@@ -1259,7 +1319,7 @@
 	#footer
 	{
 		height: 53px;
-		background-color: #246974;
+		background-color: #396ed9;
 		padding: 0;
 		margin:0;
 		text-align: center;
@@ -1268,8 +1328,8 @@
 	{
 		margin: 0;
 		padding: 0;
-		font-family:quicksand-light;
-		font-size: 0.7em;
+		font-family:montserrat-300;
+		font-size: 0.6em;
 		letter-spacing: 5px;
 		color: white;
 		padding-top: 20px;
@@ -1281,7 +1341,7 @@
 		text-align:center;
 		justify-content: center;
 		height: 30px;
-		background-color:#009EB7;
+		background-color:#396ef7;
 	}
 	#loko2
 	{
@@ -1290,7 +1350,7 @@
 		text-align:center;
 		justify-content: center;
 		height: 30px;
-		background-color:#007D91;
+		background-color:#396ea8;
 	}
 
 

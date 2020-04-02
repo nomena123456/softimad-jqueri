@@ -5,7 +5,7 @@
 			/*-------------------------------------ECRAN NGEZA MAC----------------------------------*/
 			/*----------------------------------------1344Pixel----------------------------------*/
 
-@media only screen and (min-width: 700px) and (max-width:849px)
+@media only screen and (min-width: 768px) and (max-width:849px)
 {
 
 	body
@@ -17,6 +17,80 @@
 		width: 100%;
 		overflow-x: hidden;
 
+	}
+	
+	/* Preloder */
+
+#preloder {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 999999;
+	background: #fff;
+}
+
+.loader {
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -13px;
+	margin-left: -13px;
+	border-radius: 60px;
+	animation: loader 0.8s linear infinite;
+	-webkit-animation: loader 0.8s linear infinite;
+}
+
+@keyframes loader {
+	0% {
+		-webkit-transform: rotate(0deg);
+		        transform: rotate(0deg);
+		border: 4px solid #002a87;
+		border-left-color: transparent;
+	}
+	50% {
+		-webkit-transform: rotate(180deg);
+		        transform: rotate(180deg);
+		border: 4px solid #396ed6;
+		border-left-color: transparent;
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+		        transform: rotate(360deg);
+		border: 4px solid #002a87;
+		border-left-color: transparent;
+	}
+}
+
+@-webkit-keyframes loader {
+	0% {
+		-webkit-transform: rotate(0deg);
+		border: 4px solid #396ed6;
+		border-left-color: transparent;
+	}
+	50% {
+		-webkit-transform: rotate(180deg);
+		border: 4px solid #002a87;
+		border-left-color: transparent;
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+		border: 4px solid #396ed6;
+		border-left-color: transparent;
+	}
+}
+	.fixed
+	{
+		background-color: rgb(500, 500, 500, 0.95);
+		box-shadow: 0px 5px 10px rgb(0, 0, 0, 0.1);
+	}
+	.menumenu
+	{
+		color:white;
+		font-family: montserrat-normal;
 	}
 	#contenu-phone
 	{
@@ -64,8 +138,8 @@
 		padding: 0;
 		text-align: center;
 		justify-content: center;
-		background-image: url(images/backgroundmenu.png);
-		background-size: 100% 100%;
+		background-image: url(images/fond-3.png);
+		background-size: 100%;
 		background-repeat: no-repeat;
 		width: 100%;
 
@@ -74,9 +148,8 @@
 	{
 		margin:0;
 		padding: 0;
-		text-align: center;
-		justify-content: center;
-		background-image: url(images/fond-header-700.png);
+		text-align: left;
+		justify-content: left;
 		background-size: 100%;
 		background-repeat: no-repeat;
 		display: flex;
@@ -89,13 +162,14 @@
 	{
 		margin:0;
 		padding: 0;
-		text-align: center;
-		justify-content: center;
+		text-align: left;
+		justify-content: left;
 		margin-top: 10px;
+		margin-left: 5%;
 	}
 	#logo img
 	{
-		width: 60%;
+		width: 80%;
 	}
 	#barre-menu
 	{
@@ -109,7 +183,7 @@
 	}
 	#barre-menu img
 	{
-		width: 160%;
+		width: 190%;
 	}
 	#menu-phone
 	{
@@ -131,8 +205,6 @@
 		justify-content: center;
 		display: flex;
 		flex-wrap: wrap;
-		height: 80px;
-		margin: 0px 30px;
 	}
 	#menu-phone li
 	{
@@ -149,7 +221,7 @@
 		text-align: center;
 		justify-content: center;
 		text-decoration: none;
-		font-family:rubik;
+		font-family:montserrat-normal;
 		font-size:13px;
 		color: white;
 		letter-spacing: 1.7px;
@@ -183,9 +255,9 @@
 		padding: 0;
 		text-align: center;
 		justify-content: center;
-		margin-top: 80px;	
+		margin-top: 100px;	
+		margin-bottom: 50px;
 		width: 100%;
-		margin-bottom: 30px;
 	}
 	#sary img
 	{
@@ -224,10 +296,11 @@
 		padding: 0;
 		text-align: left;
 		justify-content: center;
-		font-family:rubik-light;
-		font-size:30px;
-		color:#246974;
-		letter-spacing:-1px;
+		font-family:montserrat-300;
+		font-size:35px;
+		font-weight: 100;
+		color:#002a87;
+		letter-spacing:5px;
 	}
 
 
@@ -237,11 +310,11 @@
 		padding: 0;
 		text-align: center;
 		justify-content: center;
-		font-family:rubik-bold;
-		font-weight: 700;
-		font-size:30px;
-		color:#246974;
-		letter-spacing:4px;
+		font-family:montserrat-700;
+		font-weight: 900;
+		font-size:40px;
+		color:#002a87;
+		letter-spacing:0px;
 		
 	}
 	.soratra h2
@@ -250,12 +323,12 @@
 		padding: 0;
 		text-align: left;
 		justify-content: center;
-		font-family:rubik;
+		font-family:montserrat-600;
 		font-weight: 900;
-		font-size:18px;
-		color:#51C4CC;
+		font-size:20px;
+		color:#396ed6;
 		letter-spacing:-0px;
-		margin-top: 15px;
+		margin-top: 10px;
 		margin-bottom: 10px;
 	}
 
@@ -265,13 +338,13 @@
 		padding: 0;
 		text-align: left;
 		justify-content: center;	
-		font-family:rubik;
+		font-family:poppins;
 		font-weight: 500;
-		font-size:12px;
+		font-size:13px;
 		color:#585858;
-		letter-spacing:0.5px;
+		letter-spacing:0px;
 		line-height: 25px;
-		margin-bottom: 15px;
+		margin-bottom: 30px;
 	}
 	.soratra a
 	{
@@ -279,54 +352,52 @@
 		padding: 0;
 		text-align: left;
 		justify-content: left;
-		font-family:metropolis;
-		font-weight: 650;
-		font-size:13px;
+		font-family:montserrat-600;
+		font-weight: 500;
+		font-size:16px;
 		color: white;
 		letter-spacing: 2px;
 		text-decoration: none;
-		background-color: #10C0DC;
+		background-color: #396ed6;
 		border-radius: 50px;
-		padding: 10px 25px 10px 25px;
+		padding: 10px 20px;
 		margin-bottom: 30px;
 
 	}
 	.soratra a:hover
 	{
-		border: 2px solid #10C0DC;
+		border: 2px solid #396ed6;
 		color:white ;
 		background: transparent;
 		transition: all 0.5s ease;
-		color: #10C0DC;
+		color: #396ed6;
 	}
 	.anime .slick-dots
 	{
-		left: 40% !important;
+		left: 50% !important;
 		display: flex;
-
 	}
 
 	#slick-slide-control00::before
 	{
-		border: 2px solid #10C0DC;
+		border: 2px solid #396ed6;
 		color: white;
 		width: 80px;
 		height: 3px;
 	}
 	#slick-slide-control01::before
 	{
-		border: 2px solid #10C0DC;
+		border: 2px solid #396ed6;
 		color: white;
 		width: 80px;
 		height: 3px;
 	}
 	#slick-slide-control02::before
 	{
-		border: 2px solid #10C0DC;
+		border: 2px solid #396ed6;
 		color: white;
 		width: 80px;
 		height: 3px;
-
 	}
 	.anime .slick-dots li
 	{
@@ -339,7 +410,7 @@
 		padding: 0;
 		text-align: center;
 		justify-content: center;
-		padding-top: 45px;
+		padding-top: 50px;
 	}
 	#headerservice
 	{
@@ -353,6 +424,7 @@
 		background-repeat: no-repeat;
 		background-size: 100%;
 		width: 100%;
+
 	}
 	#soratraservice
 	{
@@ -361,7 +433,7 @@
 		text-align: left;
 		justify-content: center;
 		padding-top: 30px;
-		margin-right: 35%;
+		margin-right: 30%;
 		margin-left: 5%;
 	}
 	#soratraservice h2
@@ -370,8 +442,8 @@
 		padding: 0;
 		text-align: left;
 		justify-content: center;
-		font-family: metropolis;
-		font-size:16px;
+		font-family: montserrat-300;
+		font-size:20px;
 		font-weight:100;
 		color:white;
 		letter-spacing:3px;
@@ -382,12 +454,11 @@
 		padding: 0;
 		text-align: left;
 		justify-content: center;
-		font-family: rubik;
-		font-size:30px;
+		font-family: montserrat-700;
+		font-size:40px;
 		font-weight:400;
 		color: white;
-		letter-spacing:8px;
-		font-style: italic;
+		letter-spacing:5px;
 	}
 	#soratraservice img
 	{
@@ -399,11 +470,11 @@
 		padding: 0;
 		text-align: center;
 		justify-content: center;
-		padding-top: 10px;
+		padding-top: 20px;
 	}
 	#saryordi img
 	{
-		width: 100px;
+		width: 120px;
 	}
 						/*contenu service zao tsika*/
 	#contenuservice
@@ -422,7 +493,7 @@
 		padding: 0;
 		text-align: center;
 		justify-content: center;
-		margin: 0px 20px 0px 20px;
+		margin: 0px 30px 0px 30px;
 		width: 150px;
 		padding:20px;
 		cursor:pointer;
@@ -456,10 +527,10 @@
 		padding: 0;
 		text-align: center;
 		justify-content: center;
-		font-family: rubik;
+		font-family: montserrat-normal;
 		font-weight: 400;
 		font-size: 15px;
-		letter-spacing: 0.5px;
+		letter-spacing: 0px;
 		color: #545454;
 		margin-top: 20px;
 		margin-bottom: 0px;
@@ -481,7 +552,7 @@
 		text-align: center;
 		justify-content: center;
 		margin-top: 0px;
-		padding-top: 45px;
+		padding-top: 50px;
 		width: 100%;
 	}
 	#headerporfolio
@@ -501,8 +572,8 @@
 		padding: 0;
 		text-align: center;
 		justify-content: center;
-		font-family: metropolis;
-		font-size:17px;
+		font-family: montserrat-300;
+		font-size:20px;
 		font-weight:200;
 		color:white;
 		letter-spacing:3px;
@@ -514,12 +585,11 @@
 		padding: 0;
 		text-align: center;
 		justify-content: center;
-		font-family: rubik;
-		font-size:35px;
+		font-family: montserrat-700;
+		font-size:40px;
 		font-weight:400;
 		color: white;
 		letter-spacing:8px;
-		font-style: italic;
 		padding-bottom: 20px;
 	}
 
@@ -539,18 +609,18 @@
 		padding: 0;
 		text-align: center;
 		justify-content: center;
-		font-family:metropolis;
+		font-family:montserrat-normal;
 		font-weight: 400;
 		font-size:12px ;
 		color:white;
-		letter-spacing: 4px;
+		letter-spacing: 0px;
 		text-decoration: none;
 		border-radius: 50px;
 		padding: 5px 30px;
-		margin:30px 10px 30px 10px;
-		border: 1.5px solid #0093B1;
+		margin:50px 30px 40px 30px;
+		border: 1.5px solid #396ed6;
 		
-		background: #0093B1;
+		background: #396ed6;
 	}
 	#bouttontout a:hover
 	{
@@ -701,7 +771,7 @@
 		padding: 0;
 		text-align: left;
 		justify-content: left;
-		margin-top: 50px;
+		margin-top: 40px;
 		margin-right: 0px;
 	}
 	#soratra-qui h1
@@ -710,11 +780,11 @@
 		padding: 0;
 		text-align:left;
 		justify-content: center;
-		font-family:metropolis;
+		font-family:montserrat-700;
 		font-weight: 700;
-		font-size:20px;
-		color:#006C7D;
-		letter-spacing:5px;
+		font-size:30px;
+		color:#396ed6;
+		letter-spacing:0px;
 
 	}
 	#soratra-qui img
@@ -731,13 +801,13 @@
 		padding: 0;
 		text-align: left;
 		justify-content: center;
-		font-family:rubik;
+		font-family:poppins;
 		font-weight: 500;
 		font-size:13px;
 		color:#4E4E4E;
 		line-height: 28px;
 		margin-top: 15px;
-		width: 300px;
+		width: 340px;
 	}
 	#sary-qui
 	{
@@ -780,6 +850,7 @@
 		margin-top: 20px;
 		margin-left: 20px;
 		padding-bottom: 0px;
+		margin-right: 5%;
 	}
 	#soratra-apropos h1
 	{
@@ -787,11 +858,11 @@
 		padding: 0;
 		text-align:right;
 		justify-content: center;
-		font-family:metropolis;
+		font-family:montserrat;
 		font-weight: 700;
-		font-size:25px;
-		color:#006C7D;
-		letter-spacing:5px;
+		font-size:33px;
+		color:#396ed6;
+		letter-spacing:0px;
 	}
 	#soratra-apropos h2
 	{
@@ -799,13 +870,13 @@
 		padding: 0;
 		text-align: right;
 		justify-content: center;
-		font-family:rubik;
+		font-family:poppins;
 		font-weight: 500;
 		font-size:13px;
 		color:#4E4E4E;
 		line-height: 28px;
 		margin-top: 15px;
-		width: 400px;
+		width: 500px;
 	}
 					/*NOS ENGAGEMENT*/
 	#nos-engagement
@@ -833,12 +904,11 @@
 		margin:0;
 		padding: 0;
 		text-align:center;
-		font-family: rubik;
+		font-family: montserrat-700;
 		font-size:30px;
 		font-weight:400;
 		color: white;
 		letter-spacing:8px;
-		font-style: italic;
 		padding-top: 30px;
 
 	}
@@ -864,7 +934,7 @@
 		padding: 0;
 		text-align:center;
 		justify-content: center;
-		font-family:metropolis;
+		font-family:montserrat-normal;
 		font-size:20px;
 		font-weight:800;
 		color: #5E5E5E;
@@ -997,7 +1067,7 @@
 		padding: 0;
 		text-align:center;
 		justify-content: center;
-		font-family:metropolis;
+		font-family:poppins;
 		font-weight: 400;
 		font-size:15px;
 		color:#676767;
@@ -1012,22 +1082,22 @@
 		padding: 0;
 		text-align:center;
 		justify-content: center;
-		font-family:rubik;
+		font-family:montserrat-600;
 		font-weight: 400;
 		font-size:1.0em ;
 		color: white;
 		letter-spacing: 2px;
 		text-decoration: none;
-		background-color: #10C0DC;
+		background-color: #396ed6;
 		padding: 10px 20px 10px 20px;
 	}
 	#soratra-engagement a:hover
 	{
-		border: 2px solid #10C0DC;
+		border: 2px solid #396ed6;
 		color:white ;
 		background: transparent;
 		transition: all 0.5s ease;
-		color: #10C0DC;
+		color: #396ed6;
 	}
 
 				/*CONTACT TSIKA ZAO*/
@@ -1037,7 +1107,7 @@
 		padding: 0;
 		text-align:center;
 		justify-content: center;
-		padding-top: 45px;
+		padding-top: 65px;
 	}
 
 	#header-contact
@@ -1048,6 +1118,7 @@
 		justify-content: center;
 		display: flex;
 		background-image: url(images/fond-contact.png);
+		background-repeat: no-repeat;
 		background-size: 100%;
 	}
 	#soratra-contact
@@ -1063,12 +1134,11 @@
 		padding: 0;
 		text-align:center;
 		justify-content: center;
-		font-family: rubik;
-		font-size:25px;
+		font-family: montserrat-700;
+		font-size:30px;
 		font-weight:400;
 		color: white;
-		letter-spacing:8px;
-		font-style: italic;
+		letter-spacing:5px;
 		padding-top: 50px;
 	}
 	#soratra-contact img
@@ -1084,12 +1154,8 @@
 		padding: 0;
 		text-align:center;
 		justify-content: center;
-		margin-left: 170px;
+		margin-left: 30%;
 		padding-top: 10px;
-	}
-	#sary-contact img
-	{
-		width: 80%;
 	}
 
 	#contenu-contact
@@ -1107,45 +1173,39 @@
 		padding: 0;
 		justify-content: center;
 		text-align: center;
-		background-color: #EFFDFF;
-		padding-left: 5px;
-		padding-right: 5px;
-		margin-right: 10px;
+		padding-left: 30px;
+		padding-right: 30px;
+		margin-right: 20px;
 	}
 	.formulaire
 	{
-		border: 1px solid #08ACC6;
+		border: 1px solid #396ed6;
 		border-radius: 20px;
-		width: 270px;
+		width: 360px;
 		padding: 11px;
-		font-family:metropolis;
+		font-family:poppins;
 		font-weight: 300;
 		font-size: 13px;
 		color: #808080;
 		margin-top: 30px;
 		outline: none;
-		font-style: italic;
-	}
-	iframe
-	{
-		width: 300px;
 	}
 	.formulaire:focus
 	{
-		font-family:metropolis;
+		font-family:poppins;
 		font-style:none;
-		color: #006C7D;
+		color: #396ed6;
 		font-style: inherit;
-		font-size: 16px;
+		font-size: 14px;
 		font-weight: 400;
 	}
 	#submit
 	{
-		font-family:quicksand-regular;
-			font-size:17px;
+		font-family:montserrat-600;
+			font-size:18px;
 			color: white;
 			letter-spacing:1px;
-			background-color: #10C0DC;
+			background-color: #396ed6;
 			border-radius: 50px;
 			padding: 10px 30px;
 			outline: none;
@@ -1155,11 +1215,11 @@
 	}
 	#submit:hover
 	{
-		border: 2px solid #10C0DC;
+		border: 2px solid #396ed6;
 		color:white ;
 		background: transparent;
 		transition: all 0.5s ease;
-		color: #10C0DC;
+		color: #396ed6;
 	}
 	#formulaire h1
 	{
@@ -1167,10 +1227,10 @@
 		padding: 0;
 		text-align:center;
 		justify-content: center;
-		font-family: rubik;
+		font-family: montserrat-normal;
 		font-size:35px;
 		font-weight: 100;
-		color:#4D7092;
+		color:#396ed6;
 		letter-spacing:-2px;
 		margin-top:30px;
 	}
@@ -1182,7 +1242,7 @@
 		padding: 0;
 		text-align:center;
 		justify-content: center;
-		background-color: #10C0DC;
+		background-color: #396ed6;
 		padding: 0;
 	}
 
@@ -1192,7 +1252,7 @@
 		padding: 0;
 		text-align:center;
 		justify-content: center;
-		background-color:#0BA4BC;
+		background-color:#396ed9;
 	}
 	#titre-coordonne h1
 	{
@@ -1200,7 +1260,7 @@
 		padding: 0;
 		text-align:center;
 		justify-content: center;
-		font-family:metropolis;
+		font-family:montserrat-300;
 		font-weight: 600;
 		letter-spacing:4px ;
 		color: white;
@@ -1243,10 +1303,10 @@
 	{
 		margin: 0;
 		padding: 0;
-		font-family:quicksand-light;
+		font-family:montserrat-300;
 		letter-spacing:2px ;
 		color: white;
-		font-size:12px ;
+		font-size:13px ;
 		line-height: 35px;
 
 	}
@@ -1266,10 +1326,10 @@
 		padding: 0;
 		margin: 0;
 		padding: 0;
-		font-family:quicksand-light;
+		font-family:montserrat-300;
 		letter-spacing:2px ;
 		color: white;
-		font-size:13px;
+		font-size:14px;
 		line-height: 30px;
 	}
 	#sarycoordonne
@@ -1278,7 +1338,7 @@
 		padding: 0;
 		text-align:center;
 		justify-content: center;
-		margin-left:0%;
+		margin-left:3%;
 
 
 	}
@@ -1289,7 +1349,7 @@
 		text-align:center;
 		justify-content: center;
 		width: 65px;
-		margin: 20px 20px 40px 20px;
+		margin: 20px 40px 40px 40px;
 	}
 
 	#sarycoordonne img:hover
@@ -1303,7 +1363,7 @@
 	#footer
 	{
 		height: 53px;
-		background-color: #246974;
+		background-color: #396ed1;
 		padding: 0;
 		margin:0;
 		text-align: center;
@@ -1312,7 +1372,7 @@
 	{
 		margin: 0;
 		padding: 0;
-		font-family:quicksand-light;
+		font-family:montserrat-300;
 		font-size: 0.6em;
 		letter-spacing: 10px;
 		color: white;
@@ -1325,7 +1385,7 @@
 		text-align:center;
 		justify-content: center;
 		height: 30px;
-		background-color:#009EB7;
+		background-color:#396ed2;
 	}
 	#loko2
 	{
@@ -1334,12 +1394,14 @@
 		text-align:center;
 		justify-content: center;
 		height: 30px;
-		background-color:#007D91;
+		background-color:#396ed0;
 	}
 
 
 
 }
+
+
 
 
 
