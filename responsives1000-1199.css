@@ -486,7 +486,7 @@
 		justify-content: center;
 		display: flex;
 		flex-wrap: wrap;
-		margin-top: 10px;
+		margin-top: 30px;
 	}
 	.boriborikely
 	{
@@ -494,19 +494,18 @@
 		padding: 0;
 		text-align: center;
 		justify-content: center;
-		margin: 0px 30px 0px 30px;
-		width: 150px;
-		padding:20px;
+		margin:0% 1%;
+		width: 230px;
+		padding:10px;
 		cursor:pointer;
 
 	}	
 	.boriborikely:hover
 	{
-		background-color:#E8F9FC;
 		box-shadow: 0px 0px 15px #ACCDD2;
 		transition: all 0.5s ease;
 	}			
-	.boriborikely img
+	.bory
 	{
 		margin:0;
 		padding: 0;
@@ -514,35 +513,53 @@
 		justify-content: center;
 		border-radius: 100px;
 		transition: 1s ease-in-out;
-		width: 80%;
+		width: 40%;
 	}	
-	.boriborikely img:hover
+	.bory:hover
 	{
 		background-color:#BBE4FF;
 		transform: rotate(360deg) scale(1.1, 1.1);
 
 	}			
+	.boriborikely h1
+	{
+		margin:0;
+		padding: 0;
+		text-align: center;
+		justify-content: center;
+		font-family: montserrat-700;
+		font-size: 16px;
+		letter-spacing:0px;
+		line-height: 25px;
+		color: #002a87;
+		margin-top: 10px;
+		margin-bottom: 0px;
+	}	
 	.boriborikely p
 	{
 		margin:0;
 		padding: 0;
 		text-align: center;
 		justify-content: center;
-		font-family: montserrat-normal;
-		font-weight: 400;
-		font-size: 15px;
-		letter-spacing: 0px;
-		color: #545454;
-		margin-top: 20px;
-		margin-bottom: 0px;
-	}				
-	.boriborikely span
+		font-family: poppins;
+		font-size: 13px;
+		letter-spacing:0px;
+		line-height: 28px;
+		color: #4E4E4E;
+		margin-top: 10px;
+		padding-bottom: 20px;
+	}
+	.web
 	{
-		margin:0;
+		margin: 0;
 		padding: 0;
-		text-align: center;
-		justify-content: center;
-		font-weight: 700;
+		border: 1px solid #C8C8C8;
+		margin-bottom: 3px;
+		width: 40%;
+	}	
+	.web1
+	{
+		width: 60%;
 	}
 
 					/*PORFOLIO NDRAY TSIKA ZAO*/
