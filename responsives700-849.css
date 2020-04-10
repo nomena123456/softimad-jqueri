@@ -178,8 +178,7 @@
 		text-align: center;
 		justify-content: center;
 		margin-top: 10px;
-		margin-left: 70%;
-		padding-right: 5%;
+		margin-left: 60%;
 	}
 	#barre-menu img
 	{
@@ -261,7 +260,7 @@
 	}
 	#sary img
 	{
-		width: 85%;
+		width: 80%;
 	}
 
 	#contenu
@@ -287,7 +286,7 @@
 		padding: 0;
 		text-align: left;
 		justify-content: center;
-		padding-top: 80px;
+		padding-top: 120px;
 		padding-bottom: 30px;
 	}
 	.soratra h1
@@ -296,11 +295,11 @@
 		padding: 0;
 		text-align: left;
 		justify-content: center;
-		font-family:montserrat-300;
-		font-size:35px;
+		font-family:montserrat-700;
+		font-size:30px;
 		font-weight: 100;
 		color:#002a87;
-		letter-spacing:5px;
+		letter-spacing:0px;
 	}
 
 
@@ -310,9 +309,9 @@
 		padding: 0;
 		text-align: center;
 		justify-content: center;
-		font-family:montserrat-700;
+		font-family:montserrat-300;
 		font-weight: 900;
-		font-size:40px;
+		font-size:27px;
 		color:#002a87;
 		letter-spacing:0px;
 		
@@ -323,13 +322,14 @@
 		padding: 0;
 		text-align: left;
 		justify-content: center;
-		font-family:montserrat-600;
+		font-family:montserrat-300;
 		font-weight: 900;
-		font-size:20px;
+		font-size:17px;
 		color:#396ed6;
 		letter-spacing:-0px;
 		margin-top: 10px;
-		margin-bottom: 10px;
+		margin-bottom: 30px;
+		line-height: 26px;
 	}
 
 	.soratra p
@@ -553,7 +553,6 @@
 	{
 		margin: 0;
 		padding: 0;
-		border: 1px solid #C8C8C8;
 		margin-bottom: 3px;
 		width: 40%;
 	}

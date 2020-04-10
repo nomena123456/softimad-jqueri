@@ -83,16 +83,7 @@
 		border-left-color: transparent;
 	}
 }
-	.fixed
-	{
-		background-color: rgb(500, 500, 500, 0.95);
-		box-shadow: 0px 5px 10px rgb(0, 0, 0, 0.1);
-	}
-	.menumenu
-	{
-		color:white;
-		font-family: montserrat-normal;
-	}
+
 	#sary
 	{
 		display: none;
@@ -149,8 +140,8 @@
 	{
 		margin:0;
 		padding: 0;
-		text-align: center;
-		justify-content: center;
+		text-align: left;
+		justify-content: left;
 		background-image: url(images/fond-header-450.png);
 		background-size: 100%;
 		background-repeat: no-repeat;
@@ -164,9 +155,10 @@
 	{
 		margin:0;
 		padding: 0;
-		text-align: center;
-		justify-content: center;
+		text-align: left;
+		justify-content: left;
 		margin-top: 10px;
+		margin-left: 3%;
 	}
 	#logo img
 	{
@@ -180,7 +172,6 @@
 		justify-content: center;
 		margin-top: 10px;
 		margin-left: 50%;
-		padding-right: 5%;
 	}
 	#barre-menu img
 	{
@@ -274,10 +265,11 @@
 		padding: 0;
 		text-align: center;
 		justify-content: center;
-		font-family:montserrat-300;
-		font-size:35px;
+		font-family:montserrat-600;
+		font-size:30px;
 		color:#002a87;
 		letter-spacing:-1px;
+		line-height: 30px;
 	}
 	.anime-phone span
 	{
@@ -289,12 +281,13 @@
 		padding: 0;
 		text-align: center;
 		justify-content: center;
-		font-family:montserrat-600;
+		font-family:montserrat-300;
 		font-weight: 900;
 		font-size:18px;
 		color:#396ed6;
 		letter-spacing:-0px;
 		margin: 20px 0px;
+		line-height: 28px;
 	}
 	.anime-phone img
 	{
@@ -515,7 +508,6 @@
 	{
 		margin: 0;
 		padding: 0;
-		border: 1px solid #C8C8C8;
 		margin-bottom: 3px;
 		width: 40%;
 	}
