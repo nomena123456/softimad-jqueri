@@ -179,6 +179,7 @@
 		padding: 0;
 		text-align: left;
 		justify-content: left;
+		margin-left: 34%;
 		
 	}
 	#listmenu ul
@@ -189,7 +190,6 @@
 		justify-content: center;
 		display: flex;
 		margin-top: 40px;
-		margin-left: 400px;
 	}
 	#listmenu li
 	{
@@ -231,13 +231,13 @@
 		padding: 0;
 		text-align: center;
 		justify-content: center;
-		margin-top: 150px;
+		margin-top: 170px;
 		margin-bottom:750px;
 		width: 50%;	
 	}
 	#sary img
 	{
-		width: 75%;
+		width: 72%;
 	}
 
 
@@ -264,7 +264,7 @@
 		padding: 0;
 		text-align: left;
 		justify-content: center;
-		padding-top: 120px;
+		padding-top: 220px;
 		padding-bottom: 50px;
 	}
 	.soratra h1
@@ -273,13 +273,11 @@
 		padding: 0;
 		text-align: left;
 		justify-content: center;
-		font-family:montserrat-300;
-		font-size:40px;
+		font-family:montserrat-800;
+		font-size:34px;
 		color:#002a87;
 		font-weight: 300;
-		letter-spacing:8px;
-		border-bottom: 3px solid #002a87;
-		margin-right: 70%;
+		letter-spacing:1px;
 	}
 
 
@@ -289,9 +287,9 @@
 		padding: 0;
 		text-align: right;
 		justify-content: center;
-		font-family:montserrat-800;
+		font-family:montserrat-normal;
 		font-weight:900;
-		font-size:45px;
+		font-size:80px;
 		color:#002a87;
 		letter-spacing:0px;
 
@@ -303,13 +301,13 @@
 		padding: 0;
 		text-align: left;
 		justify-content: center;
-		font-family:montserrat-600;
+		font-family:montserrat-300;
 		font-weight: 500;
 		font-size:21px;
 		color:#396ed6;
 		letter-spacing:2px;
-		margin-top: 20px;
-		margin-bottom: 15px;
+		margin-top: 30px;
+		margin-bottom: 50px;
 	}
 
 	.soratra p
@@ -472,7 +470,7 @@
 		text-align: center;
 		justify-content: center;
 		margin:0% 1%;
-		width: 250px;
+		width: 270px;
 		padding:10px;
 		cursor:pointer;
 
@@ -490,7 +488,7 @@
 		justify-content: center;
 		border-radius: 100px;
 		transition: 1s ease-in-out;
-		width: 50%;
+		width: 45%;
 	}	
 	.bory:hover
 	{
@@ -530,9 +528,9 @@
 	{
 		margin: 0;
 		padding: 0;
-		border: 1px solid #C8C8C8;
+
 		margin-bottom: 3px;
-	}	
+	}
 					/*PORFOLIO NDRAY TSIKA ZAO*/
 	#porfolio
 	{
