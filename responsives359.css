@@ -400,6 +400,22 @@
 		background-color:#BBE4FF;
 		transform: rotate(360deg) scale(1.1, 1.1);
 
+	}
+	.boriborikely h2
+	{
+		margin:0;
+		padding: 0;
+		text-align: center;
+		justify-content: center;
+		font-family:poppins;
+		font-size: 14px;
+		letter-spacing:0px;
+		line-height: 25px;
+		color: #396ED6;
+		margin-top: 10px;
+		margin-bottom: 20px;
+		height: 50px;
+		border:1px solid #396ED6;
 	}			
 	.boriborikely p
 	{
