@@ -941,139 +941,32 @@
 		margin-top: 10px;
 		padding-bottom: 40px;
 	}
-	#technologie
-	{
-		margin:0;
-		padding: 0;
-		text-align:center;
-		justify-content: center;
-		margin-top: 30px;
-	}
-	#technologie h1
-	{
-		margin:0;
-		padding: 0;
-		text-align:center;
-		justify-content: center;
-		font-family:montserrat-normal;
-		font-size:20px;
-		font-weight:800;
-		color: #5E5E5E;
-		letter-spacing:15px;
-	}
-	#technologie img
-	{
-		margin:0;
-		padding: 0;
-		text-align:center;
-		justify-content: center;
-	}
-
 	#contenu-engagement
 	{
-		margin:0;
-		padding: 0;
 		text-align:center;
 		justify-content: center;
-		margin-top: 30px;
+		margin-top:50px;
+		display: flex;
+		flex-wrap: wrap;
 
 	}
-	#sary-engagement
-	{
-		margin:0;
-		padding: 0;
-		text-align:center;
-		justify-content: center;
-		margin: 0% 15%;
-		padding-left: 2%;
-
-	}
-	.img2
+	#contenu-engagement p
 	{
 		margin:0;
 		padding: 0;
-		text-align:center;
+		text-align: center;
 		justify-content: center;
-		margin-left: 1%;	
-		padding-top: 5px;
+		font-family:poppins;
+		font-weight: 500;
+		font-size:14px;
+		color:#4E4E4E;
+		line-height: 30px;
+		width: 180px;
+		margin:0px 10px;
+		padding: 10px;
+		height: 200px;
+		box-shadow: 0px 0px 15px #92929261;
 	}
-	.img2 img
-	{
-		box-shadow: 0px 0px 2px #006C7D;
-		width: 90%;	
-	}
-	#sary-engagement img:hover
-	{
-		transition: all 0.5s ease;
-		box-shadow: 0px 0px 5px #006C7D;	
-	}
-	#sary-engagement .slick-prev:before
-	{
-		color: #0093B1 !important;
-		font-size: 80px !important;
-		content: '<'!important;
-		font-family:quicksand-light !important;
-		font-weight: 100 !important;
-
-	}
-	#sary-engagement  .slick-prev
-	{
-
-		left: -80px !important;
-		top: 20% !important;
-	}
-	#sary-engagement  .slick-next:before
-	{
-		color: #0093B1 !important;
-		font-size: 80px !important;
-		content: '>'!important;
-		font-family:quicksand-light !important;
-		font-weight: 100 !important;
-
-	}
-	#sary-engagement  .slick-next
-	{
-		right: -55px !important;
-		top: 20% !important;
-	}
-	#slick-slide-control20::before
-	{
-		color: #0093B1;
-	}
-	#slick-slide-control21::before
-	{
-		color: #0093B1;
-	}
-	#slick-slide-control22::before
-	{
-		color: #0093B1;
-	}
-	#slick-slide-control23::before
-	{
-		color: #0093B1;
-	}
-	#slick-slide-control24::before
-	{
-		color: #0093B1;
-	}
-	#slick-slide-control25::before
-	{
-		color: #0093B1;
-	}
-	#slick-slide-control26::before
-	{
-		color: #0093B1;
-	}
-	#slick-slide-control27::before
-	{
-		color: #0093B1;
-	}
-
-
-
-
-
-
 	#soratra-engagement
 	{
 		margin:0;

@@ -18,6 +18,81 @@
 		overflow-x: hidden;
 
 	}
+
+	
+	/* Preloder */
+
+#preloder {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 999999;
+	background: #fff;
+}
+
+.loader {
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -13px;
+	margin-left: -13px;
+	border-radius: 60px;
+	animation: loader 0.8s linear infinite;
+	-webkit-animation: loader 0.8s linear infinite;
+}
+
+@keyframes loader {
+	0% {
+		-webkit-transform: rotate(0deg);
+		        transform: rotate(0deg);
+		border: 4px solid #002a87;
+		border-left-color: transparent;
+	}
+	50% {
+		-webkit-transform: rotate(180deg);
+		        transform: rotate(180deg);
+		border: 4px solid #396ed6;
+		border-left-color: transparent;
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+		        transform: rotate(360deg);
+		border: 4px solid #002a87;
+		border-left-color: transparent;
+	}
+}
+
+@-webkit-keyframes loader {
+	0% {
+		-webkit-transform: rotate(0deg);
+		border: 4px solid #396ed6;
+		border-left-color: transparent;
+	}
+	50% {
+		-webkit-transform: rotate(180deg);
+		border: 4px solid #002a87;
+		border-left-color: transparent;
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+		border: 4px solid #396ed6;
+		border-left-color: transparent;
+	}
+}
+	.fixed
+	{
+		background-color: rgb(500, 500, 500, 0.95);
+		box-shadow: 0px 5px 10px rgb(0, 0, 0, 0.1);
+	}
+	.menumenu
+	{
+		color:white;
+		font-family: montserrat-normal;
+	}
 	#sary
 	{
 		display: none;
@@ -74,8 +149,8 @@
 	{
 		margin:0;
 		padding: 0;
-		text-align: center;
-		justify-content: center;
+		text-align: left;
+		justify-content: left;
 		background-image: url(images/fond-header-450.png);
 		background-size: 100%;
 		background-repeat: no-repeat;
@@ -85,13 +160,18 @@
 		top: 0;
 		z-index: 10;
 	}
+	.fixed
+	{
+		background-image: inherit;
+	}
 	#logo
 	{
 		margin:0;
 		padding: 0;
-		text-align: center;
-		justify-content: center;
+		text-align: left;
+		justify-content: left;
 		margin-top: 10px;
+		margin-left: 3%;
 	}
 	#logo img
 	{
@@ -101,11 +181,10 @@
 	{
 		margin:0;
 		padding: 0;
-		text-align: center;
-		justify-content: center;
+		text-align: left;
+		justify-content: left;
 		margin-top: 10px;
-		margin-left: 50%;
-		padding-right: 5%;
+		margin-left: 30%;
 	}
 	#barre-menu img
 	{
@@ -150,7 +229,7 @@
 		text-align: center;
 		justify-content: center;
 		text-decoration: none;
-		font-family:rubik;
+		font-family:montserrat-normal;
 		font-size:15px;
 		color: white;
 		letter-spacing: 1.7px;
@@ -176,7 +255,7 @@
 		text-align: center;
 		justify-content: center;
 		margin: 0% 10%;
-		margin-top: 20%;
+		margin-top: 15%;
 	}
 	.contenu-anime-p
 	{
@@ -199,14 +278,15 @@
 		padding: 0;
 		text-align: center;
 		justify-content: center;
-		font-family:rubik;
-		font-size:30px;
-		color:#246974;
+		font-family:montserrat-600;
+		font-size:25px;
+		color:#002a87;
 		letter-spacing:-1px;
+		line-height: 30px;
 	}
 	.anime-phone span
 	{
-	 font-family:rubik-bold;	
+	 font-family:montserrat-700;	
 	}
 	.anime-phone h2
 	{
@@ -214,12 +294,13 @@
 		padding: 0;
 		text-align: center;
 		justify-content: center;
-		font-family:rubik;
+		font-family:montserrat-300;
 		font-weight: 900;
 		font-size:15px;
-		color:#51C4CC;
+		color:#396ed6;
 		letter-spacing:-0px;
-		margin: 15px 0px;
+		margin: 20px 0px;
+		line-height: 25px;
 	}
 	.anime-phone img
 	{
@@ -232,13 +313,13 @@
 		padding: 0;
 		text-align: center;
 		justify-content: center;
-		font-family:metropolis;
+		font-family:montserrat-600;
 		font-weight: 650;
 		font-size:13px;
 		color: white;
-		letter-spacing: 2px;
+		letter-spacing: 0px;
 		text-decoration: none;
-		background-color: #10C0DC;
+		background-color: #396ed6;
 		border-radius: 50px;
 		padding: 10px 25px 10px 25px;
 	}	
@@ -262,7 +343,7 @@
 	#contenu-phone .slick-prev
 	{
 
-		left: -28px !important;
+		left: -30px !important;
 		top: 45% !important;
 	}
 	#contenu-phone .slick-next:before
@@ -276,7 +357,7 @@
 	}
 	#contenu-phone .slick-next
 	{
-		right: -22px !important;
+		right: -25px !important;
 		top: 45% !important;
 	}
 	#slick-slide-control30::before
@@ -319,10 +400,7 @@
 		padding: 0;
 		text-align: center;
 		justify-content: center;
-		padding-top: 15px;
-		margin-right: 2%;
-		margin-left: 5%;
-		padding-bottom: 15px;
+		padding-top: 10px;
 	}
 	#soratraservice h2
 	{
@@ -330,24 +408,23 @@
 		padding: 0;
 		text-align: center;
 		justify-content: center;
-		font-family: metropolis;
+		font-family: montserrat-300;
 		font-size:12px;
 		font-weight:100;
 		color:white;
-		letter-spacing:3px;
+		letter-spacing:2px;
 	}
 	#soratraservice h1
 	{
 		margin:0;
 		padding: 0;
-		text-align: center;
+		text-align:center;
 		justify-content: center;
-		font-family: rubik;
-		font-size:20px;
+		font-family:montserrat-700;
+		font-size:22px;
 		font-weight:400;
 		color: white;
-		letter-spacing:8px;
-		font-style: italic;
+		letter-spacing:5px;
 	}
 	#soratraservice img
 	{
@@ -356,6 +433,10 @@
 	#saryordi
 	{
 		display: none;
+	}
+	#saryordi img
+	{
+		width: 100px;
 	}
 						/*contenu service zao tsika*/
 	#contenuservice
@@ -366,7 +447,7 @@
 		justify-content: center;
 		display: flex;
 		flex-wrap: wrap;
-		margin-top: 10px;
+		margin-top: 30px;
 	}
 	.boriborikely
 	{
@@ -374,18 +455,19 @@
 		padding: 0;
 		text-align: center;
 		justify-content: center;
-		width: 120px;
-		padding:20px;
+		margin:0% 3%;
+		width: 300px;
+		padding:10px;
 		cursor:pointer;
+		margin-bottom: 30px;
 
 	}	
 	.boriborikely:hover
 	{
-		background-color:#E8F9FC;
 		box-shadow: 0px 0px 15px #ACCDD2;
 		transition: all 0.5s ease;
 	}			
-	.boriborikely img
+	.bory
 	{
 		margin:0;
 		padding: 0;
@@ -393,13 +475,27 @@
 		justify-content: center;
 		border-radius: 100px;
 		transition: 1s ease-in-out;
-		width: 90%;
+		width: 40%;
 	}	
-	.boriborikely img:hover
+	.bory:hover
 	{
 		background-color:#BBE4FF;
 		transform: rotate(360deg) scale(1.1, 1.1);
 
+	}			
+	.boriborikely h1
+	{
+		margin:0;
+		padding: 0;
+		text-align: center;
+		justify-content: center;
+		font-family: montserrat-700;
+		font-size: 15px;
+		letter-spacing:0px;
+		line-height: 25px;
+		color: #002a87;
+		margin-top: 10px;
+		margin-bottom: 0px;
 	}
 	.boriborikely h2
 	{
@@ -416,28 +512,31 @@
 		margin-bottom: 20px;
 		height: 50px;
 		border:1px solid #396ED6;
-	}			
+	}	
 	.boriborikely p
 	{
 		margin:0;
 		padding: 0;
 		text-align: center;
 		justify-content: center;
-		font-family: rubik;
-		font-weight: 400;
-		font-size: 13px;
-		letter-spacing: 0.5px;
-		color: #545454;
-		margin-top: 20px;
-		margin-bottom: 0px;
-	}				
-	.boriborikely span
+		font-family: poppins;
+		font-size: 12px;
+		letter-spacing:0px;
+		line-height: 26px;
+		color: #4E4E4E;
+		margin-top: 10px;
+		padding-bottom: 20px;
+	}
+	.web
 	{
-		margin:0;
+		margin: 0;
 		padding: 0;
-		text-align: center;
-		justify-content: center;
-		font-weight: 700;
+		margin-bottom: 3px;
+		width: 40%;
+	}
+	.web1
+	{
+	 width: 60%;
 	}
 
 					/*PORFOLIO NDRAY TSIKA ZAO*/
@@ -468,12 +567,12 @@
 		padding: 0;
 		text-align: center;
 		justify-content: center;
-		font-family: metropolis;
+		font-family: montserrat-300;
 		font-size:13px;
 		font-weight:200;
 		color:white;
-		letter-spacing:1px;
-		padding-top: 20px;
+		letter-spacing:2px;
+		padding-top: 5px;
 	}
 	#headerporfolio h1
 	{
@@ -481,13 +580,12 @@
 		padding: 0;
 		text-align: center;
 		justify-content: center;
-		font-family: rubik;
+		font-family:montserrat-700;
 		font-size:25px;
 		font-weight:400;
 		color: white;
-		letter-spacing:8px;
-		font-style: italic;
-		padding-bottom: 10px;
+		letter-spacing:5px;
+		padding-bottom: 20px;
 	}
 
 	#bouttontout
@@ -506,30 +604,30 @@
 		padding: 0;
 		text-align: center;
 		justify-content: center;
-		font-family:metropolis;
+		font-family:montserrat-normal;
 		font-weight: 400;
 		font-size:11px ;
 		color:white;
-		letter-spacing: 2px;
+		letter-spacing: 0px;
 		text-decoration: none;
 		border-radius: 50px;
 		padding: 5px 5px;
 		margin:30px 5px 30px 5px;
-		border: 1.5px solid #0093B1;
+		border: 1.5px solid #396ed6;
 		
-		background: #0093B1;
+		background: #396ed6;
 	}
 	#bouttontout a:hover
 	{
-		border: 1.5px solid #0093B1;
-		color:#0093B1 ;
+		border: 1.5px solid #396ed6;
+		color:#396ed6 ;
 		background: white;
 		transition: all 0.5s ease;
 	}
 	#bouttontout a:focus
 	{
-		border: 1.5px solid #0093B1;
-		color:#0093B1 ;
+		border: 1.5px solid #396ed6;
+		color:#396ed6 ;
 		background: white;
 		transition: all 0.5s ease;
 	}
@@ -673,11 +771,11 @@
 		padding: 0;
 		text-align:center;
 		justify-content: center;
-		font-family:metropolis;
+		font-family:montserrat-700;
 		font-weight: 700;
 		font-size:30px;
-		color:#006C7D;
-		letter-spacing:5px;
+		color:#396ed6;
+		letter-spacing:2px;
 
 	}
 	#soratra-qui img
@@ -694,7 +792,7 @@
 		padding: 0;
 		text-align: center;
 		justify-content: center;
-		font-family:rubik;
+		font-family:poppins;
 		font-weight: 500;
 		font-size:13px;
 		color:#4E4E4E;
@@ -740,11 +838,11 @@ display: none;
 		padding: 0;
 		text-align:center;
 		justify-content: center;
-		font-family:metropolis;
+		font-family:montserrat-700;
 		font-weight: 700;
-		font-size:25px;
-		color:#006C7D;
-		letter-spacing:5px;
+		font-size:30px;
+		color:#396ed6;
+		letter-spacing:3px;
 	}
 	#soratra-apropos h2
 	{
@@ -752,7 +850,7 @@ display: none;
 		padding: 0;
 		text-align: center;
 		justify-content: center;
-		font-family:rubik;
+		font-family:poppins;
 		font-weight: 500;
 		font-size:13px;
 		color:#4E4E4E;
@@ -785,13 +883,12 @@ display: none;
 		margin:0;
 		padding: 0;
 		text-align:center;
-		font-family: rubik;
-		font-size:18px;
+		font-family:montserrat-700;
+		font-size:20px;
 		font-weight:400;
 		color: white;
-		letter-spacing:8px;
-		font-style: italic;
-		padding-top: 20px;
+		letter-spacing:5px;
+		padding-top: 10px;
 
 	}
 	#header-engagement img
@@ -800,145 +897,32 @@ display: none;
 		padding: 0;
 		text-align:center;
 		margin-top: 10px;
-		padding-bottom: 20px;
+		padding-bottom: 40px;
 	}
-	#technologie
-	{
-		margin:0;
-		padding: 0;
-		text-align:center;
-		justify-content: center;
-		margin-top: 10px;
-	}
-	#technologie h1
-	{
-		margin:0;
-		padding: 0;
-		text-align:center;
-		justify-content: center;
-		font-family:metropolis;
-		font-size:15px;
-		font-weight:800;
-		color: #5E5E5E;
-		letter-spacing:8px;
-	}
-	#technologie img
-	{
-		margin:0;
-		padding: 0;
-		text-align:center;
-		justify-content: center;
-		width: 40%;
-	}
-
 	#contenu-engagement
 	{
-		margin:0;
-		padding: 0;
 		text-align:center;
 		justify-content: center;
-		margin-top: 30px;
+		margin-top:20px;
+		display: flex;
+		flex-wrap: wrap;
 
 	}
-	#sary-engagement
-	{
-		margin:0;
-		padding: 0;
-		text-align:center;
-		justify-content: center;
-		margin: 0% 15%;
-
-	}
-	.img2
+	#contenu-engagement p
 	{
 		margin:0;
 		padding: 0;
-		text-align:center;
+		text-align: center;
 		justify-content: center;
-		margin-left: 15%;	
-		padding-top: 5px;
+		font-family:poppins;
+		font-weight: 500;
+		font-size:13px;
+		color:#4E4E4E;
+		line-height: 28px;
+		margin:15px;
+		padding: 10px;
+		box-shadow: 0px 0px 15px #92929261;
 	}
-	.img2 img
-	{
-		box-shadow: 0px 0px 2px #006C7D;
-		width: 70%;	
-	}
-	#sary-engagement img:hover
-	{
-		transition: all 0.5s ease;
-		box-shadow: 0px 0px 5px #006C7D;	
-	}
-	#sary-engagement .slick-prev:before
-	{
-		color: #0093B1 !important;
-		font-size: 60px !important;
-		content: '<'!important;
-		font-family:quicksand-light !important;
-		font-weight: 100 !important;
-
-	}
-	#sary-engagement  .slick-prev
-	{
-
-		left: -40px !important;
-		top: 30% !important;
-	}
-	#sary-engagement  .slick-next:before
-	{
-		color: #0093B1 !important;
-		font-size: 60px !important;
-		content: '>'!important;
-		font-family:quicksand-light !important;
-		font-weight: 100 !important;
-
-	}
-	#sary-engagement  .slick-next
-	{
-		right: -25px !important;
-		top: 30% !important;
-	}
-	#sary-engagement .slick-dots 
-	{
-		bottom: -45px;
-	}
-	#slick-slide-control20::before
-	{
-		color: #0093B1;
-	}
-	#slick-slide-control21::before
-	{
-		color: #0093B1;
-	}
-	#slick-slide-control22::before
-	{
-		color: #0093B1;
-	}
-	#slick-slide-control23::before
-	{
-		color: #0093B1;
-	}
-	#slick-slide-control24::before
-	{
-		color: #0093B1;
-	}
-	#slick-slide-control25::before
-	{
-		color: #0093B1;
-	}
-	#slick-slide-control26::before
-	{
-		color: #0093B1;
-	}
-	#slick-slide-control27::before
-	{
-		color: #0093B1;
-	}
-
-
-
-
-
-
 	#soratra-engagement
 	{
 		margin:0;
@@ -953,7 +937,7 @@ display: none;
 		padding: 0;
 		text-align:center;
 		justify-content: center;
-		font-family:metropolis;
+		font-family:poppins;
 		font-weight: 400;
 		font-size:14px;
 		color:#676767;
@@ -974,22 +958,22 @@ display: none;
 		padding: 0;
 		text-align:center;
 		justify-content: center;
-		font-family:rubik;
+		font-family:montserrat-600;
 		font-weight: 400;
 		font-size:1.0em ;
 		color: white;
 		letter-spacing: 2px;
 		text-decoration: none;
-		background-color: #10C0DC;
+		background-color: #396ed6;
 		padding: 10px 20px 10px 20px;
 	}
 	#soratra-engagement a:hover
 	{
-		border: 2px solid #10C0DC;
+		border: 2px solid #396ed6;
 		color:white ;
 		background: transparent;
 		transition: all 0.5s ease;
-		color: #10C0DC;
+		color: #396ed6;
 	}
 
 				/*CONTACT TSIKA ZAO*/
@@ -999,7 +983,7 @@ display: none;
 		padding: 0;
 		text-align:center;
 		justify-content: center;
-		padding-top: 35px;
+		padding-top: 45px;
 	}
 
 	#header-contact
@@ -1025,12 +1009,11 @@ display: none;
 		padding: 0;
 		text-align:center;
 		justify-content: center;
-		font-family: rubik;
-		font-size:18px;
+		font-family: montserrat-700;
+		font-size:20px;
 		font-weight:400;
 		color: white;
-		letter-spacing:8px;
-		font-style: italic;
+		letter-spacing:5px;
 		padding-top: 20px;
 	}
 	#soratra-contact img
@@ -1043,12 +1026,12 @@ display: none;
 		padding: 0;
 		text-align:center;
 		justify-content: center;
-		margin-left: 10%;
+		margin-left: 20%;
 		padding-top: 10px;
 	}
 	#sary-contact img
 	{
-		width: 100%;
+		width: 80%;
 	}
 
 	#contenu-contact
@@ -1066,23 +1049,21 @@ display: none;
 		padding: 0;
 		justify-content: center;
 		text-align: center;
-		background-color: #EFFDFF;
 		padding-top: 20px;
 		padding-bottom: 10px;
 	}
 	.formulaire
 	{
-		border: 1px solid #08ACC6;
+		border: 1px solid #396ed6;
 		border-radius: 20px;
 		width:90%;
 		padding: 11px;
-		font-family:metropolis;
+		font-family:poppins;
 		font-weight: 300;
 		font-size: 13px;
 		color: #808080;
 		margin-top: 30px;
 		outline: none;
-		font-style: italic;
 	}
 	iframe
 	{
@@ -1090,20 +1071,20 @@ display: none;
 	}
 	.formulaire:focus
 	{
-		font-family:metropolis;
+		font-family:poppins;
 		font-style:none;
-		color: #006C7D;
+		color: #396ed6;
 		font-style: inherit;
 		font-size: 16px;
 		font-weight: 400;
 	}
 	#submit
 	{
-		font-family:quicksand-light;
-			font-size:17px;
+		font-family:montserrat-600;
+			font-size:18px;
 			color: white;
 			letter-spacing:1px;
-			background-color: #10C0DC;
+			background-color: #396ed6;
 			border-radius: 50px;
 			padding: 10px 30px;
 			outline: none;
@@ -1113,11 +1094,11 @@ display: none;
 	}
 	#submit:hover
 	{
-		border: 2px solid #10C0DC;
+		border: 2px solid #396ed6;
 		color:white ;
 		background: transparent;
 		transition: all 0.5s ease;
-		color: #10C0DC;
+		color: #396ed6;
 	}
 	#formulaire h1
 	{
@@ -1125,12 +1106,12 @@ display: none;
 		padding: 0;
 		text-align:center;
 		justify-content: center;
-		font-family: rubik;
-		font-size:25px;
+		font-family: montserrat-normal;
+		font-size:35px;
 		font-weight: 100;
-		color:#4D7092;
+		color:#396ed6;
 		letter-spacing:-2px;
-		margin-top:20px;
+		margin-top:30px;
 	}
 
 						/*COORDONNE*/
@@ -1140,7 +1121,7 @@ display: none;
 		padding: 0;
 		text-align:center;
 		justify-content: center;
-		background-color: #10C0DC;
+		background-color: #396ed6;
 		padding: 0;
 	}
 
@@ -1150,7 +1131,7 @@ display: none;
 		padding: 0;
 		text-align:center;
 		justify-content: center;
-		background-color:#0BA4BC;
+		background-color:#396ee5;
 	}
 	#titre-coordonne h1
 	{
@@ -1158,7 +1139,7 @@ display: none;
 		padding: 0;
 		text-align:center;
 		justify-content: center;
-		font-family:metropolis;
+		font-family:montserrat-700;
 		font-weight: 600;
 		letter-spacing:4px ;
 		color: white;
@@ -1202,7 +1183,7 @@ display: none;
 	{
 		margin: 0;
 		padding: 0;
-		font-family:quicksand-light;
+		font-family:montserrat-300;
 		letter-spacing:2px ;
 		color: white;
 		font-size:12px ;
@@ -1225,7 +1206,7 @@ display: none;
 		padding: 0;
 		margin: 0;
 		padding: 0;
-		font-family:quicksand-light;
+		font-family:montserrat-300;
 		letter-spacing:2px ;
 		color: white;
 		font-size:12px;
@@ -1262,7 +1243,7 @@ display: none;
 	#footer
 	{
 		height: 53px;
-		background-color: #246974;
+		background-color: #396ed9;
 		padding: 0;
 		margin:0;
 		text-align: center;
@@ -1271,7 +1252,7 @@ display: none;
 	{
 		margin: 0;
 		padding: 0;
-		font-family:quicksand-light;
+		font-family:montserrat-300;
 		font-size: 0.6em;
 		letter-spacing: 5px;
 		color: white;
@@ -1284,7 +1265,7 @@ display: none;
 		text-align:center;
 		justify-content: center;
 		height: 30px;
-		background-color:#009EB7;
+		background-color:#396ef7;
 	}
 	#loko2
 	{
@@ -1293,7 +1274,7 @@ display: none;
 		text-align:center;
 		justify-content: center;
 		height: 30px;
-		background-color:#007D91;
+		background-color:#396ea8;
 	}
 
 
