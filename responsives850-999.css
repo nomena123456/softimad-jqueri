@@ -487,6 +487,7 @@
 		width: 200px;
 		padding:10px;
 		cursor:pointer;
+		box-shadow: 0px 0px 2px #6f6f6f36;
 
 	}	
 	.boriborikely:hover
@@ -538,7 +539,6 @@
 		margin-top: 10px;
 		margin-bottom: 20px;
 		height: 50px;
-		border:1px solid #396ED6;
 	}
 	.boriborikely p
 	{
@@ -553,6 +553,7 @@
 		color: #4E4E4E;
 		margin-top: 10px;
 		padding-bottom: 20px;
+		height:250px ;
 	}
 	.web
 	{
@@ -1021,7 +1022,7 @@
 		padding: 0;
 		text-align:center;
 		justify-content: center;
-		padding-top: 65px;
+		
 	}
 
 	#header-contact
@@ -1034,6 +1035,7 @@
 		background-image: url(images/fond-contact.png);
 		background-repeat: no-repeat;
 		background-size: 100%;
+		padding-top: 65px;
 	}
 	#soratra-contact
 	{
