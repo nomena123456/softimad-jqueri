@@ -1168,7 +1168,7 @@
 		padding: 0;
 		text-align:right;
 		justify-content:right;
-		width: 350px;
+		width: 200px;
 
 	}
 	.contenu-engagement-1 p
@@ -1193,7 +1193,7 @@
 		padding: 0;
 		text-align:left;
 		justify-content:left;
-		width: 350px;
+		width: 200px;
 	}
 	.contenu-engagement-2 p
 	{
@@ -1213,6 +1213,7 @@
 	.img-eng
 	{
 		transition: 1s ease-in-out;
+		width: 30%;
 	}
 	.img-eng:hover
 	{
