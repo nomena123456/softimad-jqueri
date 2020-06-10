@@ -453,6 +453,7 @@
 		padding:10px;
 		cursor:pointer;
 		margin-bottom: 30px;
+		box-shadow: 0px 0px 15px #6f6f6f36;
 
 	}	
 	.boriborikely:hover
@@ -504,7 +505,6 @@
 		margin-top: 10px;
 		margin-bottom: 20px;
 		height: 50px;
-		border:1px solid #396ED6;
 	}	
 	.boriborikely p
 	{
