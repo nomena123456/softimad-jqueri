@@ -143,7 +143,7 @@ $(document).ready(function(){
             });
 //ANIMATION BOUTTON RETRA2
 
-            $(".soratra a").click(function (){
+            $("#contactez-nous").click(function (){
                 $('html, body').animate({
                     scrollTop: $("#contenu-contact").offset().top
                 }, 1500);
@@ -153,7 +153,7 @@ $(document).ready(function(){
                     scrollTop: $("#porfolio").offset().top
                 }, 500);
             });
-            $("#soratra-engagement a").click(function (){
+            $("#contactez-maintenant").click(function (){
                 $('html, body').animate({
                     scrollTop: $("#contenu-contact").offset().top
                 }, 500);

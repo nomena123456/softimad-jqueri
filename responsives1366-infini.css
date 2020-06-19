@@ -570,30 +570,45 @@
 		line-height: 32px;
 		margin-bottom: 30px;
 	}
-	.soratra a
+	#contactez-nous
 	{
 		margin:0;
 		padding: 0;
-		text-align: left;
+		text-align: center;
 		justify-content: left;
 		font-family:montserrat-600;
 		font-weight: 900;
 		font-size:18px;
-		color: white;
+		color: #396ed6;
+		border: 2px solid #396ed6;
 		letter-spacing: 2px;
 		text-decoration: none;
-		background-color: #396ed6;
-		border-radius: 50px;
-		padding: 15px 25px 15px 25px;
+		background-color:white ;
+		width: 260px;
+		padding: 20px 0 18px 0;
+		transition: all 0.3s ease;
+	    transform-style: preserve-3d;
+	    transform-origin: center;
+	    perspective: 1000000px;
 
 	}
-	.soratra a:hover
+	#contactez-nous::after
 	{
-		border: 2px solid #396ed6;
-		color:white ;
-		background: transparent;
-		transition: all 0.5s ease;
-		color: #396ed6;
+		content: 'CONTACTEZ NOUS';
+		position: absolute;
+		top: 60px;
+		left: -2px;
+		background-color: #396ed6;
+		box-sizing: border-box;
+		width:101.5%;
+		color: white;
+		padding: 20px 0 18px 0;
+		transform: rotateX(-90deg);
+	    transform-style: preserve-3d;
+	    transform-origin: top;
+	}
+	#contactez-nous:hover{
+    	transform: translateY(-40px) rotateX(90deg);
 	}
 	.anime .slick-dots
 	{
@@ -626,178 +641,382 @@
 	{
 		margin: 0px 50px !important;
 	}
-	/* Service tsika zao*/
+									/* SERVICE TSIKA ZAO OH*/
 	#service
 	{
 		margin:0;
 		padding: 0;
 		text-align: center;
 		justify-content: center;
-		padding-top: 70px;
+		padding-top: 100px;
 	}
-	#headerservice
-	{
-		margin:0;
-		padding: 0;
-		text-align: left;
-		justify-content: left;
-		display: flex;
-		flex-wrap: wrap;
-		background-image: url(images/fond-service.png);
-		background-repeat: no-repeat;
-		background-size: 100%;
-		width: 100%;
-	}
-	#soratraservice
-	{
-		margin:0;
-		padding: 0;
-		text-align: left;
-		justify-content: center;
-		padding-top: 30px;
-		margin-right: 45%;
-		margin-left: 5%;
-	}
-	#soratraservice h2
-	{
-		margin:0;
-		padding: 0;
-		text-align: left;
-		justify-content: center;
-		font-family: montserrat-300;
-		font-size:27px;
-		font-weight:100;
-		color:white;
-		letter-spacing:0px;
-	}
-	#soratraservice h1
-	{
-		margin:0;
-		padding: 0;
-		text-align: left;
-		justify-content: center;
-		font-family: montserrat-700;
-		font-size:46px;
-		font-weight:900;
-		color: white;
-		letter-spacing:2px;
-		font-style: bold;
-	}
-	#soratraservice img
-	{
-		margin:0;
-		padding: 0;
-		text-align: center;
-		justify-content: center;
-	}
-	#saryordi
-	{
-		margin:0;
-		padding: 0;
-		text-align: center;
-		justify-content: center;
-		padding-top: 20px;
-	}
-						/*contenu service zao tsika*/
-	#contenuservice
-	{
-		margin:0;
-		padding: 0;
-		text-align: center;
-		justify-content: center;
-		display: flex;
-		flex-wrap: wrap;
-		margin-top: 30px;
-	}
-	.boriborikely
-	{
-		margin:0;
-		padding: 0;
-		text-align: center;
-		justify-content: center;
-		margin:0% 1%;
-		width: 300px;
-		padding:10px;
-		cursor:pointer;
-		box-shadow: 0px 0px 15px #6f6f6f36;
-
-	}	
-	.boriborikely:hover
-	{
-		box-shadow: 0px 0px 15px #ACCDD2;
-		transition: all 0.5s ease;
-	}			
-	.bory
-	{
-		margin:0;
-		padding: 0;
-		text-align: center;
-		justify-content: center;
-		border-radius: 100px;
-		transition: 1s ease-in-out;
-		width: 50%;
-	}	
-	.bory:hover
-	{
-		background-color:#BBE4FF;
-		transform: rotate(360deg) scale(1.1, 1.1);
-
-	}			
-	.boriborikely h1
-	{
-		margin:0;
-		padding: 0;
-		text-align: center;
-		justify-content: center;
-		font-family: montserrat-700;
-		font-size: 16px;
-		letter-spacing:0px;
-		line-height: 25px;
-		color: #002a87;
-		margin-top: 15px;
-		margin-bottom: 0px;
-	}
-	.boriborikely h2
-	{
-		margin:0;
-		padding: 0;
-		text-align: center;
-		justify-content: center;
-		font-family:poppins;
-		font-size: 16px;
-		letter-spacing:0px;
-		line-height: 25px;
-		color: #396ED6;
-		margin-top: 10px;
-		margin-bottom: 20px;
-		height: 50px;
-	
-	}	
-	.boriborikely p
-	{
-		margin:0;
-		padding: 0;
-		text-align: center;
-		justify-content: center;
-		font-family: poppins;
-		font-size: 14px;
-		letter-spacing:0px;
-		line-height: 28px;
-		color: #4E4E4E;
-		margin-top: 10px;
-		padding-bottom: 20px;
-		padding-right: 10px;
-		padding-left: 10px;
-		height: 200px;
-		
-	}
-	.web
+	#header-service
 	{
 		margin: 0;
 		padding: 0;
+		display: flex;
+		justify-content: center;
+		margin-bottom: 20px;
+	}
+	#header-service h1
+	{
+		margin: 0;
+		padding: 0;
+		display: flex;
+		justify-content: center;
+		font-family: montserrat-normal;
+		font-size: 35px;
+		color: #0A74EB;
+		letter-spacing: 7px;
+		margin: 0px 20px;
+	}
+	#header-service img
+	{
+		margin: 0;
+		padding: 0;
+		height: 100%;
+		padding-top: 20px;
+	}
+			/*contenu service*/
+	
+	#contenu-service
+	{
+		margin:0;
+		padding: 0;
+		text-align: center;
+		justify-content: center;
+		background-image: url(images/fond-service-vaovao.png);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		padding: 0% 5%;
+	}
+	#contenu-service1
+	{
+		margin:0;
+		padding: 0;
+		text-align: center;
+		justify-content: center;
+		display: flex;
+		padding-top: 60px;
+		
+	}
+	.application1
+	{
+		margin:0;
+		padding: 0;
+		width: 50%;
+		justify-content: right;
+		text-align: right;
+		padding-right: 4%;
+		border-right: 1.5px solid rgb(255,255,255,0.3);
+		border-bottom: 1.5px solid rgb(255,255,255,0.3);
+		padding-bottom: 40px;
+		margin-left: 50px;
+		padding-top: 30px;
+	}
+	.titre-app1
+	{
+		margin:0;
+		padding: 0;
+		display: flex;
+		height: 100px;
+		margin-left: 15%;
+	}
+	#app-web
+	{
+		margin:0;
+		padding: 0;
+		justify-content: left;
+		text-align: left;
+	}
+	.titre-app1 h1
+	{
+		margin:0;
+		padding: 0;
+		font-family: montserrat-500;
+		font-size: 21px;
+		color: white;
+		letter-spacing: 2px;
+		padding-top: 50px;
+	}
+	#sary-service1
+	{
+		margin:0;
+		padding: 0;
+		margin-left: 25%;
+	}
+	.fond-icon1
+	{
+		margin:0;
+		padding: 0;
+		position: relative;
+		bottom:130px;
+		left:280px;
+	}
+	.sous-titre-app1
+	{
+		margin:0;
+		padding: 0;
+		font-family: montserrat-300;
+		font-size: 16px;
+		color: white;
+		letter-spacing: 7px;
+		line-height: 27px;
+		margin-top: 30px;
+	}
+	.application1 p
+	{
+		margin:0;
+		padding: 0;
+		font-family: poppins;
+		font-weight: 100;
+		font-size: 14px;
+		color: white;
+		letter-spacing: 0.5px;
+		line-height: 27px;
+		padding-left: 10%;
+		margin-top: 15px;
+	}
 
-		margin-bottom: 3px;
-	}	
+		/*app2*/
+
+
+	.application2
+	{
+		margin:0;
+		padding: 0;
+		width: 50%;
+		justify-content: left;
+		text-align: left;
+		padding-left: 4%;
+		padding-bottom: 40px;
+		margin-right: 50px;
+		border-bottom: 1.5px solid rgb(255,255,255,0.3);
+		padding-top: 30px;
+	}
+	.titre-app2
+	{
+		margin:0;
+		padding: 0;
+		display: flex;
+		flex-wrap: wrap;
+		height: 100px;
+	}
+	#app-design
+	{
+		margin:0;
+		padding: 0;
+		justify-content: right;
+		text-align: right;
+		margin-left: 50px;
+	}
+	.titre-app2 h1
+	{
+		margin:0;
+		padding: 0;
+		font-family: montserrat-500;
+		font-size: 21px;
+		color: white;
+		letter-spacing: 2px;
+		padding-top: 50px;
+	}
+	.fond-icon2
+	{
+		margin:0;
+		padding: 0;
+		position: relative;
+		bottom: 120px;
+		right: 20px;
+	}
+	.sous-titre-app2
+	{
+		margin:0;
+		padding: 0;
+		font-family: montserrat-300;
+		font-size: 16px;
+		color: white;
+		letter-spacing: 7px;
+		line-height: 27px;
+		margin-top: 30px;
+	}
+	.application2 p
+	{
+		margin:0;
+		padding: 0;
+		font-family: poppins;
+		font-weight: 100;
+		font-size: 14px;
+		color: white;
+		letter-spacing: 0.5px;
+		line-height: 27px;
+		padding-right: 10%;
+		margin-top: 15px;
+	}
+
+
+	/*contenu service2 tsika zao*/
+
+	#contenu-service2
+	{
+		margin:0;
+		padding: 0;
+		text-align: center;
+		justify-content: center;
+		display: flex;
+		padding-bottom: 120px;
+	}
+	.application3
+	{
+		margin:0;
+		padding: 0;
+		width: 50%;
+		justify-content: right;
+		text-align: right;
+		padding-right: 4%;
+		border-right: 1.5px solid rgb(255,255,255,0.3);
+		margin-left: 50px;
+		padding-top: 60px;
+		padding-bottom: 80px;
+	}
+	.titre-app3
+	{
+		margin:0;
+		padding: 0;
+		display: flex;
+		height: 100px;
+		margin-left: 15%;
+	}
+	#app-mobile
+	{
+		margin:0;
+		padding: 0;
+		justify-content: left;
+		text-align: left;
+	}
+	.titre-app3 h1
+	{
+		margin:0;
+		padding: 0;
+		font-family: montserrat-500;
+		font-size: 21px;
+		color: white;
+		letter-spacing: 2px;
+		padding-top: 50px;
+	}
+	#sary-service3
+	{
+		margin:0;
+		padding: 0;
+		margin-left: 15%;
+	}
+	.fond-icon3
+	{
+		margin:0;
+		padding: 0;
+		position: relative;
+		bottom:110px;
+		left:150px;
+	}
+	.sous-titre-app3
+	{
+		margin:0;
+		padding: 0;
+		font-family: montserrat-300;
+		font-size: 16px;
+		color: white;
+		letter-spacing: 7px;
+		line-height: 27px;
+		margin-top: 30px;
+	}
+	.application3 p
+	{
+		margin:0;
+		padding: 0;
+		font-family: poppins;
+		font-weight: 100;
+		font-size: 14px;
+		color: white;
+		letter-spacing: 0.5px;
+		line-height: 27px;
+		padding-left: 15%;
+		margin-top: 15px;
+	}
+
+		/*app4*/
+
+
+	.application4
+	{
+		margin:0;
+		padding: 0;
+		width: 50%;
+		justify-content: left;
+		text-align: left;
+		padding-left: 4%;
+		margin-right: 50px;
+		padding-top: 60px;
+		padding-bottom: 80px;
+	}
+	.titre-app4
+	{
+		margin:0;
+		padding: 0;
+		display: flex;
+		flex-wrap: wrap;
+		height: 100px;
+	}
+	#app-entreprise
+	{
+		margin:0;
+		padding: 0;
+		justify-content: right;
+		text-align: right;
+		margin-left: 30px;
+	}
+	.titre-app4 h1
+	{
+		margin:0;
+		padding: 0;
+		font-family: montserrat-500;
+		font-size: 21px;
+		color: white;
+		letter-spacing: 2px;
+		padding-top: 50px;
+	}
+	.fond-icon4
+	{
+		margin:0;
+		padding: 0;
+		position: relative;
+		bottom: 120px;
+		right: 20px;
+	}
+	.sous-titre-app4
+	{
+		margin:0;
+		padding: 0;
+		font-family: montserrat-300;
+		font-size: 16px;
+		color: white;
+		letter-spacing: 7px;
+		line-height: 27px;
+		margin-top: 30px;
+	}
+	.application4 p
+	{
+		margin:0;
+		padding: 0;
+		font-family: poppins;
+		font-weight: 100;
+		font-size: 14px;
+		color: white;
+		letter-spacing: 0.5px;
+		line-height: 27px;
+		padding-right: 15%;
+		margin-top: 15px;
+	}
+
+
 
 					/*PORFOLIO NDRAY TSIKA ZAO*/
 	#porfolio
@@ -807,7 +1026,6 @@
 		text-align: center;
 		justify-content: center;
 		margin-top: 0px;
-		padding-top: 75px;
 		width: 100%;
 	}
 	#headerporfolio
@@ -818,8 +1036,9 @@
 		justify-content: center;
 		background-image: url(images/fond-porfolio.png);
 		background-repeat: no-repeat;
-		background-size: 100%;
+		background-size: 120%;
 		width: 100%;
+		padding-top: 75px;
 	}
 	#headerporfolio h2
 	{
@@ -1144,7 +1363,6 @@
 		display: flex;
 		flex-wrap: wrap;
 		position: relative;
-		z-index: 2;
 	}
 	.engagement-1
 	{
@@ -1228,7 +1446,6 @@
 		justify-content: center;
 		position: relative;
 		bottom: 450px;
-		z-index: 1;
 		
 	}
 	#engagement-3 h1
@@ -1257,7 +1474,7 @@
 		margin-top: 60px;
 		margin-bottom: 50px;
 	}
-	#engagement-3 a
+	#contactez-maintenant
 	{
 		margin:0;
 		padding: 0;
@@ -1270,14 +1487,33 @@
 		text-decoration:none;
 		border: 2px solid white;
 		padding: 20px;
+		margin: 0 35%;
+		transition: all 0.3s ease;
+	    transform-style: preserve-3d;
+	    transform-origin: center;
+	    perspective: 1000000px;
 
 	}
-	#engagement-3 a:hover
+	#contactez-maintenant::after
 	{
-		background: white;
-		transition: all 0.5s ease;
+		content: 'CONTACTEZ MAINTENANT';
+		position: absolute;
+		top: 65px;
+		left: -2px;
+		background-color:white ;
+		box-sizing: border-box;
 		color: #396ed6;
+		border: 2px solid white;
+		padding: 20px 0;
+		width: 101%;
+		transform: rotateX(-90deg);
+	    transform-style: preserve-3d;
+	    transform-origin: top;
 	}
+	#contactez-maintenant:hover{
+    	transform: translateY(-35px) rotateX(90deg);
+	}
+
 
 
 				/*CONTACT TSIKA ZAO*/
