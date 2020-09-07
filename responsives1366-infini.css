@@ -1215,127 +1215,78 @@
 	{
 		margin:0;
 		padding: 0;
-		text-align: center;
-		justify-content: center;
-		background-image: url(images/fond-qui-sommes.png);
-		background-repeat: no-repeat;
-		background-size: 100%;
 		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		padding-top: 80px;
+	}
+	#apropos
+	{
+	 	margin:0;
+	 	padding:0;
+	 	width: 33%;
+	 	background-image: url(images/fond-apropos.png);
+	 	background-repeat: no-repeat;	
+	 	text-align: left;
+	 	padding-left: 5%;
+	 	padding-right: 3%;
+	 	padding-bottom: 5%;
+	}
+	#apropos h1
+	{
+		margin:0;
+	 	padding:0;
+	 	font-family: montserrat;
+	 	font-size:40px;
+	 	color: white;
+	 	padding-top: 20%;
+	 	padding-bottom:10%; 
+
+	}
+	#apropos p
+	{
+		margin:0;
+	 	padding:0;
+	 	font-family: poppins;
+		font-size: 15px;
+		line-height: 28px;
+		letter-spacing: 0px;
+		color: white;
+
 	}
 	#qui-sommes
 	{
 		margin:0;
-		padding: 0;
-		text-align: center;
-		justify-content: center;
-		display: flex;
-		margin-top: 30px;
-	}
-	#soratra-qui
-	{
-		margin:0;
-		padding: 0;
-		text-align: left;
-		justify-content: left;
-		margin-top: 80px;
-		margin-right: 190px;
-	}
-	#soratra-qui h1
-	{
-		margin:0;
-		padding: 0;
-		text-align:left;
-		justify-content: center;
-		font-family:montserrat-700;
-		font-weight: 700;
-		font-size:38px;
-		color:#3967d7;
-		letter-spacing:0px;
+	 	padding:0;
+	 	width: 67%;
+	 	text-align: right;
 
 	}
-	#soratra-qui img
+	#qui-sommes h1
+	{
+		font-size: 5rem;
+		  font-family: montserrat-700;
+		  color: #0040CC;
+		  margin-bottom: 1.8rem;
+		  font-weight: 900;
+		  letter-spacing: 2px;
+		  padding-right: 10%;
+	}
+	#qui-sommes p
 	{
 		margin:0;
-		padding: 0;
-		text-align:left;
-		justify-content: left;
-		color: #3967d7;
+	 	padding:0;
+	 	padding-right: 10%;
+		padding-left: 40%;
+		margin-top: 4%;
+		margin-bottom: 4%;
+	 	font-family: poppins;
+		font-size: 15px;
+		line-height: 28px;
+		letter-spacing: 0px;
+		color: #002a87;
 	}
-	#soratra-qui h2
-	{
-		margin:0;
-		padding: 0;
-		text-align: left;
-		justify-content: center;
-		font-family:poppins;
-		font-weight: 500;
-		font-size:15px;
-		color:#4E4E4E;
-		line-height: 30px;
-		margin-top: 15px;
-		width: 350px;
-	}
-	#sary-qui
-	{
-		margin:0;
-		padding: 0;
-		text-align: center;
-		justify-content: center;
-		margin-top: 50px;
-	}
-
-	#apropos
-	{
-		margin:0;
-		padding: 0;
-		text-align: center;
-		justify-content: center;
-		display: flex;
-		margin-top: 100px;
-	}
-	#img-apropos
-	{
-		margin:0;
-		padding: 0;
-		text-align: center;
-		justify-content: center;
-	}
-	#soratra-apropos
-	{
-		margin:0;
-		padding: 0;
-		text-align: right;
-		justify-content: right;
-		margin-top: 60px;
-		margin-left: 150px;
-		padding-bottom: 0px;
-	}
-	#soratra-apropos h1
-	{
-		margin:0;
-		padding: 0;
-		text-align:right;
-		justify-content: center;
-		font-family:montserrat-700;
-		font-weight: 700;
-		font-size:38px;
-		color:#3967d7;
-		letter-spacing:0px;
-	}
-	#soratra-apropos h2
-	{
-		margin:0;
-		padding: 0;
-		text-align: right;
-		justify-content: center;
-		font-family:poppins;
-		font-weight: 500;
-		font-size:15px;
-		color:#4E4E4E;
-		line-height: 30px;
-		margin-top: 15px;
-		width: 800px;
-	}
+	
 					/*NOS ENGAGEMENT*/
 	#nos-engagement
 	{
@@ -1527,47 +1478,23 @@
 		text-align:center;
 		justify-content: center;
 		display: flex;
-		background-image: url(images/fond-contact.png);
-		background-size: 100%;
-		padding-top: 78px;
+		flex-wrap: nowrap;
+
 	}
-	#soratra-contact
+	#header-contact h1
 	{
-		margin:0;
-		padding: 0;
-		text-align:center;
-		justify-content: center;
+		font-size: 5rem;
+		  font-family: montserrat-700;
+		  color: #0040CC;
+		  letter-spacing: 2px;
+		  padding-top: 6%;
+		  margin-right: 25%;
 	}
-	#soratra-contact h1
+	#header-contact img
 	{
-		margin:0;
-		padding: 0;
-		text-align:center;
-		justify-content: center;
-		font-family: montserrat-700;
-		font-size:35px;
-		font-weight:900;
-		color: white;
-		letter-spacing:2px;
-		font-style:bold;
-		padding-top: 50px;
+		width: 20%;
 	}
-	#soratra-contact img
-	{
-		margin:0;
-		padding: 0;
-		text-align:center;
-		justify-content: center;
-	}
-	#sary-contact
-	{
-		margin:0;
-		padding: 0;
-		text-align:center;
-		justify-content: center;
-		margin-left: 450px;
-		padding-top: 10px;
-	}
+	
 
 	#contenu-contact
 	{
@@ -1576,7 +1503,7 @@
 		text-align:center;
 		justify-content: center;
 		display: flex;
-		margin-top: 20px;
+		margin-top: 50px;
 	}
 	#formulaire
 	{
@@ -1584,14 +1511,17 @@
 		padding: 0;
 		justify-content: center;
 		text-align: center;
-		padding-left: 30px;
-		padding-right: 30px;
+		padding-left: 50px;
+		padding-right: 50px;
+		padding-top: 10%;
+		padding-bottom: 10%;
 		margin-right: 50px;
+		background-image: url(images/fond-formulaire.png);
+		background-repeat: no-repeat;
 	}
 	.formulaire
 	{
-		border: 1px solid #96b2f6;
-		border-radius: 20px;
+		border: 1px solid white;
 		width: 370px;
 		padding: 13px;
 		font-family:poppins;
@@ -1617,8 +1547,7 @@
 			font-size:20px;
 			color: white;
 			letter-spacing:1px;
-			background-color: #3967d7;
-			border-radius: 50px;
+			background-color: #003F88;
 			padding: 10px 30px;
 			outline: none;
 			border: none;
@@ -1627,11 +1556,11 @@
 	}
 	#submit:hover
 	{
-		border: 2px solid #3967d7;
+		border: 2px solid white;
 		color:white ;
 		background: transparent;
 		transition: all 0.5s ease;
-		color: #3967d7;
+		color: white;
 	}
 	#formulaire h1
 	{
@@ -1640,11 +1569,21 @@
 		text-align:center;
 		justify-content: center;
 		font-family: montserrat-300;
-		font-size:35px;
-		font-weight: 100;
-		color:#4D7092;
-		letter-spacing:-2px;
-		margin-top:30px;
+		font-size:30px;
+		color:white;
+		letter-spacing:10px;
+
+	}
+	#formulaire h2
+	{
+		margin:0;
+		padding: 0;
+		text-align:center;
+		justify-content: center;
+		font-family: montserrat-600;
+		font-size:30px;
+		color:white;
+		
 	}
 
 						/*COORDONNE*/
@@ -1654,7 +1593,7 @@
 		padding: 0;
 		text-align:center;
 		justify-content: center;
-		background-color: #3967d7;
+		background-image: url(images/fond-engagement-1.png);
 		padding: 0;
 	}
 
@@ -1664,7 +1603,6 @@
 		padding: 0;
 		text-align:center;
 		justify-content: center;
-		background-color:#3967d9;
 	}
 	#titre-coordonne h1
 	{
@@ -1775,10 +1713,10 @@
 	#footer
 	{
 		height: 53px;
-		background-color: #3967d7;
 		padding: 0;
 		margin:0;
 		text-align: center;
+		background-color: #003F88;
 	}
 	#footer h1
 	{
@@ -1797,7 +1735,6 @@
 		text-align:center;
 		justify-content: center;
 		height: 30px;
-		background-color:#3967e4;
 	}
 	#loko2
 	{
@@ -1806,7 +1743,6 @@
 		text-align:center;
 		justify-content: center;
 		height: 30px;
-		background-color:#3967d7;
 	}
 
 
