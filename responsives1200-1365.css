@@ -279,22 +279,6 @@
 		font-weight: 300;
 		letter-spacing:1px;
 	}
-
-
-	.soratra h1 span
-	{
-		margin:0;
-		padding: 0;
-		text-align: right;
-		justify-content: center;
-		font-family:montserrat-normal;
-		font-weight:900;
-		font-size:80px;
-		color:#002a87;
-		letter-spacing:0px;
-
-		
-	}
 	.soratra h2
 	{
 		margin:0;
@@ -307,47 +291,48 @@
 		color:#396ed6;
 		letter-spacing:2px;
 		margin-top: 30px;
-		margin-bottom: 50px;
-	}
-
-	.soratra p
-	{
-		margin:0;
-		padding: 0;
-		text-align: left;
-		justify-content: center;	
-		font-family:poppins;
-		font-weight: 450;
-		font-size:14px;
-		color:#585858;
-		letter-spacing:0px;
-		line-height: 32px;
 		margin-bottom: 30px;
 	}
-	.soratra a
+
+	#contactez-nous
 	{
 		margin:0;
 		padding: 0;
-		text-align: left;
+		text-align: center;
 		justify-content: left;
 		font-family:montserrat-600;
 		font-weight: 900;
-		font-size:18px;
-		color: white;
+		font-size:16px;
+		color: #396ed6;
+		border: 2px solid #396ed6;
 		letter-spacing: 2px;
 		text-decoration: none;
-		background-color: #396ed6;
-		border-radius: 50px;
-		padding: 15px 25px 15px 25px;
+		background-color:white ;
+		width: 240px;
+		padding: 15px 0 15px 0;
+		transition: all 0.3s ease;
+	    transform-style: preserve-3d;
+	    transform-origin: center;
+	    perspective: 1000000px;
 
 	}
-	.soratra a:hover
+	#contactez-nous::after
 	{
-		border: 2px solid #396ed6;
-		color:white ;
-		background: transparent;
-		transition: all 0.5s ease;
-		color: #396ed6;
+		content: 'CONTACTEZ NOUS';
+		position: absolute;
+		top: 50px;
+		left: -2px;
+		background-color: #396ed6;
+		box-sizing: border-box;
+		width:101.5%;
+		color: white;
+		padding: 15px 0 15px 0;
+		transform: rotateX(-90deg);
+	    transform-style: preserve-3d;
+	    transform-origin: top;
+	}
+	#contactez-nous:hover{
+    	transform: translateY(-30px) rotateX(90deg);
 	}
 	.anime .slick-dots
 	{
@@ -387,166 +372,374 @@
 		padding: 0;
 		text-align: center;
 		justify-content: center;
-		padding-top: 70px;
+		padding-top: 100px;
 	}
-	#headerservice
-	{
-		margin:0;
-		padding: 0;
-		text-align: left;
-		justify-content: left;
-		display: flex;
-		flex-wrap: wrap;
-		background-image: url(images/fond-service.png);
-		background-repeat: no-repeat;
-		background-size: 100%;
-		width: 100%;
-	}
-	#soratraservice
-	{
-		margin:0;
-		padding: 0;
-		text-align: left;
-		justify-content: center;
-		padding-top: 30px;
-		margin-right: 45%;
-		margin-left: 5%;
-	}
-	#soratraservice h2
-	{
-		margin:0;
-		padding: 0;
-		text-align: left;
-		justify-content: center;
-		font-family: montserrat-300;
-		font-size:27px;
-		font-weight:100;
-		color:white;
-		letter-spacing:0px;
-	}
-	#soratraservice h1
-	{
-		margin:0;
-		padding: 0;
-		text-align: left;
-		justify-content: center;
-		font-family: montserrat-700;
-		font-size:46px;
-		font-weight:900;
-		color: white;
-		letter-spacing:2px;
-		font-style: bold;
-	}
-	#soratraservice img
-	{
-		margin:0;
-		padding: 0;
-		text-align: center;
-		justify-content: center;
-	}
-	#saryordi
-	{
-		margin:0;
-		padding: 0;
-		text-align: center;
-		justify-content: center;
-		padding-top: 20px;
-	}
-						/*contenu service zao tsika*/
-	#contenuservice
-	{
-		margin:0;
-		padding: 0;
-		text-align: center;
-		justify-content: center;
-		display: flex;
-		flex-wrap: wrap;
-		margin-top: 30px;
-	}
-	.boriborikely
-	{
-		margin:0;
-		padding: 0;
-		text-align: center;
-		justify-content: center;
-		margin:0% 1%;
-		width: 270px;
-		padding:10px;
-		cursor:pointer;
-		box-shadow: 0px 0px 15px #6f6f6f36;
-
-	}	
-	.boriborikely:hover
-	{
-		box-shadow: 0px 0px 15px #ACCDD2;
-		transition: all 0.5s ease;
-	}			
-	.bory
-	{
-		margin:0;
-		padding: 0;
-		text-align: center;
-		justify-content: center;
-		border-radius: 100px;
-		transition: 1s ease-in-out;
-		width: 45%;
-	}	
-	.bory:hover
-	{
-		background-color:#BBE4FF;
-		transform: rotate(360deg) scale(1.1, 1.1);
-
-	}			
-	.boriborikely h1
-	{
-		margin:0;
-		padding: 0;
-		text-align: center;
-		justify-content: center;
-		font-family: montserrat-700;
-		font-size: 16px;
-		letter-spacing:0px;
-		line-height: 25px;
-		color: #002a87;
-		margin-top: 10px;
-		margin-bottom: 0px;
-	}
-		.boriborikely h2
-	{
-		margin:0;
-		padding: 0;
-		text-align: center;
-		justify-content: center;
-		font-family:poppins;
-		font-size: 16px;
-		letter-spacing:0px;
-		line-height: 25px;
-		color: #396ED6;
-		margin-top: 10px;
-		margin-bottom: 20px;
-		height: 50px;
-	}	
-	.boriborikely p
-	{
-		margin:0;
-		padding: 0;
-		text-align: center;
-		justify-content: center;
-		font-family: poppins;
-		font-size: 14px;
-		letter-spacing:0px;
-		line-height: 28px;
-		color: #4E4E4E;
-		margin-top: 10px;
-		padding-bottom: 20px;
-		height: 200px;
-	}
-	.web
+	#header-service
 	{
 		margin: 0;
 		padding: 0;
+		display: flex;
+		justify-content: center;
+		margin-bottom: 20px;
+	}
+	#header-service h1
+	{
+		margin: 0;
+		padding: 0;
+		display: flex;
+		justify-content: center;
+		font-family: montserrat-normal;
+		font-size: 35px;
+		color: #0A74EB;
+		letter-spacing: 7px;
+		margin: 0px 20px;
+	}
+	#header-service img
+	{
+		margin: 0;
+		padding: 0;
+		height: 100%;
+		padding-top: 20px;
+	}
+			/*contenu service*/
+	
+	#contenu-service
+	{
+		margin:0;
+		padding: 0;
+		text-align: center;
+		justify-content: center;
+		background-image: url(images/fond-service-vaovao.png);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		padding: 0% 5%;
+	}
+	#contenu-service1
+	{
+		margin:0;
+		padding: 0;
+		text-align: center;
+		justify-content: center;
+		display: flex;
+		padding-top: 20px;
+		
+	}
+	.application1
+	{
+		margin:0;
+		padding: 0;
+		width: 50%;
+		justify-content: right;
+		text-align: right;
+		padding-right: 4%;
+		border-right: 1.5px solid rgb(255,255,255,0.3);
+		border-bottom: 1.5px solid rgb(255,255,255,0.3);
+		padding-bottom: 40px;
+		margin-left: 50px;
+		padding-top: 30px;
+	}
+	.titre-app1
+	{
+		margin:0;
+		padding: 0;
+		display: flex;
+		height: 120px;
+		margin-left: 10%;
+	}
+	#app-web
+	{
+		margin:0;
+		padding: 0;
+		justify-content: left;
+		text-align: left;
+	}
+	.titre-app1 h1
+	{
+		margin:0;
+		padding: 0;
+		font-family: montserrat-500;
+		font-size: 21px;
+		color: white;
+		letter-spacing: 2px;
+		padding-top: 60px;
+	}
+	#sary-service1
+	{
+		margin:0;
+		padding: 0;
+		margin-left: 16%;
+		padding-top: 30px;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
 
-		margin-bottom: 3px;
+	.sous-titre-app1
+	{
+		margin:0;
+		padding: 0;
+		font-family: montserrat-300;
+		font-size: 16px;
+		color: white;
+		letter-spacing: 7px;
+		line-height: 27px;
+		margin-top: 30px;
+	}
+	.application1 p
+	{
+		margin:0;
+		padding: 0;
+		font-family: poppins;
+		font-weight: 100;
+		font-size: 14px;
+		color: white;
+		letter-spacing: 0.5px;
+		line-height: 27px;
+		padding-left: 10%;
+		margin-top: 15px;
+	}
+
+		/*app2*/
+
+
+	.application2
+	{
+		margin:0;
+		padding: 0;
+		width: 50%;
+		justify-content: left;
+		text-align: left;
+		padding-left: 4%;
+		padding-bottom: 40px;
+		margin-right: 50px;
+		border-bottom: 1.5px solid rgb(255,255,255,0.3);
+		padding-top: 30px;
+	}
+	.titre-app2
+	{
+		margin:0;
+		padding: 0;
+		display: flex;
+		flex-wrap: wrap;
+		height: 120px;
+	}
+	#app-design
+	{
+		margin:0;
+		padding: 0;
+		justify-content: right;
+		text-align: right;
+		margin-left: 50px;
+	}
+	.titre-app2 h1
+	{
+		margin:0;
+		padding: 0;
+		font-family: montserrat-500;
+		font-size: 21px;
+		color: white;
+		letter-spacing: 2px;
+		padding-top: 60px;
+	}
+	#sary-service2
+	{
+		margin:0;
+		padding: 0;
+		background-image: url(images/fond-icon-service-2.png);
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		padding-top: 30px;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	
+	.sous-titre-app2
+	{
+		margin:0;
+		padding: 0;
+		font-family: montserrat-300;
+		font-size: 16px;
+		color: white;
+		letter-spacing: 7px;
+		line-height: 27px;
+		margin-top: 30px;
+	}
+	.application2 p
+	{
+		margin:0;
+		padding: 0;
+		font-family: poppins;
+		font-weight: 100;
+		font-size: 14px;
+		color: white;
+		letter-spacing: 0.5px;
+		line-height: 27px;
+		padding-right: 10%;
+		margin-top: 15px;
+	}
+
+
+	/*contenu service2 tsika zao*/
+
+	#contenu-service2
+	{
+		margin:0;
+		padding: 0;
+		text-align: center;
+		justify-content: center;
+		display: flex;
+		padding-bottom: 120px;
+	}
+	.application3
+	{
+		margin:0;
+		padding: 0;
+		width: 50%;
+		justify-content: right;
+		text-align: right;
+		padding-right: 4%;
+		border-right: 1.5px solid rgb(255,255,255,0.3);
+		margin-left: 50px;
+		padding-top: 30px;
+		padding-bottom: 80px;
+	}
+	.titre-app3
+	{
+		margin:0;
+		padding: 0;
+		display: flex;
+		height: 120px;
+		margin-left: 10%;
+	}
+	#app-mobile
+	{
+		margin:0;
+		padding: 0;
+		justify-content: left;
+		text-align: left;
+	}
+	.titre-app3 h1
+	{
+		margin:0;
+		padding: 0;
+		font-family: montserrat-500;
+		font-size: 21px;
+		color: white;
+		letter-spacing: 2px;
+		padding-top: 60px;
+	}
+	#sary-service3
+	{
+		margin:0;
+		padding: 0;
+		margin-left: 8%;
+		background-image: url(images/fond-icon-service-1.png);
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		padding-top: 30px;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	
+	.sous-titre-app3
+	{
+		margin:0;
+		padding: 0;
+		font-family: montserrat-300;
+		font-size: 16px;
+		color: white;
+		letter-spacing: 7px;
+		line-height: 27px;
+		margin-top: 30px;
+	}
+	.application3 p
+	{
+		margin:0;
+		padding: 0;
+		font-family: poppins;
+		font-weight: 100;
+		font-size: 14px;
+		color: white;
+		letter-spacing: 0.5px;
+		line-height: 27px;
+		padding-left: 15%;
+		margin-top: 15px;
+	}
+
+		/*app4*/
+
+
+	.application4
+	{
+		margin:0;
+		padding: 0;
+		width: 50%;
+		justify-content: left;
+		text-align: left;
+		padding-left: 4%;
+		margin-right: 50px;
+		padding-top: 30px;
+		padding-bottom: 80px;
+	}
+	.titre-app4
+	{
+		margin:0;
+		padding: 0;
+		display: flex;
+		flex-wrap: wrap;
+		height: 120px;
+	}
+	#app-entreprise
+	{
+		margin:0;
+		padding: 0;
+		justify-content: right;
+		text-align: right;
+		margin-left: 30px;
+	}
+	.titre-app4 h1
+	{
+		margin:0;
+		padding: 0;
+		font-family: montserrat-500;
+		font-size: 21px;
+		color: white;
+		letter-spacing: 2px;
+		padding-top: 60px;
+	}
+	#sary-service4
+	{
+		margin:0;
+		padding: 0;
+		background-image: url(images/fond-icon-service-2.png);
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		padding-top: 30px;
+		padding-left: 30px;
+		padding-right: 10px;
+	}
+	.sous-titre-app4
+	{
+		margin:0;
+		padding: 0;
+		font-family: montserrat-300;
+		font-size: 16px;
+		color: white;
+		letter-spacing: 7px;
+		line-height: 27px;
+		margin-top: 30px;
+	}
+	.application4 p
+	{
+		margin:0;
+		padding: 0;
+		font-family: poppins;
+		font-weight: 100;
+		font-size: 14px;
+		color: white;
+		letter-spacing: 0.5px;
+		line-height: 27px;
+		padding-right: 15%;
+		margin-top: 15px;
 	}
 					/*PORFOLIO NDRAY TSIKA ZAO*/
 	#porfolio
@@ -555,195 +748,184 @@
 		padding: 0;
 		text-align: center;
 		justify-content: center;
-		margin-top: 0px;
-		padding-top: 75px;
+		padding-top: 60px;
 		width: 100%;
 	}
-	#headerporfolio
-	{
-		margin:0;
-		padding: 0;
-		text-align: center;
-		justify-content: center;
-		background-image: url(images/fond-porfolio.png);
-		background-repeat: no-repeat;
-		background-size: 100%;
-		width: 100%;
-	}
-	#headerporfolio h2
-	{
-		margin:0;
-		padding: 0;
-		text-align: center;
-		justify-content: center;
-		font-family: montserrat-300;
-		font-size:27px;
-		font-weight:200;
-		color:white;
-		letter-spacing:0px;
-		padding-top: 50px;
-	}
-	#headerporfolio h1
-	{
-		margin:0;
-		padding: 0;
-		text-align: center;
-		justify-content: center;
-		font-family: montserrat-700;
-		font-size:46px;
-		font-weight:900;
-		color: white;
-		letter-spacing:2px;
-		font-style:bold;
-		padding-bottom: 24px;
-	}
-
-	#bouttontout
-	{
-		margin:0;
-		padding: 0;
-		text-align: center;
-		justify-content: center;
-		display: flex;
-		flex-wrap: wrap;
-		background-color: #D8E0FF;
-	}
-	#bouttontout a
-	{
-		margin:0;
-		padding: 0;
-		text-align: center;
-		justify-content: center;
-		font-family:montserrat-normal;
-		font-weight: 400;
-		font-size:15px ;
-		color:white;
-		letter-spacing: 4px;
-		text-decoration: none;
-		border-radius: 50px;
-		padding: 5px 30px;
-		margin:50px 50px 40px 50px;
-		border: 1.5px solid #3967d7;
-		
-		background: #3967d7;
-	}
-	#bouttontout a:hover
-	{
-		border: 1.5px solid #3967d7;
-		color:#3967d7 ;
-		background: white;
-		transition: all 0.5s ease;
-	}
-	#bouttontout a:focus
-	{
-		border: 1.5px solid #0093B1;
-		color:#0093B1 ;
-		background: white;
-		transition: all 0.5s ease;
-	}
-	#contenuporfolio
-	{
-		margin:0;
-		padding: 0;
-		text-align: center;
-		justify-content: center;
-		background-color: #D8E0FF;
-		padding-bottom: 100px;
+	.site-section {
+  padding: 2.5em 0; }
+  @media (min-width: 768px) {
+    .site-section {
+      padding: 5em 0; } }
+  .site-section.site-section-sm {
+    padding: 4em 0; }
+    .section-title {
+  font-size: 5rem;
+  font-family: montserrat-700;
+  color: #0040CC;
+  margin-bottom: 1.8rem;
+  font-weight: 900;
+  letter-spacing: 2px;
+  text-align: left;
+   }
+   .row p {
+		font-family: poppins;
+		font-weight: 100;
+		font-size: 14px;
+		color: #7E7E7E;
+		letter-spacing: 0.5px;
+		line-height: 27px;
+		text-align: left;
+   }
+      .work-thumb {
+  position: relative;
+  display: block;
+  cursor: pointer;
+  -webkit-transition: .2s all ease-in-out;
+  -o-transition: .2s all ease-in-out;
+  transition: .2s all ease-in-out; }
+  .work-thumb:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: "";
+    background: rgba(0, 64, 204, 0.6);
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease; }
+  .work-thumb .work-text {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+    margin-top: 20px;
+    font-family: montserrat-700;
+	font-size: 27px;
+	color: white;
+	width: 100%;
 	}
 
-	#img-contenu
-	{
-		margin:0;
-		padding: 0;
-		text-align: center;
-		justify-content: center;
-		margin: 0px 200px;
+    .work-thumb .work-text .category {
+      font-size: 20px;
+      color: white;
+      text-transform: uppercase;
+      font-family: montserrat-300;
+      letter-spacing: 3px;
+      margin: 0;
+       }
+  .work-thumb:hover {
+    z-index: 3;
+    -webkit-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    transform: scale(1.03); }
+    .work-thumb:hover:after {
+      opacity: .9;
+      visibility: visible; }
+    .work-thumb:hover .work-text {
+      -webkit-transition-delay: .2s;
+      -o-transition-delay: .2s;
+      transition-delay: .2s;
+      opacity: 1;
+      visibility: visible;
+      margin-top: 0px; }
 
-	}
-	.img1
-	{
-		margin:0;
-		padding: 0;
-		text-align: center;
-		justify-content: center;
-		margin-left: 20px;
-		padding-top: 5px;
-		margin-bottom: 20px;
-		margin-top: 20px;
-	}
-	.img1 img
-	{
-		width: 200px;
-		margin: 0;
-		
-	}
-	#img-contenu img:hover
-	{
-		transition: all 0.5s ease;
-		box-shadow: 0px 0px 5px #006C7D;	
-	}
-	#img-contenu .slick-prev:before
-	{
-		color: #0093B1 !important;
-		font-size: 80px !important;
-		content: '<'!important;
-		font-family:quicksand-light!important;
-		font-weight: 100 !important;
+.nonloop-block-13 .owl-nav {
+  display: none; }
 
-	}
-	#img-contenu .slick-prev
-	{
+.nonloop-block-13 .owl-dots {
+  margin-top: 30px;
+  width: 100%;
+  text-align: center; }
+  .nonloop-block-13 .owl-dots .owl-dot {
+    display: inline-block;
+    margin: 5px; }
+    .nonloop-block-13 .owl-dots .owl-dot span {
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background-color: #e6e6e6; }
+    .nonloop-block-13 .owl-dots .owl-dot.active span {
+      background-color: #352961; }
 
-		left: -60px !important;
-		top: 30% !important;
-	}
-	#img-contenu .slick-next:before
-	{
-		color: #0093B1 !important;
-		font-size: 80px !important;
-		content: '>'!important;
-		font-family:quicksand-light !important;
-		font-weight: 100 !important;
+.nonloop-block-13 .owl-stage {
+  padding-top: 3rem;
+  padding-bottom: 3rem; }
 
-	}
-	#img-contenu .slick-next
-	{
-		right: -40px !important;
-		top: 30% !important;
-	}
-	#slick-slide-control10::before
-	{
-		color: #0093B1;
-	}
-	#slick-slide-control11::before
-	{
-		color: #0093B1;
-	}
-	#slick-slide-control12::before
-	{
-		color: #0093B1;
-	}
-	#slick-slide-control13::before
-	{
-		color: #0093B1;
-	}
-	#slick-slide-control14::before
-	{
-		color: #0093B1;
-	}
-	#slick-slide-control15::before
-	{
-		color: #0093B1;
-	}
-	#slick-slide-control16::before
-	{
-		color: #0093B1;
-	}
-	#slick-slide-control17::before
-	{
-		color: #0093B1;
-	}
+.nonloop-block-13 .owl-item {
+  position: relative;
+  z-index: 2;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.1s all cubic-bezier(0.17, 0.67, 0.86, 0.2);
+  -o-transition: 0.1s all cubic-bezier(0.17, 0.67, 0.86, 0.2);
+  transition: 0.1s all cubic-bezier(0.17, 0.67, 0.86, 0.2); }
+  .nonloop-block-13 .owl-item:hover {
+    z-index: 3;
+    -webkit-transform: scale(1.07);
+    -ms-transform: scale(1.07);
+    transform: scale(1.07); }
 
+.custom-owl-carousel .slide-one-item-alt {
+  border-top-left-radius: 200px;
+  overflow: hidden;
+  -webkit-box-shadow: 0 30px 100px -20px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 30px 100px -20px rgba(0, 0, 0, 0.4); }
+
+@media (max-width: 991.98px) {
+  .custom-owl-carousel .col-lg-5 {
+    margin-top: 40%; } }
+
+.custom-owl-carousel .owl-custom-direction {
+  position: absolute;
+  bottom: -20px;
+  z-index: 9;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%); }
+  .custom-owl-carousel .owl-custom-direction a {
+    z-index: 1;
+    display: inline-block;
+    padding: 28px 30px;
+    position: relative;
+    background: #dc3545;
+    float: left; }
+    .custom-owl-carousel .owl-custom-direction a:first-child {
+      border-top-left-radius: 4px;
+      border-bottom-left-radius: 4px; }
+    .custom-owl-carousel .owl-custom-direction a:last-child {
+      border-top-right-radius: 4px;
+      border-bottom-right-radius: 4px; }
+    .custom-owl-carousel .owl-custom-direction a span {
+      font-size: 1.5rem;
+      display: inline-block;
+      position: absolute;
+      top: 50%;
+      color: #fff;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%); }
+    .custom-owl-carousel .owl-custom-direction a:hover {
+      position: relative;
+      z-index: 2;
+      -webkit-box-shadow: 0 5px 20px -5px rgba(0, 0, 0, 0.4);
+      box-shadow: 0 5px 20px -5px rgba(0, 0, 0, 0.4); }
 
 
 					/*QUI SOMMES NOUS*/
@@ -751,126 +933,77 @@
 	{
 		margin:0;
 		padding: 0;
-		text-align: center;
-		justify-content: center;
-		background-image: url(images/fond-qui-sommes.png);
-		background-repeat: no-repeat;
-		background-size: 100%;
 		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		padding-top: 80px;
+	}
+	#apropos
+	{
+	 	margin:0;
+	 	padding:0;
+	 	width: 33%;
+	 	background-image: url(images/fond-apropos.png);
+	 	background-repeat: no-repeat;	
+	 	background-size: 100%;
+	 	text-align: left;
+	 	padding-left: 5%;
+	 	padding-right: 3%;
+	 	padding-bottom: 5%;
+	}
+	#apropos h1
+	{
+		margin:0;
+	 	padding:0;
+	 	font-family: montserrat;
+	 	font-size:40px;
+	 	color: white;
+	 	padding-top: 20%;
+	 	padding-bottom:10%; 
+
+	}
+	#apropos p
+	{
+		margin:0;
+	 	padding:0;
+	 	font-family: poppins;
+		font-size: 15px;
+		line-height: 28px;
+		letter-spacing: 0px;
+		color: white;
+
 	}
 	#qui-sommes
 	{
 		margin:0;
-		padding: 0;
-		text-align: center;
-		justify-content: center;
-		display: flex;
-		margin-top: 30px;
-	}
-	#soratra-qui
-	{
-		margin:0;
-		padding: 0;
-		text-align: left;
-		justify-content: left;
-		margin-top: 80px;
-		margin-right: 190px;
-	}
-	#soratra-qui h1
-	{
-		margin:0;
-		padding: 0;
-		text-align:left;
-		justify-content: center;
-		font-family:montserrat-700;
-		font-weight: 700;
-		font-size:38px;
-		color:#3967d7;
-		letter-spacing:0px;
+	 	padding:0;
+	 	width: 67%;
+	 	text-align: right;
 
 	}
-	#soratra-qui img
+	#qui-sommes h1
 	{
-		margin:0;
-		padding: 0;
-		text-align:left;
-		justify-content: left;
-		color: #3967d7;
+		font-size: 5rem;
+		  font-family: montserrat-700;
+		  color: #0040CC;
+		  margin-bottom: 1.8rem;
+		  font-weight: 900;
+		  letter-spacing: 2px;
+		  padding-right: 10%;
 	}
-	#soratra-qui h2
+	#qui-sommes p
 	{
 		margin:0;
-		padding: 0;
-		text-align: left;
-		justify-content: center;
-		font-family:poppins;
-		font-weight: 500;
-		font-size:15px;
-		color:#4E4E4E;
-		line-height: 30px;
-		margin-top: 15px;
-		width: 350px;
-	}
-	#sary-qui
-	{
-		margin:0;
-		padding: 0;
-		text-align: center;
-		justify-content: center;
-		margin-top: 50px;
-	}
-
-	#apropos
-	{
-		margin:0;
-		padding: 0;
-		text-align: center;
-		justify-content: center;
-		display: flex;
-		margin-top: 100px;
-	}
-	#img-apropos
-	{
-		margin:0;
-		padding: 0;
-		text-align: center;
-		justify-content: center;
-	}
-	#soratra-apropos
-	{
-		margin:0;
-		padding: 0;
-		text-align: right;
-		justify-content: right;
-		margin-top: 60px;
-		margin-left: 150px;
-		padding-bottom: 0px;
-	}
-	#soratra-apropos h1
-	{
-		margin:0;
-		padding: 0;
-		text-align:right;
-		justify-content: center;
-		font-family:montserrat-700;
-		font-weight: 700;
-		font-size:38px;
-		color:#3967d7;
-		letter-spacing:0px;
-	}
-	#soratra-apropos h2
-	{
-		margin:0;
-		padding: 0;
-		text-align: right;
-		justify-content: center;
-		font-family:poppins;
-		font-weight: 500;
-		font-size:15px;
-		color:#4E4E4E;
-		line-height: 30px;
-		margin-top: 15px;
-		width: 800px;
+	 	padding:0;
+	 	padding-right: 10%;
+		padding-left: 40%;
+		margin-top: 4%;
+		margin-bottom: 4%;
+	 	font-family: poppins;
+		font-size: 15px;
+		line-height: 28px;
+		letter-spacing: 0px;
+		color: #002a87;
 	}
 					/*NOS ENGAGEMENT*/
 		#nos-engagement
@@ -1000,30 +1133,47 @@
 		margin: 0% 35%;
 		line-height: 28px;
 		margin-top: 60px;
-		margin-bottom: 50px;
+		margin-bottom: 40px;
 	}
-	#engagement-3 a
+	#contactez-maintenant
 	{
 		margin:0;
 		padding: 0;
 		text-align:center;
 		justify-content: center;
 		font-family: montserrat-600;
-		font-size: 18px;
+		font-size: 16px;
 		letter-spacing: 3px;
 		color: white;
 		text-decoration:none;
 		border: 2px solid white;
 		padding: 20px;
+		margin: 0 35%;
+		transition: all 0.3s ease;
+	    transform-style: preserve-3d;
+	    transform-origin: center;
+	    perspective: 1000000px;
 
 	}
-	#engagement-3 a:hover
+	#contactez-maintenant::after
 	{
-		background: white;
-		transition: all 0.5s ease;
+		content: 'CONTACTEZ MAINTENANT';
+		position: absolute;
+		top: 65px;
+		left: -2px;
+		background-color:white ;
+		box-sizing: border-box;
 		color: #396ed6;
+		border: 2px solid white;
+		padding: 20px 0;
+		width: 101%;
+		transform: rotateX(-90deg);
+	    transform-style: preserve-3d;
+	    transform-origin: top;
 	}
-
+	#contactez-maintenant:hover{
+    	transform: translateY(-35px) rotateX(90deg);
+	}
 
 				/*CONTACT TSIKA ZAO*/
 	#contact
@@ -1042,47 +1192,23 @@
 		text-align:center;
 		justify-content: center;
 		display: flex;
-		background-image: url(images/fond-contact.png);
-		background-size: 100%;
-		padding-top: 74px;
+		flex-wrap: nowrap;
+
 	}
-	#soratra-contact
+	#header-contact h1
 	{
-		margin:0;
-		padding: 0;
-		text-align:center;
-		justify-content: center;
+		font-size: 5rem;
+		  font-family: montserrat-700;
+		  color: #0040CC;
+		  letter-spacing: 2px;
+		  padding-top: 6%;
+		  margin-right: 25%;
 	}
-	#soratra-contact h1
+	#header-contact img
 	{
-		margin:0;
-		padding: 0;
-		text-align:center;
-		justify-content: center;
-		font-family: montserrat-700;
-		font-size:35px;
-		font-weight:900;
-		color: white;
-		letter-spacing:2px;
-		font-style:bold;
-		padding-top: 50px;
+		width: 20%;
 	}
-	#soratra-contact img
-	{
-		margin:0;
-		padding: 0;
-		text-align:center;
-		justify-content: center;
-	}
-	#sary-contact
-	{
-		margin:0;
-		padding: 0;
-		text-align:center;
-		justify-content: center;
-		margin-left: 450px;
-		padding-top: 10px;
-	}
+	
 
 	#contenu-contact
 	{
@@ -1091,7 +1217,7 @@
 		text-align:center;
 		justify-content: center;
 		display: flex;
-		margin-top: 20px;
+		margin-top: 50px;
 	}
 	#formulaire
 	{
@@ -1101,12 +1227,16 @@
 		text-align: center;
 		padding-left: 30px;
 		padding-right: 30px;
+		padding-top: 10%;
+		padding-bottom: 10%;
 		margin-right: 50px;
+		background-image: url(images/fond-formulaire.png);
+		background-repeat: no-repeat;
+		margin-bottom: 50px;
 	}
 	.formulaire
 	{
-		border: 1px solid #96b2f6;
-		border-radius: 20px;
+		border: 1px solid white;
 		width: 370px;
 		padding: 13px;
 		font-family:poppins;
@@ -1132,8 +1262,7 @@
 			font-size:20px;
 			color: white;
 			letter-spacing:1px;
-			background-color: #3967d7;
-			border-radius: 50px;
+			background-color: #003F88;
 			padding: 10px 30px;
 			outline: none;
 			border: none;
@@ -1142,11 +1271,11 @@
 	}
 	#submit:hover
 	{
-		border: 2px solid #3967d7;
+		border: 2px solid white;
 		color:white ;
 		background: transparent;
 		transition: all 0.5s ease;
-		color: #3967d7;
+		color: white;
 	}
 	#formulaire h1
 	{
@@ -1155,11 +1284,21 @@
 		text-align:center;
 		justify-content: center;
 		font-family: montserrat-300;
-		font-size:35px;
-		font-weight: 100;
-		color:#4D7092;
-		letter-spacing:-2px;
-		margin-top:30px;
+		font-size:30px;
+		color:white;
+		letter-spacing:10px;
+
+	}
+	#formulaire h2
+	{
+		margin:0;
+		padding: 0;
+		text-align:center;
+		justify-content: center;
+		font-family: montserrat-600;
+		font-size:30px;
+		color:white;
+		
 	}
 
 						/*COORDONNE*/
@@ -1169,7 +1308,7 @@
 		padding: 0;
 		text-align:center;
 		justify-content: center;
-		background-color: #3967d7;
+		background-image: url(images/fond-engagement-1.png);
 		padding: 0;
 	}
 
@@ -1179,7 +1318,6 @@
 		padding: 0;
 		text-align:center;
 		justify-content: center;
-		background-color:#3967d9;
 	}
 	#titre-coordonne h1
 	{
@@ -1290,7 +1428,7 @@
 	#footer
 	{
 		height: 53px;
-		background-color: #3967d7;
+		background-color:  #003F88;
 		padding: 0;
 		margin:0;
 		text-align: center;
@@ -1312,7 +1450,6 @@
 		text-align:center;
 		justify-content: center;
 		height: 30px;
-		background-color:#3967e4;
 	}
 	#loko2
 	{
@@ -1321,7 +1458,6 @@
 		text-align:center;
 		justify-content: center;
 		height: 30px;
-		background-color:#3967d7;
 	}
 
 
