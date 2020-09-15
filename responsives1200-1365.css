@@ -130,10 +130,7 @@
 		text-align: center;
 		justify-content: center;
 		background-image: url(images/fond-2.png);
-		background-size: 100%;
 		background-repeat: no-repeat;
-		height: 640px;
-		width: 100%;
 
 	}
 	#headermenu
@@ -231,8 +228,7 @@
 		padding: 0;
 		text-align: center;
 		justify-content: center;
-		margin-top: 170px;
-		margin-bottom:750px;
+		margin-top: 12%;
 		width: 50%;	
 	}
 	#sary img
@@ -365,382 +361,222 @@
 	{
 		margin: 0px 50px !important;
 	}
-	/* Service tsika zao*/
+								/* SERVICE TSIKA ZAO OH*/
 	#service
 	{
 		margin:0;
 		padding: 0;
 		text-align: center;
 		justify-content: center;
-		padding-top: 100px;
-	}
-	#header-service
-	{
-		margin: 0;
-		padding: 0;
 		display: flex;
-		justify-content: center;
-		margin-bottom: 20px;
+		flex-wrap: wrap;
+		padding-top: 70px;
 	}
-	#header-service h1
+	#nos-service
 	{
-		margin: 0;
+		margin:0;
 		padding: 0;
-		display: flex;
-		justify-content: center;
-		font-family: montserrat-normal;
-		font-size: 35px;
-		color: #0A74EB;
-		letter-spacing: 7px;
-		margin: 0px 20px;
+		width: 35%;
+		text-align: right;
+		padding-right: 7%;
+		padding-top: 5%;
 	}
-	#header-service img
+	#nos-service h1
 	{
-		margin: 0;
+		margin:0;
 		padding: 0;
-		height: 100%;
-		padding-top: 20px;
+		font-family: montserrat-300;
+		font-size:5rem;
+		color:#949494;
 	}
-			/*contenu service*/
-	
+	#nos-service h2
+	{
+		margin:0;
+		padding: 0;
+		font-family: montserrat-700;
+		font-size:5.5rem;
+		color:#0040CC;
+		margin-bottom: 2%;
+	}
 	#contenu-service
 	{
 		margin:0;
 		padding: 0;
-		text-align: center;
-		justify-content: center;
+		display: flex;
 		background-image: url(images/fond-service-vaovao.png);
 		background-repeat: no-repeat;
 		background-size: 100%;
-		padding: 0% 5%;
-	}
-	#contenu-service1
-	{
-		margin:0;
-		padding: 0;
+		flex-wrap: wrap;
 		text-align: center;
 		justify-content: center;
-		display: flex;
-		padding-top: 20px;
-		
+		width: 65%
+
 	}
-	.application1
+	.contenu-service
 	{
 		margin:0;
 		padding: 0;
 		width: 50%;
-		justify-content: right;
-		text-align: right;
-		padding-right: 4%;
-		border-right: 1.5px solid rgb(255,255,255,0.3);
-		border-bottom: 1.5px solid rgb(255,255,255,0.3);
-		padding-bottom: 40px;
-		margin-left: 50px;
-		padding-top: 30px;
+		height:50%;
+		padding-top: 5%;
+		padding-bottom: 2%;
 	}
-	.titre-app1
+	.contenu-service h1
 	{
 		margin:0;
 		padding: 0;
-		display: flex;
-		height: 120px;
-		margin-left: 10%;
+		font-family: montserrat-600;
+		font-size: 20px;
+		letter-spacing: 2px;
+		color: white;
+		margin-top: 20px;
+		margin-bottom: 15px;
+	}
+	.contenu-service h2
+	{
+		margin:0;
+		padding: 0;
+		font-family: montserrat-300;
+		font-size: 13px;
+		letter-spacing: 6px;
+		color: white;
+		line-height: 30px;
 	}
 	#app-web
 	{
-		margin:0;
-		padding: 0;
-		justify-content: left;
-		text-align: left;
-	}
-	.titre-app1 h1
-	{
-		margin:0;
-		padding: 0;
-		font-family: montserrat-500;
-		font-size: 21px;
-		color: white;
-		letter-spacing: 2px;
-		padding-top: 60px;
-	}
-	#sary-service1
-	{
-		margin:0;
-		padding: 0;
-		margin-left: 16%;
-		padding-top: 30px;
-		padding-left: 30px;
-		padding-right: 30px;
-	}
-
-	.sous-titre-app1
-	{
-		margin:0;
-		padding: 0;
-		font-family: montserrat-300;
-		font-size: 16px;
-		color: white;
-		letter-spacing: 7px;
-		line-height: 27px;
-		margin-top: 30px;
-	}
-	.application1 p
-	{
-		margin:0;
-		padding: 0;
-		font-family: poppins;
-		font-weight: 100;
-		font-size: 14px;
-		color: white;
-		letter-spacing: 0.5px;
-		line-height: 27px;
-		padding-left: 10%;
-		margin-top: 15px;
-	}
-
-		/*app2*/
-
-
-	.application2
-	{
-		margin:0;
-		padding: 0;
-		width: 50%;
-		justify-content: left;
-		text-align: left;
-		padding-left: 4%;
-		padding-bottom: 40px;
-		margin-right: 50px;
-		border-bottom: 1.5px solid rgb(255,255,255,0.3);
-		padding-top: 30px;
-	}
-	.titre-app2
-	{
-		margin:0;
-		padding: 0;
-		display: flex;
-		flex-wrap: wrap;
-		height: 120px;
-	}
-	#app-design
-	{
-		margin:0;
-		padding: 0;
-		justify-content: right;
-		text-align: right;
-		margin-left: 50px;
-	}
-	.titre-app2 h1
-	{
-		margin:0;
-		padding: 0;
-		font-family: montserrat-500;
-		font-size: 21px;
-		color: white;
-		letter-spacing: 2px;
-		padding-top: 60px;
-	}
-	#sary-service2
-	{
-		margin:0;
-		padding: 0;
-		background-image: url(images/fond-icon-service-2.png);
-		background-size: 100% 100%;
-		background-repeat: no-repeat;
-		padding-top: 30px;
-		padding-left: 30px;
-		padding-right: 30px;
-	}
-	
-	.sous-titre-app2
-	{
-		margin:0;
-		padding: 0;
-		font-family: montserrat-300;
-		font-size: 16px;
-		color: white;
-		letter-spacing: 7px;
-		line-height: 27px;
-		margin-top: 30px;
-	}
-	.application2 p
-	{
-		margin:0;
-		padding: 0;
-		font-family: poppins;
-		font-weight: 100;
-		font-size: 14px;
-		color: white;
-		letter-spacing: 0.5px;
-		line-height: 27px;
-		padding-right: 10%;
-		margin-top: 15px;
-	}
-
-
-	/*contenu service2 tsika zao*/
-
-	#contenu-service2
-	{
-		margin:0;
-		padding: 0;
 		text-align: center;
-		justify-content: center;
-		display: flex;
-		padding-bottom: 120px;
+		background-color: rgb(25, 187, 236,0.2);
+		transition: all 0.5s ease;
+	    transform-style: preserve-3d;
+	    transform-origin: center;
+	    perspective: 1000000px;
 	}
-	.application3
+	#app-web::after
 	{
-		margin:0;
-		padding: 0;
-		width: 50%;
-		justify-content: right;
-		text-align: right;
-		padding-right: 4%;
-		border-right: 1.5px solid rgb(255,255,255,0.3);
-		margin-left: 50px;
-		padding-top: 30px;
-		padding-bottom: 80px;
+
+		content: 'Conception, développement et maintenance sont les aspects que nos équipes maîtrisent pour mettre en place votre site que ça soit de type vitrine, ecommerce ou autre. (php,asp, laravel, ecommerce, site vitrine, cms…)';
+		position: absolute;
+		top: 100%;
+		left: 0px;
+		height: 100%;
+		box-sizing: border-box;
+		width:100%;
+		font-family: poppins;
+		background-color: rgb(0, 42, 135,0.8);
+		font-size: 15px;
+		line-height: 28px;
+		letter-spacing: 0px;
+		padding:15%;
+		color: white;
+		transform: rotateX(-90deg);
+	    transform-style: preserve-3d;
+	    transform-origin: top;
 	}
-	.titre-app3
+	#app-web:hover{
+    	transform: translateY(-50%) rotateX(90deg);
+	}
+	#design
 	{
-		margin:0;
-		padding: 0;
-		display: flex;
-		height: 120px;
-		margin-left: 10%;
+		text-align: center;
+		background-color: rgb(0, 42, 135,0.2);
+		transition: all 0.5s ease;
+	    transform-style: preserve-3d;
+	    transform-origin: center;
+	    perspective: 1000000px;
+	}
+	#design::after
+	{
+
+		content: 'Assurer votre image c’est se demarquer de vos concurrents, confiez vos images à des professionnels pour ne pas perdre de la valeurs';
+		position: absolute;
+		top: 100%;
+		left: 0px;
+		height: 100%;
+		box-sizing: border-box;
+		width:100%;
+		font-family: poppins;
+		background-color: rgb(0, 42, 135,0.8);
+		font-size: 15px;
+		line-height: 28px;
+		letter-spacing: 0px;
+		padding:15%;
+		color: white;
+		transform: rotateX(-90deg);
+	    transform-style: preserve-3d;
+	    transform-origin: top;
+	}
+	#design:hover{
+    	transform: translateY(-50%) rotateX(90deg);
 	}
 	#app-mobile
 	{
-		margin:0;
-		padding: 0;
-		justify-content: left;
-		text-align: left;
+		text-align: center;
+		background-color: rgb(57, 110, 214,0.2);
+		transition: all 0.5s ease;
+	    transform-style: preserve-3d;
+	    transform-origin: center;
+	    perspective: 1000000px;
 	}
-	.titre-app3 h1
+	#app-mobile::after
 	{
-		margin:0;
-		padding: 0;
-		font-family: montserrat-500;
-		font-size: 21px;
-		color: white;
-		letter-spacing: 2px;
-		padding-top: 60px;
-	}
-	#sary-service3
-	{
-		margin:0;
-		padding: 0;
-		margin-left: 8%;
-		background-image: url(images/fond-icon-service-1.png);
-		background-size: 100% 100%;
-		background-repeat: no-repeat;
-		padding-top: 30px;
-		padding-left: 30px;
-		padding-right: 30px;
-	}
-	
-	.sous-titre-app3
-	{
-		margin:0;
-		padding: 0;
-		font-family: montserrat-300;
-		font-size: 16px;
-		color: white;
-		letter-spacing: 7px;
-		line-height: 27px;
-		margin-top: 30px;
-	}
-	.application3 p
-	{
-		margin:0;
-		padding: 0;
+
+		content: 'Nous développons des application native ou hybride selon la demande, nous conseillons également nos clients';
+		position: absolute;
+		top: 100%;
+		left: 0px;
+		height: 100%;
+		box-sizing: border-box;
+		width:100%;
 		font-family: poppins;
-		font-weight: 100;
-		font-size: 14px;
+		background-color: rgb(0, 42, 135,0.8);
+		font-size: 15px;
+		line-height: 28px;
+		letter-spacing: 0px;
+		padding:15%;
 		color: white;
-		letter-spacing: 0.5px;
-		line-height: 27px;
-		padding-left: 15%;
-		margin-top: 15px;
+		transform: rotateX(-90deg);
+	    transform-style: preserve-3d;
+	    transform-origin: top;
 	}
-
-		/*app4*/
-
-
-	.application4
-	{
-		margin:0;
-		padding: 0;
-		width: 50%;
-		justify-content: left;
-		text-align: left;
-		padding-left: 4%;
-		margin-right: 50px;
-		padding-top: 30px;
-		padding-bottom: 80px;
-	}
-	.titre-app4
-	{
-		margin:0;
-		padding: 0;
-		display: flex;
-		flex-wrap: wrap;
-		height: 120px;
+	#app-mobile:hover{
+    	transform: translateY(-50%) rotateX(90deg);
 	}
 	#app-entreprise
 	{
-		margin:0;
-		padding: 0;
-		justify-content: right;
-		text-align: right;
-		margin-left: 30px;
+		text-align: center;
+		background-color: rgb(10, 116, 235,0.2);
+		transition: all 0.5s ease;
+	    transform-style: preserve-3d;
+	    transform-origin: center;
+	    perspective: 1000000px;
+		
+		
 	}
-	.titre-app4 h1
+	#app-entreprise::after
 	{
-		margin:0;
-		padding: 0;
-		font-family: montserrat-500;
-		font-size: 21px;
-		color: white;
-		letter-spacing: 2px;
-		padding-top: 60px;
-	}
-	#sary-service4
-	{
-		margin:0;
-		padding: 0;
-		background-image: url(images/fond-icon-service-2.png);
-		background-size: 100% 100%;
-		background-repeat: no-repeat;
-		padding-top: 30px;
-		padding-left: 30px;
-		padding-right: 10px;
-	}
-	.sous-titre-app4
-	{
-		margin:0;
-		padding: 0;
-		font-family: montserrat-300;
-		font-size: 16px;
-		color: white;
-		letter-spacing: 7px;
-		line-height: 27px;
-		margin-top: 30px;
-	}
-	.application4 p
-	{
-		margin:0;
-		padding: 0;
+
+		content: 'Votre application Intranet ou Internet seront plus facile d’usage, fiable et innovant.';
+		position: absolute;
+		top: 100%;
+		left: 0px;
+		height: 100%;
+		box-sizing: border-box;
+		width:100%;
 		font-family: poppins;
-		font-weight: 100;
-		font-size: 14px;
+		background-color: rgb(0, 42, 135,0.8);
+		font-size: 15px;
+		line-height: 28px;
+		letter-spacing: 0px;
+		padding:15%;
 		color: white;
-		letter-spacing: 0.5px;
-		line-height: 27px;
-		padding-right: 15%;
-		margin-top: 15px;
+		transform: rotateX(-90deg);
+	    transform-style: preserve-3d;
+	    transform-origin: top;
 	}
+	#app-entreprise:hover{
+    	transform: translateY(-50%) rotateX(90deg);
+	}
+
 					/*PORFOLIO NDRAY TSIKA ZAO*/
 	#porfolio
 	{
