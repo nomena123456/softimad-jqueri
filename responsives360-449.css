@@ -763,16 +763,18 @@
 		width: 100%;
 	}
 					/*NOS ENGAGEMENT*/
+					/*NOS ENGAGEMENT*/
 	#nos-engagement
 	{
 		margin:0;
 		padding: 0;
 		text-align:center;
 		justify-content: center;
-		padding-top: 100px;
-		width: 100%;
+		padding-top: 70px;
 		background-image: url(images/fond-engagement-1.png);
-		height: 1000px;
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		padding-bottom: 30px;
 	}
 	#contenu-engagement
 	{
@@ -780,8 +782,6 @@
 		padding: 0;
 		text-align:center;
 		justify-content: center;
-		display: flex;
-		flex-wrap: wrap;
 	}
 	.engagement-1
 	{
@@ -789,7 +789,8 @@
 		padding: 0;
 		text-align:center;
 		justify-content: center;
-		margin-top: 50px;	
+		
+		margin: 0% 10%;
 	}
 	.engagement-2
 	{
@@ -797,6 +798,8 @@
 		padding: 0;
 		text-align:center;
 		justify-content: center;
+		margin: 0% 10%;
+
 	}
 	.contenu-engagement-1
 	{
@@ -804,7 +807,7 @@
 		padding: 0;
 		text-align:center;
 		justify-content:center;
-		width: 250px;
+		margin-top: 60px;
 
 	}
 	.contenu-engagement-1 p
@@ -828,7 +831,7 @@
 		padding: 0;
 		text-align:center;
 		justify-content:center;
-		width: 250px;
+		margin-top: 60px;
 	}
 	.contenu-engagement-2 p
 	{
@@ -855,14 +858,9 @@
 	}
 	#engagement-3
 	{
-		margin:0;
-		padding: 0;
-		text-align:center;
-		justify-content: center;
-		position: relative;
-		bottom: 780px;
+		display: none;
 	}
-	#engagement-3 h1
+	.engagement-phone h1
 	{
 		margin:0;
 		padding: 0;
@@ -872,8 +870,9 @@
 		font-size: 35px;
 		letter-spacing: 0px;
 		color: white;
+		margin-bottom: 20px;
 	}
-	#engagement-3 h2
+	.engagement-phone h2
 	{
 		margin:0;
 		padding: 0;
@@ -885,10 +884,9 @@
 		color: white;
 		margin: 0% 5%;
 		line-height: 26px;
-		margin-top: 720px;
 		margin-bottom: 30px;
 	}
-	#engagement-3 a
+	#contactez-maintenant-phone
 	{
 		margin:0;
 		padding: 0;
@@ -899,16 +897,13 @@
 		letter-spacing: 3px;
 		color: white;
 		text-decoration:none;
-		border: 2px solid white;
+		border: 1px solid white;
 		padding: 10px;
+		margin:0% 15%;
 
 	}
-	#engagement-3 a:hover
-	{
-		background: white;
-		transition: all 0.5s ease;
-		color: #396ed6;
-	}
+	
+
 
 				/*CONTACT TSIKA ZAO*/
 	#contact
@@ -917,6 +912,7 @@
 		padding: 0;
 		text-align:center;
 		justify-content: center;
+		margin-top: 70px;
 		
 	}
 
