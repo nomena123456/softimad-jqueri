@@ -249,7 +249,7 @@ $(document).ready(function(){
 
             $("#m2").click(function (){
                 $('html, body').animate({
-                    scrollTop: $("#service").offset().top
+                    scrollTop: $("#sous-contact").offset().top
                 }, 500);
             });
             $("#m1").click(function (){
@@ -274,7 +274,7 @@ $(document).ready(function(){
             });
              $("#m6").click(function (){
                 $('html, body').animate({
-                    scrollTop: $("#contact").offset().top
+                    scrollTop: $("#contact-scroll").offset().top
                 }, 500);
             });
 //ANIMATION BOUTTON RETRA2
