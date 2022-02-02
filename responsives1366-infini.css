@@ -398,7 +398,7 @@
 		display: flex;
 		width: 100%;
 		top: 0;
-		z-index: 10;
+		z-index: 30;
 	}
 	.fixed
 	{
@@ -953,7 +953,7 @@
 		padding-top: 80px;
 		text-align: center;
 	 	justify-content: center;
-	 	background-image: url(images/fond-qui-somme.png);
+	 	background-image: url(images/fond-qui-sommes.png);
 	 	background-attachment: fixed;
 		background-size: 100%;
 	}
@@ -1013,6 +1013,19 @@
 		letter-spacing: 0.5px;
 		color: white;
 
+	}
+	.line-qui-sommes
+	{
+		position: absolute;
+		left: 0;
+		right: 50px;
+
+	}
+	.line-qui-sommes img
+	{
+		position: relative;
+		bottom: 90px;
+		
 	}
 	
 					/*NOS ENGAGEMENT*/
@@ -1219,14 +1232,89 @@
 	}
 	.text-contact
 	{
-		width: 50%;
+		width: 70%;
 		text-align: left;
 	}
 	.img-contact
 	{
-		width: 50%;
+		width: 30%;
 		text-align: right;
+		display: flex;
+		flex-wrap: nowrap;
+		justify-content: right;
 	}
+	.img-contact img
+	{
+		width: 65px !important; 
+		
+	}
+	.c-mail
+	{
+		position: relative;
+		left: 60px;
+		z-index: 20;
+
+	}
+	.c-mail img:hover 
+	{
+		filter: invert(5%);
+		filter: contrast(2);
+		transition: all 0.8s ease;
+		transform: scale(1.1, 1.1) translate(0px,5px);
+		
+	}
+	.c-linkedin
+	{
+		position: relative;
+		position: relative;
+		left: 40px;
+		z-index: 19;
+
+	}
+	.c-linkedin img:hover 
+	{
+		filter: invert(5%);
+		filter: contrast(2);
+		transition: all 0.8s ease;
+		transform: scale(1.1, 1.1) translate(0px,5px);
+		
+	}
+	.c-facebook
+	{
+		position: relative;
+		position: relative;
+		left: 20px;
+		z-index: 18;
+
+	}
+	.c-facebook img:hover
+	{
+		filter: invert(5%);
+		filter: contrast(2);
+		transition: all 0.8s ease;
+		transform: scale(1.1, 1.1) translate(0px,5px);
+		
+	}
+	.c-twitter
+	{
+		position: relative;
+		position: relative;
+		z-index: 17;
+	}
+	.c-twitter img:hover 
+	{
+		filter: invert(5%);
+		filter: contrast(2);
+		transition: all 0.8s ease;
+		transform: scale(1.1, 1.1) translate(0px,5px);
+		
+	}
+	.c-mail img, .c-linkedin img, .c-facebook img, .c-twitter img
+	{
+		cursor: pointer;
+	}
+	
+
 	#header-contact h1
 	{
 		font-size: 4rem;
